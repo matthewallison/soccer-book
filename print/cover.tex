@@ -1,0 +1,37 @@
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture, overlay]
+  \fill[hbgreen] (current page.south west) rectangle (current page.north east);
+  % Pitch markings
+  \begin{scope}[white, opacity=0.14, line width=1.8pt]
+    \draw ($(current page.south west)+(0.6in,0.6in)$) rectangle ($(current page.north east)+(-0.6in,-0.6in)$);
+    \draw ($(current page.west)+(0.6in,0)$) -- ($(current page.east)+(-0.6in,0)$);
+    \draw (current page.center) circle (1.55in);
+    \draw ($(current page.north)+(-2.1in,-0.6in)$) rectangle ($(current page.north)+(2.1in,-2.2in)$);
+    \draw ($(current page.south)+(-2.1in,0.6in)$) rectangle ($(current page.south)+(2.1in,2.2in)$);
+  \end{scope}
+  \fill[white, opacity=0.14] (current page.center) circle (4.5pt);
+\end{tikzpicture}
+
+\vspace*{1.05in}
+\begin{center}
+  {\sffamily\bfseries\small\color{white!80!hbgreen}\addfontfeatures{LetterSpace=20}U13--U16 PLAYER \& TEAM DEVELOPMENT\par}
+  \vspace{16pt}
+  {\hbblack\fontsize{50}{54}\selectfont\color{white}Soccer\\[2pt]Development\\[2pt]Handbook\par}
+  \vspace{18pt}
+  {\hblight\fontsize{15}{20}\selectfont\color{white!90!hbgreen}Intelligent, technical, courageous soccer\par}
+\end{center}
+
+\vfill
+\begin{center}
+\sffamily\color{white}
+\renewcommand{\arraystretch}{1.55}
+\begin{tabular}{r@{\hspace{14pt}}l}
+  {\bfseries\footnotesize\color{white!75!hbgreen}\addfontfeatures{LetterSpace=12}PRACTICE} & {\hbheavy\large SCAN. TALK. INTENTION. FASTER.} \\
+  {\bfseries\footnotesize\color{white!75!hbgreen}\addfontfeatures{LetterSpace=12}GAMES} & {\hbheavy\large CALM MIND. FAST SOCCER.} \\
+  {\bfseries\footnotesize\color{white!75!hbgreen}\addfontfeatures{LetterSpace=12}MISTAKES} & {\hbheavy\large RESPOND. REFLECT. LEARN. NEXT PLAY.} \\
+  {\bfseries\footnotesize\color{white!75!hbgreen}\addfontfeatures{LetterSpace=12}PRESSURE} & {\hbheavy\large WANT THE MOMENT.} \\
+\end{tabular}
+\end{center}
+\vspace*{0.55in}
+\end{titlepage}

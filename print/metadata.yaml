@@ -1,0 +1,21 @@
+title: Soccer Development Handbook
+subtitle: U13–U16 player and team development
+lang: en-US
+documentclass: book
+classoption:
+  - oneside
+  - openany
+  - letterpaper
+fontsize: 11pt
+geometry:
+  - top=0.95in
+  - bottom=0.95in
+  - left=1in
+  - right=1in
+  - headsep=0.3in
+  - footskip=0.45in
+colorlinks: true
+linkcolor: hbgreen
+urlcolor: hbgreen
+toccolor: hbink
+toc-depth: 0

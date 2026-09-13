@@ -1,65 +1,70 @@
-# Goalkeeper — Position Card
+# Goalkeeper (#1) — Position Card
 
 ## Every position, every game
 
-- Scan early.
+- Scan before you receive, and look again after your first touch.
 - Create an angle and become an outlet.
-- Move after the ball moves.
-- On loss: counterpress if realistic, otherwise recover into shape.
-- On regain: scan forward first, then secure possession if no advantage exists.
-- Use deception when it helps.
-- Make brave, intelligent decisions.
+- Move on the pass. Move again after you pass.
+- Small space: combine. Big space: exploit — carry open grass until a defender has to react.
+- See the ball and the most dangerous space or opponent.
+- On loss: reorganize behind the ball and communicate danger.
+- On regain: scan forward. Attack the advantage if it is there; otherwise secure possession.
+- Use deception. Make brave, intelligent decisions.
+- Know your restart jobs before kickoff.
 
 **These are principles, not restrictions. If you recognize a better solution, take it.**
 
-## Primary purpose
+## My purpose
 
-Protect the goal, organize the space behind the team, and become the first possession player when we have the ball.
+Protect the goal, organize the space behind the team, and be our first possession player.
 
 ## When we have it
 
-- Open body shape before receiving.
-- Be comfortable receiving back passes.
-- Use both feet.
-- Support center backs as an extra outlet.
-- Help switch the point of attack.
-- Favor quick throws, rolls, and short/medium outlets when available.
-- Use long punts or longer distribution when it is truly the better tactical option, not by habit.
+- Welcome back passes: open your body, use both feet.
+- Give the center backs an outlet and help switch play.
+- Favor quick throws, rolls, and short or medium passes.
+- Read the press before the goal kick: short if they leave space, beyond them if they commit everyone.
+- Punt or go long when it is truly better, not by habit.
 
 ## When we lose it
 
 - Reorganize quickly behind the ball.
 - Communicate depth, runners, and danger.
-- Be ready to sweep space behind the back line when appropriate.
+- Be ready to sweep the space behind the back line when it is needed.
 
 ## When they have it
 
-- Manage depth relative to the back line.
+- Manage your depth relative to the back line.
 - Communicate early.
 - Read through balls and crosses.
-- Be ready to claim when safe and decisive.
+- Be ready to claim the ball when it is safe, and be decisive when you go.
 
 ## When we win it
 
-Immediately ask:
+- Scan as soon as you collect the ball.
+- Ask right away: **Can we restart possession quickly and intelligently?**
+- Look for an easy outlet before they can reset.
+- Ball in your hands? Release it within 8 seconds — holding it longer gives them a corner kick.
 
-**Can we restart possession quickly and intelligently?**
+**Quick possession before hopeful distance.**
 
-Look first for an easy outlet before allowing the opponent to reset.
+## Players I connect with
 
-## Players I connect with most
-
-- both center backs;
-- outside backs;
-- deepest midfielder.
+- center backs (#4 / #5)
+- outside backs (#2 / #3)
+- pivots (#6 / #8)
 
 ## Common traps
 
-- treating every back pass as an emergency;
-- punting automatically;
-- waiting too long after collecting the ball;
-- standing disconnected from buildup.
+- treating every back pass as an emergency
+- punting automatically
+- waiting too long after collecting the ball
+- standing disconnected from the buildup
 
-## Cues
+## My cues
 
 **Scan. Open. Support. Distribute. Organize.**
+
+## Film question
+
+After I collected the ball, did I scan and restart possession quickly, or punt by habit?

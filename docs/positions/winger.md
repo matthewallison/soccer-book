@@ -1,29 +1,30 @@
-# Winger — Position Card
+# Winger (#7 / #11) — Position Card
 
 ## Every position, every game
 
-- Scan early.
+- Scan before you receive, and look again after your first touch.
 - Create an angle and become an outlet.
-- Move after the ball moves.
-- On loss: counterpress if realistic, otherwise recover into shape.
-- On regain: scan forward first, then secure possession if no advantage exists.
-- Use deception when it helps.
-- Make brave, intelligent decisions.
+- Move on the pass. Move again after you pass.
+- Small space: combine. Big space: exploit — carry open grass until a defender has to react.
+- See the ball and the most dangerous space or opponent.
+- On loss: counterpress if realistic; otherwise recover into shape.
+- On regain: scan forward. Attack the advantage if it is there; otherwise secure possession.
+- Use deception. Make brave, intelligent decisions.
+- Know your restart jobs before kickoff.
 
 **These are principles, not restrictions. If you recognize a better solution, take it.**
 
-## Primary purpose
+## My purpose
 
 Stretch the defense, threaten behind it, attack favorable 1v1s, and become dangerous inside when the picture invites it.
 
 ## When we have it
 
-- Provide width when the team needs it.
-- If the outside back gives width, consider moving into the half-space.
+- Provide width when the team needs it; if the outside back gives width, try the half-space.
 - Threaten behind when the 9 checks toward the ball.
 - Carry aggressively when isolated with space.
-- Use deception before crossing, dribbling, or combining.
-- Move after passing; do not stay parked on the touchline.
+- Use deception before you cross, dribble, or combine.
+- Move after passing; do not park on the touchline.
 - On the weak side, prepare for the switch, far-post run, or inside arrival.
 
 ## When we lose it
@@ -35,32 +36,36 @@ Stretch the defense, threaten behind it, attack favorable 1v1s, and become dange
 ## When they have it
 
 - Stay connected to the midfield and outside back.
+- Know when to press their outside back or hold shape.
 - Help protect central passing lanes.
-- Know when to press the opposing outside back and when to hold shape.
+- Ball on the far side: tuck inside to keep midfield compact.
 - See the ball and weak-side danger.
 
 ## When we win it
 
 - Look immediately for open field to attack.
 - If a central breakaway lane opens, attack it even if you started wide.
-- If transition is not on, provide width and become a clean outlet.
+- If the transition is not on, provide width and become a clean outlet.
 
-## Players I connect with most
+## Players I connect with
 
-- outside back;
-- striker;
-- attacking midfielder / nearest 8;
-- opposite winger on switches and far-post actions.
+- my outside back (#2 / #3)
+- striker (#9)
+- attacking midfielder (#10) or the nearest pivot (#6 / #8)
+- the other winger (#7 / #11) on switches and far-post runs
 
 ## Common traps
 
-- running straight forward every time;
-- standing wide when the game needs you inside;
-- drifting inside when nobody else provides width;
-- passing short when open space should be carried;
-- watching after passing;
-- ignoring the weak side when the ball is away from you.
+- running straight forward every time
+- standing wide when the game needs you inside
+- drifting inside when nobody else provides width
+- passing short when open space should be carried
+- watching after passing, or when the ball is on the far side
 
-## Cues
+## My cues
 
 **Wide. Scan. Threaten. Deceive. Arrive.**
+
+## Film question
+
+When the ball was on the far side, was I preparing for the switch, or just watching?

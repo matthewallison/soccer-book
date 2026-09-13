@@ -1,18 +1,20 @@
-# Outside Back — Position Card
+# Outside Back (#2 / #3) — Position Card
 
 ## Every position, every game
 
-- Scan early.
+- Scan before you receive, and look again after your first touch.
 - Create an angle and become an outlet.
-- Move after the ball moves.
-- On loss: counterpress if realistic, otherwise recover into shape.
-- On regain: scan forward first, then secure possession if no advantage exists.
-- Use deception when it helps.
-- Make brave, intelligent decisions.
+- Move on the pass. Move again after you pass.
+- Small space: combine. Big space: exploit — carry open grass until a defender has to react.
+- See the ball and the most dangerous space or opponent.
+- On loss: counterpress if realistic; otherwise recover into shape.
+- On regain: scan forward. Attack the advantage if it is there; otherwise secure possession.
+- Use deception. Make brave, intelligent decisions.
+- Know your restart jobs before kickoff.
 
 **These are principles, not restrictions. If you recognize a better solution, take it.**
 
-## Primary purpose
+## My purpose
 
 Protect the outside channel, support possession, and help the team progress without losing defensive balance.
 
@@ -20,51 +22,52 @@ Protect the outside channel, support possession, and help the team progress with
 
 - Become an outlet early.
 - Create width when the winger moves inside.
-- Support underneath when the winger already provides width.
+- Support underneath when the winger provides width.
 - Carry forward into open space.
 - Recognize when to play inside, down the line, backward, or switch.
-- As development progresses, learn overlap, underlap, and hold/support choices.
+- Over time, learn when to overlap (run outside the winger), underlap (run inside), or hold.
 
 ## When we lose it
 
-- React immediately.
-- If the ball is near and recoverable, counterpress with support.
+- React immediately: counterpress with support if the ball is near and recoverable.
 - Otherwise sprint back at full effort.
-- Recover with an angle that protects goal, not by simply chasing from behind.
-
-## When they have it
-
-- Protect inside danger first.
-- See the ball and the most dangerous opponent/space.
-- Know when to step, delay, or provide cover.
-- Avoid getting dragged so wide or high that the center becomes exposed.
-
-## Pursuit angle reminder
+- Recover on an angle: cut off the dangerous route to goal first, then curve the run.
 
 **Do not run to where the attacker is. Run to where she is going.**
 
-Cut off the dangerous route first, then curve the recovery run as you close the gap.
+## When they have it
+
+- Protect inside danger first: see the ball and the most dangerous opponent or space.
+- Know when to step, delay, or provide cover.
+- Avoid getting dragged so wide or high that the center becomes exposed.
+- Ball on the far side: tuck in toward the center backs and see the back-post runner.
 
 ## When we win it
 
 - Look for a quick transition if the space is real.
+- Open grass ahead? Carry it, or release the winger or the 9 into space.
 - Otherwise become a safe outlet and help us secure possession.
 
-## Players I connect with most
+## Players I connect with
 
-- winger;
-- nearest CB;
-- nearest pivot/8;
-- goalkeeper.
+- winger on my side (#7 / #11)
+- nearest center back (#4 / #5)
+- nearest pivot (#6 / #8)
+- goalkeeper (#1)
+- other outside back (#2 / #3)
 
 ## Common traps
 
-- overlapping by habit;
-- standing too close to the winger;
-- chasing directly behind an attacker;
-- forcing the ball down the line;
-- forgetting the weak-side picture.
+- overlapping by habit
+- standing too close to the winger
+- forcing the ball down the line
+- forgetting the weak-side picture
+- both outside backs high at the same time with no pivot covering
 
-## Cues
+## My cues
 
 **Angle. Support. Carry. Protect. Recover.**
+
+## Film question
+
+When we lost it, did I recover on an angle to where the attacker was going, or chase from behind?

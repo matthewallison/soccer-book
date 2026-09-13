@@ -1,0 +1,237 @@
+% Print styling for the soccer development handbook (XeLaTeX via pandoc).
+
+% ---------- Fonts ----------
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{Lato}[
+  UprightFont = *-Regular,
+  BoldFont = *-Bold,
+  ItalicFont = *-Italic,
+  BoldItalicFont = *-BoldItalic,
+  Extension = .ttf,
+  Path = /usr/share/fonts/truetype/lato/,
+]
+\newfontfamily\hbblack{Lato-Black}[Extension=.ttf, Path=/usr/share/fonts/truetype/lato/]
+\newfontfamily\hbheavy{Lato-Heavy}[Extension=.ttf, Path=/usr/share/fonts/truetype/lato/]
+\newfontfamily\hblight{Lato-Light}[Extension=.ttf, Path=/usr/share/fonts/truetype/lato/]
+
+% ---------- Colors ----------
+\definecolor{hbink}{HTML}{1B2620}
+\definecolor{hbgreen}{HTML}{1E5E3B}
+\definecolor{hbgreendark}{HTML}{143F28}
+\definecolor{hbtint}{HTML}{EDF4EF}
+\definecolor{hbrule}{HTML}{BFD4C6}
+\definecolor{hbmuted}{HTML}{5E6E64}
+\color{hbink}
+
+% ---------- Page layout ----------
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{needspace}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{xurl}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em plus 0.15em minus 0.1em}
+\linespread{1.06}
+\raggedbottom
+
+\newcommand{\hbchapterlabel}{}
+\newcommand{\hbshorttitle}{Soccer Development Handbook}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{\sffamily\footnotesize\color{hbmuted}\nouppercase{\leftmark}}
+\fancyhead[R]{\sffamily\footnotesize\color{hbmuted}\hbchapterlabel}
+\fancyfoot[L]{\sffamily\footnotesize\color{hbmuted}\hbshorttitle}
+\fancyfoot[R]{\sffamily\footnotesize\bfseries\color{hbgreen}\thepage}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[L]{\sffamily\footnotesize\color{hbmuted}\hbshorttitle}%
+  \fancyfoot[R]{\sffamily\footnotesize\bfseries\color{hbgreen}\thepage}%
+}
+
+% ---------- Headings ----------
+\newcommand{\hbchapterkicker}{%
+  \ifx\hbchapterlabel\empty\else
+    {\sffamily\bfseries\small\color{hbgreen}\addfontfeatures{LetterSpace=12}\MakeUppercase{\hbchapterlabel}}\par\vspace{2pt}%
+  \fi}
+\newcommand{\hbchaptersize}{\fontsize{28}{32}\selectfont}
+\newcommand{\hbcardtitles}{%
+  \titlespacing*{\chapter}{0pt}{-34pt}{7pt}%
+  \renewcommand{\hbchaptersize}{\fontsize{21}{25}\selectfont}}
+\newcommand{\hbnormaltitles}{%
+  \titlespacing*{\chapter}{0pt}{-12pt}{16pt}%
+  \renewcommand{\hbchaptersize}{\fontsize{28}{32}\selectfont}}
+\titleformat{\chapter}[display]
+  {\sffamily\color{hbink}}
+  {}
+  {0pt}
+  {\hbchapterkicker\hbblack\hbchaptersize\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000}
+  [\vspace{6pt}{\color{hbgreen}\titlerule[2.2pt]}]
+\titlespacing*{\chapter}{0pt}{-12pt}{16pt}
+
+\titleformat{\section}
+  {\sffamily\bfseries\fontsize{14.5}{18}\selectfont\color{hbgreen}}
+  {}{0pt}{}
+\titlespacing*{\section}{0pt}{1.3em}{0.35em}
+
+\titleformat{\subsection}
+  {\sffamily\bfseries\fontsize{11.5}{14}\selectfont\color{hbink}}
+  {}{0pt}{}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.15em}
+
+\titleformat{\subsubsection}
+  {\sffamily\bfseries\normalsize\color{hbmuted}}
+  {}{0pt}{}
+\titlespacing*{\subsubsection}{0pt}{0.7em}{0.1em}
+
+% Part pages
+\newcommand{\hbpart}[4]{% id, kicker, title, description
+  \renewcommand{\hbchapterlabel}{}%
+  \clearpage
+  \thispagestyle{empty}%
+  \phantomsection\hypertarget{#1}{}%
+  \addcontentsline{toc}{part}{#3}%
+  \begin{tikzpicture}[remember picture, overlay]
+    \fill[hbgreen] (current page.south west) rectangle (current page.north east);
+    \draw[white, opacity=0.13, line width=1.6pt] ($(current page.center)+(0,-1.2in)$) circle (1.9in);
+    \draw[white, opacity=0.13, line width=1.6pt] ($(current page.west)+(0,-1.2in)$) -- ($(current page.east)+(0,-1.2in)$);
+    \fill[white, opacity=0.13] ($(current page.center)+(0,-1.2in)$) circle (4pt);
+  \end{tikzpicture}%
+  \vspace*{1.6in}%
+  {\centering
+    {\sffamily\bfseries\small\color{white!80!hbgreen}\addfontfeatures{LetterSpace=18}\MakeUppercase{#2}\par}
+    \vspace{10pt}
+    {\hbblack\fontsize{40}{46}\selectfont\color{white}#3\par}
+    \vspace{14pt}
+    {\hblight\fontsize{14}{19}\selectfont\color{white!88!hbgreen}\parbox{4.4in}{\centering #4}\par}
+  }%
+  \clearpage
+}
+\newcommand{\hbsetlabel}[1]{\renewcommand{\hbchapterlabel}{#1}}
+
+% Position numbers beside card titles (also shown in the contents).
+\DeclareRobustCommand{\hbposnum}[1]{\hspace{0.4em}{\hblight\color{hbgreen}#1}}
+
+% ---------- Lists ----------
+\setlist{itemsep=0.12em, parsep=0pt, topsep=0.3em, partopsep=0pt}
+\setlist[itemize,1]{label={\color{hbgreen}\small\raisebox{0.05em}{$\bullet$}}, leftmargin=1.3em}
+\setlist[itemize,2]{label={\color{hbmuted}\textendash}, leftmargin=1.2em}
+\setlist[enumerate,1]{label={\sffamily\bfseries\color{hbgreen}\arabic*.}, leftmargin=1.6em}
+
+% ---------- Callouts ----------
+\newtcolorbox{hbcue}{
+  enhanced, breakable=false,
+  colback=hbtint, colframe=hbtint,
+  borderline west={3pt}{0pt}{hbgreen},
+  sharp corners, boxrule=0pt,
+  left=10pt, right=8pt, top=5pt, bottom=5pt,
+  before skip=0.6em, after skip=0.6em,
+  fontupper={\sffamily\bfseries\color{hbgreendark}\fontsize{11.5}{14.5}\selectfont\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000},
+}
+\newtcolorbox{hbmantra}{
+  enhanced, breakable=false,
+  colback=hbgreen, colframe=hbgreen,
+  sharp corners, boxrule=0pt, halign=center,
+  left=8pt, right=8pt, top=8pt, bottom=8pt,
+  before skip=0.5em, after skip=0.7em,
+  fontupper={\hbblack\color{white}\fontsize{15}{19}\selectfont\addfontfeatures{LetterSpace=6}\hyphenpenalty=10000\exhyphenpenalty=10000},
+}
+\newtcolorbox{hbpanel}[2][]{
+  enhanced, breakable,
+  colback=hbtint, colframe=hbrule, boxrule=0.6pt,
+  arc=2pt, left=10pt, right=10pt, top=6pt, bottom=6pt,
+  before skip=0.4em, after skip=0.9em,
+  title={\sffamily\bfseries\small\addfontfeatures{LetterSpace=10}\MakeUppercase{#2}},
+  coltitle=white, colbacktitle=hbgreen, attach title to upper={}, detach title,
+  before upper={\tcbtitle\par\vspace{2pt}},
+  fonttitle=\color{hbgreen}, #1
+}
+
+% Position cards: a fixed one-page grid (built by handbook.lua).
+\newcommand{\hbcellhead}[1]{%
+  {\sffamily\bfseries\footnotesize\color{hbgreen}\addfontfeatures{LetterSpace=8}\MakeUppercase{#1}}\par\vspace{0.15em}}
+\newcommand{\hbcellsubhead}[1]{%
+  \par\vspace{0.25em}{\sffamily\bfseries\small\color{hbink}#1}\par}
+\newenvironment{hbcell}[1]
+  {\begin{minipage}[t]{#1\linewidth}\fontsize{9.6}{11.7}\selectfont\raggedright
+   \setlength{\parskip}{0.3em}%
+   \setlist{itemsep=0.04em, parsep=0pt, topsep=0.1em}%
+   \setlist[itemize,1]{label={\color{hbgreen}\small\raisebox{0.05em}{$\bullet$}}, leftmargin=1.05em}%
+   \tcbset{before skip=0.3em, after skip=0.2em, left=6pt, top=3pt, bottom=3pt}%
+   \let\hbcellheadorig\hbcellhead
+   \renewcommand{\hbcellhead}[1]{\ifvmode\ifdim\lastskip=0pt\else\vspace{0.35em}\fi\fi\hbcellheadorig{##1}}%
+  }
+  {\end{minipage}}
+\newcommand{\hbrowstart}{\par\noindent}
+\newcommand{\hbfreedom}[1]{\par\vspace{0.1em}{\centering\sffamily\bfseries\footnotesize\color{hbgreen}#1\par}}
+\newcommand{\hbrowend}{\par\vspace{0.35em}{\color{hbrule}\hrule height 0.5pt}\vspace{0.4em}}
+\newenvironment{hbpurpose}[1]
+  {\par\hbcellhead{#1}\vspace{-0.35em}\begingroup\fontsize{10.5}{13}\selectfont\raggedright}
+  {\par\endgroup\vspace{0.15em}{\color{hbrule}\hrule height 0.5pt}\vspace{0.4em}}
+
+% Long lists of very short items are set in columns.
+\newenvironment{hblistcols}[1]
+  {\par\vspace{-0.2em}\setlength{\columnsep}{18pt}\setlength{\multicolsep}{0.2em}\begin{multicols}{#1}\raggedcolumns
+   \raggedright\interlinepenalty=10000\hyphenpenalty=10000\exhyphenpenalty=10000}
+  {\end{multicols}\vspace{-0.2em}}
+
+% Reference tables (pandoc longtable): sans, compact, soft rules.
+\AtBeginEnvironment{longtable}{\sffamily\small\arrayrulecolor{hbrule}\renewcommand{\arraystretch}{1.35}}
+
+% Tables and write-in forms (built by handbook.lua).
+\newcommand{\hbtablehead}[1]{{\sffamily\bfseries\footnotesize\color{hbgreen}#1}}
+\newcommand{\hbformstrut}{\rule{0pt}{1.9em}}
+\newenvironment{hbtable}[1]
+  {\par\vspace{0.3em}\noindent\sffamily\small\arrayrulecolor{hbrule}\renewcommand{\arraystretch}{1.45}%
+   \tabularx{\linewidth}{#1}\hline}
+  {\endtabularx\par\vspace{0.6em}}
+\newenvironment{hbform}[1]
+  {\par\vspace{0.3em}\noindent\sffamily\small\arrayrulecolor{hbrule}\renewcommand{\arraystretch}{1.45}%
+   \tabularx{\linewidth}{#1}\hline}
+  {\endtabularx\par\vspace{0.6em}}
+
+% "In this chapter" box for long chapters (built by handbook.lua).
+\newenvironment{hbchaptercontents}
+  {\par\vspace{-0.2em}\begin{tcolorbox}[enhanced, breakable=false, colback=hbtint, colframe=hbtint,
+     sharp corners, boxrule=0pt, left=10pt, right=10pt, top=7pt, bottom=7pt, before skip=0pt, after skip=1em]%
+   \sffamily\footnotesize
+   {\bfseries\color{hbgreen}\addfontfeatures{LetterSpace=10}IN THIS CHAPTER}\par\vspace{4pt}%
+   \setlength{\columnsep}{20pt}\setlength{\parskip}{0.5pt}%
+   \begin{multicols}{2}\raggedcolumns}
+  {\end{multicols}\end{tcolorbox}}
+\newcommand{\hbtocitem}[3]{%
+  \noindent\hyperref[#1]{\makebox[1.5em][r]{\bfseries\color{hbgreen}#2}\hspace{0.5em}{\color{hbink}#3}}%
+  \nobreak\leaders\hbox to 0.6em{\hss.\hss}\hfill\nobreak\hbox to 1.6em{\hfill\color{hbmuted}\pageref{#1}}\par}
+
+% Headings should not be stranded at the bottom of a page.
+\usepackage{etoolbox}
+\pretocmd{\section}{\needspace{5\baselineskip}}{}{}
+\pretocmd{\subsection}{\needspace{4\baselineskip}}{}{}
+
+% Title page is supplied by cover.tex.
+\renewcommand{\maketitle}{}
+
+% Table of contents: parts and chapters only
+\setcounter{tocdepth}{0}
+% Table of contents styling
+\usepackage{tocloft}
+\renewcommand{\cftchapfont}{\sffamily\bfseries}
+\renewcommand{\cftchappagefont}{\sffamily\bfseries\color{hbgreen}}
+\renewcommand{\cftpartfont}{\sffamily\bfseries\large\color{hbgreen}}
+\renewcommand{\cftpartpagefont}{\sffamily\bfseries\large\color{hbgreen}}
+\renewcommand{\cfttoctitlefont}{\hbblack\fontsize{28}{32}\selectfont}
+\renewcommand{\cftaftertoctitle}{\par\vspace{2pt}{\color{hbgreen}\rule{\linewidth}{2.2pt}}}
+\setlength{\cftbeforechapskip}{0.35em}
+\setlength{\cftbeforepartskip}{1.2em}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
