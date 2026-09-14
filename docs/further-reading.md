@@ -1,18 +1,13 @@
 # Sources and Further Reading
 
-The principles in this handbook were checked against publicly available federation, academy, and research sources, including ideas from Ajax, Barça, The FA, UEFA-linked coaching material, and U.S. Soccer youth guidance. These sources informed the framework. This handbook is not an official program of any of them.
+The principles in this handbook were checked against publicly available federation, academy, and research sources, including ideas from Ajax, Barça, The FA, and U.S. Soccer youth guidance. This handbook is not an official program of any of them.
 
-Most sport-science and tactical research comes from older or male players. Research entries say who was studied, so findings from adults or boys are not read as proven for U13–U14 girls.
-
-Links were checked in September 2026. Laws, league rules, safeguarding policies, and streaming services change, so check the source each season. A year is given for dated documents and studies. Entries without a year are web pages that are updated over time.
+Research entries say who was studied. Almost none studied players as young as U13–U14, so treat findings as guidance, not proof, for our team. Links were checked in September 2026. Laws, league rules, safeguarding policies, and streaming services change, so check the source each season. Entries without a year are web pages that change over time or documents without a clear date.
 
 ## Coaching methodology and practice design
 
 **Play-Practice-Play overview** — U.S. Soccer Coaching Education (copy hosted by Iowa Soccer)\
 <https://www.iowasoccer.org/wp-content/uploads/sites/169/2023/09/coach_play_practice_play.pdf>
-
-**Training Philosophy Germany (in German)** — DFB, 2024\
-<https://www.fussball.de/newsdetail/das-ist-die-trainingsphilosophie-deutschland/-/article-id/253111>
 
 **The FA's 4 Corner Model** — The FA, 2020\
 <https://www.thefa.com/bootroom/resources/coaching/the-fas-4-corner-model>
@@ -20,25 +15,25 @@ Links were checked in September 2026. Laws, league rules, safeguarding policies,
 **Football youth academy models: La Masia vs Ajax** — Barça Innovation Hub, 2026\
 <https://barcainnovationhub.fcbarcelona.com/blog/the-models-of-youth-teams-in-football/>
 
-**Non-dominant leg training improves the bilateral motor performance of soccer players** — Haaland & Hoff, 2003 (players aged 15–20)\
-<https://pubmed.ncbi.nlm.nih.gov/12753491/>
+**Practice activities and instruction used by youth soccer coaches** — Ford, Yates & Williams, Journal of Sports Sciences, 2010 (25 coaches of boys' U9–U16 teams in England)\
+<https://pubmed.ncbi.nlm.nih.gov/20419591/>
+
+**Training Philosophy Germany (at least 48 net minutes a week in small-sided games through U16)** — German Football Association (DFB), in German\
+<https://www.dfb.de/mehr-fussball/dfb-akademie/trainingsphilosophie-deutschland>
 
 ## Tactics and the game model
 
-**What are the principles of football?** — The FA, 2022\
-<https://learn.englandfootball.com/articles-and-resources/coaching/resources/2022/What-are-the-principles-of-football>
-
-**New measures to improve match flow and player behaviour (restart countdowns)** — The IFAB, 2026\
+**Further measures to improve match flow (restart countdowns)** — The IFAB, 2026\
 <https://www.theifab.com/news/the-ifab-introduces-further-measures-to-improve-match-flow-and-player-behaviour/>
-
-**What is rest defence?** — Coaches' Voice\
-<https://learning.coachesvoice.com/cv/rest-defence-explained/>
-
-**In focus: high press** — Coaches' Voice\
-<https://learning.coachesvoice.com/cv/in-focus-high-press/>
 
 **High pressing the goal kick (FIFA U-17 Women's World Cup 2025)** — FIFA Training Centre\
 <https://www.fifatrainingcentre.com/en/game/tournaments/fu17wwc/2025/part-2-high-pressing-the-goal-kick.php>
+
+**Attacking styles and goal-scoring in the 2021/22 Women's Super League** — Craven, Oxenham & Ranaweera, PLOS ONE, 2025 (professional women in England)\
+<https://pmc.ncbi.nlm.nih.gov/articles/PMC11801634/>
+
+**Throw-in tactics and possession** — Casal et al., PLOS ONE, 2023 (professional men in Spain's La Liga, 2021–22)\
+<https://pmc.ncbi.nlm.nih.gov/articles/PMC10650988/>
 
 ## Perception, scanning, and film study
 
@@ -48,11 +43,19 @@ Links were checked in September 2026. Laws, league rules, safeguarding policies,
 **Optimizing scanning in youth female football: the role of verbal instruction** — Hintermann et al., European Journal of Sport Science, 2025 (Swiss U19 female players)\
 <https://pmc.ncbi.nlm.nih.gov/articles/PMC12535765/>
 
-**"Heads Up Girls!" A training intervention to improve scanning** — Frontiers in Sports and Active Living, 2025 (female players, mean age about 17)\
+**"Heads Up Girls!" A training intervention to improve scanning** — Hintermann et al., Frontiers in Sports and Active Living, 2025 (Swiss female players, mean age about 17)\
 <https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1602099/full>
 
 **Fooled by performance randomness: overrewarding luck** — Gauriot & Page, Review of Economics and Statistics, 2019 (professional soccer)\
 <https://ideas.repec.org/a/tpr/restat/v101y2019i4p658-666.html>
+
+## Technique and home practice
+
+**Non-dominant leg training improves both legs** — Haaland & Hoff, Scandinavian Journal of Medicine & Science in Sports, 2003 (39 players aged 15–20 on one team)\
+<https://pubmed.ncbi.nlm.nih.gov/12753491/>
+
+**Footedness in world soccer: an analysis of France '98** — Carey et al., Journal of Sports Sciences, 2001 (236 players at the men's World Cup)\
+<https://pubmed.ncbi.nlm.nih.gov/11695507/>
 
 ## Psychology, culture, and pressure
 
@@ -65,31 +68,39 @@ Links were checked in September 2026. Laws, league rules, safeguarding policies,
 **Developing a ritual for overcoming mistakes** — Positive Coaching Alliance\
 <https://positivecoach.org/resource-zone/developing-a-mistake-ritual/>
 
-**Expert statement on psychological preparation for football penalty shootouts** — BASES (Wilson, Wood & Jordet), 2013\
+**Expert statement on psychological preparation for football penalty shootouts** — Wilson, Wood & Jordet, BASES (professional shootout research)\
 <https://www.cases.org.uk/imgs/545_expert_statement_on_psychological_preparation_for_football_penalty_shootouts557.pdf>
+
+**Celebrating goals in penalty shootouts** — Moll, Jordet & Pepping, Journal of Sports Sciences, 2010 (men's World Cup and European Championship shootouts)\
+<https://pubmed.ncbi.nlm.nih.gov/20544488/>
 
 **Why and how athletes can have tough talks with their coaches** — TrueSport, 2022\
 <https://truesport.org/respect-accountability/athletes-tough-talks-coach/>
 
 ## Health and safety
 
-### Heading and head injuries
-
 **Head injuries (heading guidelines by age group)** — US Club Soccer\
 <https://usclubsoccer.org/headinjuries/>
-
-**Head and brain conditions** — U.S. Soccer Recognize to Recover\
-<http://www.recognizetorecover.org/head-and-brain>
 
 **HEADS UP: responding to a suspected concussion** — CDC\
 <https://www.cdc.gov/heads-up/response/index.html>
 
-### Injury prevention, growth, and rest
+**HEADS UP: returning to sports after a concussion** — CDC\
+<https://www.cdc.gov/heads-up/guidelines/returning-to-sports.html>
+
+**HEADS UP: returning to school after a concussion** — CDC\
+<https://www.cdc.gov/heads-up/guidelines/returning-to-school.html>
+
+**Association of sex with adolescent soccer concussion** — Bretzin et al., JAMA Network Open, 2021 (Michigan high school soccer players)\
+<https://pmc.ncbi.nlm.nih.gov/articles/PMC8080231/>
 
 **ACL injury prevention** — U.S. Soccer Recognize to Recover\
 <https://www.recognizetorecover.org/acl-injury-prevention>
 
-**The 11+ manual** — FIFA Medical Assessment and Research Centre (copy hosted by a school athletics department)\
+**Consensus statement on paediatric ACL injuries** — International Olympic Committee (Ardern et al.), British Journal of Sports Medicine, 2018 (expert consensus on children and adolescents)\
+<https://pmc.ncbi.nlm.nih.gov/articles/PMC5867447/>
+
+**The 11+ manual** — FIFA Medical Assessment and Research Centre (school-hosted copy)\
 <https://www.horacemann.org/uploaded/Athletics/sportsmedicine/strengthconditioning/11plus_workbook_fifa.pdf>
 
 **Comprehensive warm-up programme to prevent injuries in young female footballers** — Soligard et al., BMJ, 2008 (girls aged 13–17)\
@@ -101,19 +112,14 @@ Links were checked in September 2026. Laws, league rules, safeguarding policies,
 **Teen sleep duration health advisory** — American Academy of Sleep Medicine, updated 2016\
 <https://aasm.org/advocacy/position-statements/teen-sleep-duration-health-advisory/>
 
+**Chronic lack of sleep and sports injuries in adolescent athletes** — Milewski et al., Journal of Pediatric Orthopaedics, 2014 (112 athletes aged 12–18 at one U.S. school)\
+<https://pubmed.ncbi.nlm.nih.gov/25028798/>
+
 **Osgood-Schlatter disease (knee pain)** — American Academy of Orthopaedic Surgeons, OrthoInfo\
 <https://www.orthoinfo.org/diseases--conditions/osgood-schlatter-disease-knee-pain/>
 
-**Sever's disease (heel pain)** — American Academy of Orthopaedic Surgeons, OrthoInfo\
-<https://www.orthoinfo.org/diseases--conditions/severs-disease/>
-
-### Emergencies and weather
-
-**Emergency action plans** — U.S. Soccer Recognize to Recover\
-<https://www.recognizetorecover.org/emergency-action-plans>
-
-**Environmental conditions: heat, lightning, and air quality** — U.S. Soccer Recognize to Recover\
-<https://www.recognizetorecover.org/environmental>
+**Call or text 988 (free, 24/7)** — 988 Suicide & Crisis Lifeline\
+<https://988lifeline.org/>
 
 ## Safeguarding
 
@@ -122,9 +128,6 @@ Links were checked in September 2026. Laws, league rules, safeguarding policies,
 
 **Prevention policies** — US Club Soccer\
 <https://usclubsoccer.org/safeguarding-compliance/prevention-policies/>
-
-**SafeSport training and reporting requirements** — US Club Soccer\
-<https://usclubsoccer.org/safeguarding-compliance/safesport/>
 
 **MAAPP for parents, including free parent training** — U.S. Center for SafeSport\
 <https://maapp.uscenterforsafesport.org/how-it-works/for-parents/>
@@ -137,11 +140,19 @@ Links were checked in September 2026. Laws, league rules, safeguarding policies,
 **Age group cut-off update for the 2026–27 season** — US Club Soccer, 2025\
 <https://usclubsoccer.org/age-group-cut-off-update-for-2026-27-season/>
 
-**ECNLTV (ECNL and ECNL RL games)** — ECNL\
+**ECNLTV (paid; ECNL and ECNL RL games)** — ECNL, via Team1Sports / Hudl TV\
 <https://team1sports.com/ecnltv/>
 
 **Girls Academy National Finals** — Girls Academy\
 <https://girlsacademyleague.com/national-finals/>
 
-**NWSL matches move to NWSL+** — NWSL, 2026\
+**NWSL matches scheduled for Victory+ move to NWSL+** — NWSL, July 2026\
 <https://www.nwslsoccer.com/news/nwsl-matches-scheduled-for-victory-to-stream-on-nwsl-beginning-immediately>
+
+**How to Watch** — NWSL\
+<https://www.nwslsoccer.com/how-to-watch>
+
+**CBS Sports brings back Women's Super League US broadcast rights** — Sportcal, 2026\
+<https://www.sportcal.com/news/cbs-sports-brings-back-womens-super-league-us-broadcast-rights/>
+
+For current TV and streaming partners, check each league's How to Watch page.

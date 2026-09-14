@@ -1,70 +1,63 @@
 # Attacking Midfielder (#10) — Position Card
 
-## Every position, every game
-
-- Scan before you receive, and look again after your first touch.
-- Create an angle and become an outlet.
-- Move on the pass. Move again after you pass.
-- Small space: combine. Big space: exploit — carry open grass until a defender has to react.
-- See the ball and the most dangerous space or opponent.
-- On loss: counterpress if realistic; otherwise recover into shape.
-- On regain: scan forward. Attack the advantage if it is there; otherwise secure possession.
-- Use deception. Make brave, intelligent decisions.
-- Know your restart jobs before kickoff.
-
-**These are principles, not restrictions. If you recognize a better solution, take it.**
-
 ## My purpose
 
 Connect midfield to attack, find useful space between the lines, and help create chances.
 
+## Pregame mindset
+
+**Want the ball in difficult spaces.**
+
+You are allowed to try the turn, the final pass, the dribble, or the combination. Some will not work. Don't let one failed idea make you cautious: **RESPOND. REFLECT. LEARN. NEXT PLAY.**
+
+## Picture these moments
+
+- Picture scanning, checking into a pocket between the lines, and receiving on the half-turn.
+- Picture the 9 checking short: you run beyond her and become the highest attacker for now.
+- Picture the 9 pinning both center backs while you show underneath her and turn.
+- Picture drifting into the half-space — between wide and center — and playing a wall pass with a winger.
+- Picture nobody stepping to you: you carry at the defense and sell a fake until someone has to choose.
+- Picture helping deeper, then arriving at the top of the box in time for the cutback.
+
 ## When we have it
 
-- Scan, then check into pockets between the lines — never level with the 9 or the pivots.
-- You are free to move the triangle; the pivots adjust to keep its shape.
-- Receive on the half-turn when you can; combine with third-player actions (A → B → C).
-- Carry when defenders refuse to engage; use deception to move them before the final action.
-- When we escape pressure, look for the big space: carry, switch, or release a runner.
-- Rotate with wingers and the 9 without destroying width or depth.
+**One shows. One protects. One threatens.**
+
+- You and the pivots are a rotating triangle. Who does each job can change.
+- Don't park: show between the lines, drop to connect, find a half-space, or run behind.
+- Small space: combine. Big space: exploit. Carry, switch, or release a runner.
 
 ## When we lose it
 
-- React immediately.
-- Counterpress if the ball is close and the team can support it.
-- Otherwise recover into the midfield structure and protect central space.
+- React immediately: you are often closest, so counterpress if support is near.
+- Otherwise recover into midfield and protect central space.
 
 ## When they have it
 
 - Know the plan: step up beside the 9, or screen their deepest midfielder.
-- Help screen passes into central midfield.
-- Stay connected to the pivots.
-- Recognize pressing triggers instead of chasing.
+- Stay connected to the pivots; screen passes into the middle.
+- Recognize pressing triggers instead of chasing every pass.
 
 ## When we win it
 
-- Look forward immediately.
-- Can you release a runner, carry into space, or combine through the middle?
-- If not, help secure possession and reorganize the attack.
+- Look forward: release a runner or attack the middle before they recover.
+- If not, help keep the ball while we reorganize.
 
-## Players I connect with
+## Important relationships
 
-- striker (#9)
-- both wingers (#7 / #11)
-- pivots (#6 / #8)
-- advancing outside backs (#2 / #3)
+**One comes. One goes.**
 
-## Common traps
+- Striker (#9): if she checks, you can run beyond her. If you check, she stays high and pins the center backs.
+- You and the 9 can keep cycling during an attack. Positions set the shape; movement changes who fills each space.
+- Pivots (#6 / #8): if you drop, one of them can rise. If one advances, another protects underneath.
+- Wingers (#7 / #11): combine in the half-space and rotate without losing our width.
 
-- standing too high and becoming disconnected
-- checking to the ball every time instead of threatening behind
-- forcing the final pass
-- watching after passing
-- drifting toward the ball and crowding teammates
+## When you're unsure
+
+**Find a different height than the 9 and become available.**
 
 ## My cues
 
-**Scan. Find space. Connect. Deceive. Arrive.**
+**Scan. Find space. Connect. Arrive.**
 
-## Film question
-
-Did I find space between the lines, and did I move again after I passed?
+**These are principles, not restrictions. If you recognize a better solution, take it.**

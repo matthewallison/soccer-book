@@ -1,71 +1,60 @@
 # Winger (#7 / #11) — Position Card
 
-## Every position, every game
-
-- Scan before you receive, and look again after your first touch.
-- Create an angle and become an outlet.
-- Move on the pass. Move again after you pass.
-- Small space: combine. Big space: exploit — carry open grass until a defender has to react.
-- See the ball and the most dangerous space or opponent.
-- On loss: counterpress if realistic; otherwise recover into shape.
-- On regain: scan forward. Attack the advantage if it is there; otherwise secure possession.
-- Use deception. Make brave, intelligent decisions.
-- Know your restart jobs before kickoff.
-
-**These are principles, not restrictions. If you recognize a better solution, take it.**
-
 ## My purpose
 
-Stretch the defense, threaten behind it, attack favorable 1v1s, and become dangerous inside when the picture invites it.
+Stretch the defense, threaten behind, attack favorable 1v1s, and become dangerous inside when it's on.
+
+## Pregame mindset
+
+**Be dangerous before you touch the ball.**
+
+Your position and runs should already make defenders uncomfortable. **Want the next 1v1.** When a 1v1 favors you, attack it. If a dribble fails, notice why, change your move, and go again. **WANT THE MOMENT.**
+
+## Picture these moments
+
+- Picture receiving wide with one defender isolated in front of you: you attack her with speed and a change of direction.
+- Picture the 9 checking toward the ball: you start wide and run diagonally into the space she left behind.
+- Picture escaping pressure near the touchline, then carrying into open grass until a defender has to step.
+- Picture winning the ball back: a central lane opens, and you become the central runner even though you started wide.
+- Picture a switch arriving at your feet with space: your first touch goes forward before they can shift.
+- Picture us attacking down the far side: you arrive at the far post just as the cross comes in.
 
 ## When we have it
 
-- Provide width when the team needs it; if the outside back gives width, try the half-space.
-- Threaten behind when the 9 checks toward the ball.
-- Carry aggressively when isolated with space.
+- Start wide, then run diagonally behind — not only straight down the touchline.
+- Make crossing runs that force defenders to decide who follows you.
+- Swap sides with the other winger when it creates an advantage, but keep our width.
 - Use deception before you cross, dribble, or combine.
-- Move after passing; do not park on the touchline.
-- On the weak side, prepare for the switch, far-post run, or inside arrival.
 
 ## When we lose it
 
-- Counterpress if the ball is close and support exists.
-- Otherwise recover immediately into team shape.
-- Track the dangerous outside route without becoming disconnected from central support.
+- Lost it wide? Counterpress right away if a teammate is close enough to help.
+- Otherwise recover into team shape and track the dangerous outside route.
 
 ## When they have it
 
-- Stay connected to the midfield and outside back.
 - Know when to press their outside back or hold shape.
-- Help protect central passing lanes.
+- Help protect central passing lanes, and see the ball and weak-side danger.
 - Ball on the far side: tuck inside to keep midfield compact.
-- See the ball and weak-side danger.
 
 ## When we win it
 
 - Look immediately for open field to attack.
-- If a central breakaway lane opens, attack it even if you started wide.
-- If the transition is not on, provide width and become a clean outlet.
+- If the transition is not on, give width and become a clean outlet.
 
-## Players I connect with
+## Important relationships
 
-- my outside back (#2 / #3)
-- striker (#9)
-- attacking midfielder (#10) or the nearest pivot (#6 / #8)
-- the other winger (#7 / #11) on switches and far-post runs
+- Outside back (#2 / #3): don't share a lane. If you go inside, she gives width. If you stay wide, she supports underneath.
+- Striker (#9): when she checks, run diagonally behind. Swap lanes with her when it creates an advantage.
+- In transition, whoever has the better lane takes the central run. Sometimes that is you, and the 9 supports.
+- Attacking midfielder (#10): combine in the half-space, and rotate with her without losing our width.
 
-## Common traps
+## When you're unsure
 
-- running straight forward every time
-- standing wide when the game needs you inside
-- drifting inside when nobody else provides width
-- passing short when open space should be carried
-- watching after passing, or when the ball is on the far side
+**Create width or threaten depth. Do not disappear.**
 
 ## My cues
 
-**Wide. Scan. Threaten. Deceive. Arrive.**
+**Wide. Diagonal. Threaten. Arrive.**
 
-## Film question
-
-When the ball was on the far side, was I preparing for the switch, or just watching?
+**These are principles, not restrictions. If you recognize a better solution, take it.**

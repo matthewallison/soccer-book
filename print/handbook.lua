@@ -5,16 +5,33 @@
 -- Conventions recognized in the Markdown:
 --   * A paragraph that is entirely bold is a cue line   -> hbcue box
 --   * ...and if it is written in capitals it is a mantra -> hbmantra banner
+--   * "These are principles, not restrictions..." line   -> centered card footer
+--   * "# <Role> (#N) — Position Card" chapters           -> one-page card grid:
+--       purpose; mindset | when you're unsure; picture-these-moments panel;
+--       the four moments (2x2); important relationships | my cues
 --   * "## Every position, every game" section            -> hbpanel box
---   * "# <Role> — Position Card" chapters                -> one-page card grid
+--   * Chapters with 12+ sections                         -> "In this chapter" box
 --   * Long bullet lists of very short items               -> set in columns
 --   * Tables                                               -> ruled tables; empty cells make write-in forms
 --   * Repository-only material (document index lists, links to the chat
---     transcript) is omitted from print.
+--     transcript) is omitted from print; stray H1s are demoted.
+--
+-- Print-only layout rules:
+--   * Links to a section of another document (foo.md#section) land on that
+--     section: section ids are scoped per chapter (<file>--<GitHub anchor>).
+--   * Page breaks: a paragraph ending in ":" stays with what it introduces; a
+--     column list stays with its heading and lead-in line; a list never leaves
+--     its first or last item alone; a cue box is discouraged from parting from
+--     the text it closes.
+--   * Position-number pairs ("#6 / #8") never break across lines.
+--   * Cue boxes that would wrap break at the sentence boundary nearest the middle.
+--   * The sources chapter is set ragged-right without hyphenation.
 
 local stringify = pandoc.utils.stringify
+local NBSP = '\u{00A0}'
 
 local function raw(s) return pandoc.RawBlock('latex', s) end
+local function rawinline(s) return pandoc.RawInline('latex', s) end
 
 local function inlines(text)
   return pandoc.read(text, 'markdown').blocks[1].content
@@ -38,9 +55,73 @@ local function is_mantra(text)
   return text:match('%u') and text == text:upper() and #text > 6
 end
 
+---------------------------------------------------------------------------
+-- Section anchors
+---------------------------------------------------------------------------
+
+-- The Markdown links use GitHub's heading anchors: lowercase, punctuation
+-- dropped (letters, digits, spaces, hyphens, and underscores kept), each space
+-- turned into a hyphen, and -1, -2 ... added to repeats within a file.
+local function github_slug(text)
+  return (text:lower():gsub('[^%w%s_-]', ''):gsub('%s', '-'))
+end
+
+local function chapter_base(b)
+  return b.t == 'Header' and b.level == 1 and b.identifier:match('^ch%-(.+)$') or nil
+end
+
+-- The chapters are concatenated into one document, so pandoc's own ids are
+-- document-wide (a repeated heading such as "Want the moment" gets "-1").
+-- Give every section heading a chapter-scoped id and point links at it.
+-- Position-card sections are not printed as headings, so links to them fall
+-- back to the card (see Link below).
+local function scope_anchors(doc)
+  local blocks, anchors = doc.blocks, {}
+  local base, is_card, seen = nil, false, {}
+  for i, b in ipairs(blocks) do
+    local ch = chapter_base(b)
+    if ch then
+      base, seen = ch, {}
+      is_card = stringify(b.content):match('Position Card%s*$') ~= nil
+      anchors[base] = {}
+    elseif base and not is_card and b.t == 'Header' then
+      local slug = github_slug(stringify(b.content))
+      local n = seen[slug]
+      seen[slug] = (n or -1) + 1
+      if n then slug = slug .. '-' .. (n + 1) end
+      b.identifier = base .. '--' .. slug
+      anchors[base][slug] = b.identifier
+      blocks[i] = b
+    end
+  end
+
+  local current = nil
+  local function resolve(link)
+    local file, frag = link.target:match('^([^#]*)#(.+)$')
+    if not frag or file:match('^%a+:') then return nil end
+    local target = file == '' and current or file:match('([^/]+)%.md$')
+    local id = target and anchors[target] and anchors[target][frag]
+    if id then
+      link.target = '#' .. id
+    elseif file == '' and current then
+      link.target = '#ch-' .. current
+    else
+      return nil
+    end
+    return link
+  end
+  for i, b in ipairs(blocks) do
+    current = chapter_base(b) or current
+    blocks[i] = b:walk({ Link = resolve })
+  end
+  doc.blocks = blocks
+  return doc
+end
+
 -- External links keep their text and gain a footnote with the URL (print
 -- readers cannot click). Cross-document links (foo.md, ../foo.md,
--- docs/positions/) become in-PDF anchors created by build.sh.
+-- docs/positions/) become in-PDF anchors created by build.sh; section links
+-- were already resolved by scope_anchors.
 local function Link(el)
   local target = el.target
   if target:match('^https?://') then
@@ -51,11 +132,37 @@ local function Link(el)
     return el
   end
   if target:match('^%a+:') then return el end
-  local base = target:match('([^/]+)%.md')
+  local base = target:match('([^/#]+)%.md')
   if base then
     el.target = '#ch-' .. base
   elseif target:match('positions/?$') then
     el.target = '#part-positions'
+  end
+  return el
+end
+
+-- "#6 / #8" -> one unbreakable unit, so a line never ends with "(#6 /".
+local function bind_position_numbers(inls)
+  local i = 1
+  while i + 4 <= #inls do
+    local a, s1, slash, s2, b = inls[i], inls[i + 1], inls[i + 2], inls[i + 3], inls[i + 4]
+    if a.t == 'Str' and a.text:match('#%d+$') and s1.t == 'Space' and slash.t == 'Str'
+        and slash.text == '/' and s2.t == 'Space' and b.t == 'Str' and b.text:match('^#%d+') then
+      inls[i] = pandoc.Str(a.text .. NBSP .. '/' .. NBSP .. b.text)
+      for _ = 1, 4 do inls:remove(i + 1) end
+    else
+      i = i + 1
+    end
+  end
+  return inls
+end
+
+-- Numbered lists use the enumitem label from preamble.tex; with explicit
+-- decimal attributes pandoc would write its own \labelenumi over it.
+local function OrderedList(el)
+  local style, delim = el.style, el.delimiter
+  if (style == 'Decimal' or style == 'DefaultStyle') and (delim == 'Period' or delim == 'DefaultDelim') then
+    el.listAttributes = pandoc.ListAttributes(el.start, 'DefaultStyle', 'DefaultDelim')
   end
   return el
 end
@@ -119,6 +226,35 @@ local function Table(tbl)
   return raw(table.concat(tex, '\n'))
 end
 
+-- Offer a cue's sentence boundary nearest the middle to \hbcuesplit, which
+-- breaks the line there only when the cue would wrap and both halves fit.
+local function balanced_cue(inls)
+  local lens, total = {}, 0
+  for i, el in ipairs(inls) do
+    if el.t == 'Note' or el.t == 'Link' or el.t == 'LineBreak' then return nil end
+    lens[i] = (el.t == 'Space' or el.t == 'SoftBreak') and 1 or (utf8.len(stringify(el)) or 0)
+    total = total + lens[i]
+  end
+  local best, best_diff, left = nil, math.huge, 0
+  for i, el in ipairs(inls) do
+    if (el.t == 'Space' or el.t == 'SoftBreak') and i > 1 and i < #inls then
+      local prev = stringify(inls[i - 1])
+      if prev:match('[.!?]$') or prev:match('[.!?]”$') or prev:match('[.!?]’$') or prev:match('[.!?]"$') then
+        local diff = math.abs(left - (total - left - 1))
+        if diff < best_diff then best, best_diff = i, diff end
+      end
+    end
+    left = left + lens[i]
+  end
+  if not best then return nil end
+  local out = pandoc.Inlines({ rawinline('\\hbcuesplit{') })
+  for i = 1, best - 1 do out:insert(inls[i]) end
+  out:insert(rawinline('}{'))
+  for i = best + 1, #inls do out:insert(inls[i]) end
+  out:insert(rawinline('}'))
+  return out
+end
+
 local function Para(el)
   local strong = sole_strong(el)
   if not strong then return nil end
@@ -127,9 +263,11 @@ local function Para(el)
     return raw('\\hbfreedom{' .. tex .. '}')
   end
   local env = is_mantra(stringify(strong)) and 'hbmantra' or 'hbcue'
+  local content = strong.content
+  if env == 'hbcue' then content = balanced_cue(content) or content end
   return {
     raw('\\begin{' .. env .. '}'),
-    pandoc.Plain(strong.content),
+    pandoc.Plain(content),
     raw('\\end{' .. env .. '}'),
   }
 end
@@ -279,12 +417,12 @@ local function build_card(blocks)
   local function has(slot) return slots[slot] ~= nil end
 
   local function panel(slot, default, columns)
-    table.insert(out, raw('\\begin{hbpanel}[top=3pt, bottom=3pt, before skip=0pt, after skip=0.5em]{' .. head(slot, default) .. '}'))
+    table.insert(out, raw('\\begin{hbpanel}[top=3pt, bottom=3pt, before skip=0pt, after skip=0.8em]{' .. head(slot, default) .. '}'))
     for _, b in ipairs(slots[slot]) do
       if b.t == 'BulletList' and columns then
-        table.insert(out, raw('\\begin{hblistcols}{2}\\fontsize{9.6}{11.5}\\selectfont'))
+        table.insert(out, raw('\\begin{hbpanelcols}{2}\\fontsize{9.6}{11.5}\\selectfont'))
         table.insert(out, b)
-        table.insert(out, raw('\\end{hblistcols}'))
+        table.insert(out, raw('\\end{hbpanelcols}'))
       else
         table.insert(out, b)
       end
@@ -292,8 +430,9 @@ local function build_card(blocks)
     table.insert(out, raw('\\end{hbpanel}'))
   end
 
-  -- A row of side-by-side cells: { {width, {{slot, default}, ...}}, ... }
-  local function row(cells)
+  -- A row of side-by-side cells: { {width, {{slot, default}, ...}}, ... }.
+  -- A row followed by a panel ends without a rule (the panel border divides).
+  local function row(cells, before_panel)
     local present = false
     for _, cell in ipairs(cells) do
       for _, part in ipairs(cell[2]) do if has(part[1]) then present = true end end
@@ -310,7 +449,7 @@ local function build_card(blocks)
         end
       end
     end
-    table.insert(out, raw('\\end{hbcell}\\hbrowend'))
+    table.insert(out, raw('\\end{hbcell}' .. (before_panel and '\\hbrowendpanel' or '\\hbrowend')))
   end
 
   add(slots.intro)
@@ -320,7 +459,8 @@ local function build_card(blocks)
     table.insert(out, raw('\\end{hbpurpose}'))
   end
   if has('common') then panel('common', 'Every position, every game', true) end
-  row({ { '0.575', { { 'mindset', 'Pregame mindset' } } }, { '0.385', { { 'unsure', "When you're unsure" } } } })
+  row({ { '0.575', { { 'mindset', 'Pregame mindset' } } }, { '0.385', { { 'unsure', "When you're unsure" } } } },
+      has('picture'))
   if has('picture') then panel('picture', 'Picture these moments', true) end
   row({ { '0.475', { { 'have', 'When we have it' } } }, { '0.475', { { 'lose', 'When we lose it' } } } })
   row({ { '0.475', { { 'they', 'When they have it' } } }, { '0.475', { { 'win', 'When we win it' } } } })
@@ -335,21 +475,104 @@ local function build_card(blocks)
 end
 
 ---------------------------------------------------------------------------
+-- Page-break rules
+---------------------------------------------------------------------------
+
+-- A paragraph ending in a colon introduces the block after it.
+local function is_leadin(b)
+  return b ~= nil and b.t == 'Para' and stringify(b):match(':%s*$') ~= nil
+end
+
+local function starts_box(b)
+  return b ~= nil and b.t == 'RawBlock'
+    and (b.text:match('^\\begin{hbcue}') or b.text:match('^\\begin{hbmantra}')) ~= nil
+end
+
+-- Rough line count of a paragraph at full text width.
+local function line_estimate(b)
+  return math.max(1, math.ceil((utf8.len(stringify(b)) or 90) / 90))
+end
+
+-- Rough line count of a list item at list width.
+local function item_lines(item)
+  local lines = 0
+  for _, blk in ipairs(item) do
+    lines = lines + math.max(1, math.ceil((utf8.len(stringify(blk)) or 85) / 85))
+  end
+  return lines
+end
+
+-- A short list (about five lines or fewer) never splits across pages. A
+-- longer list never leaves its first or last item alone on a page: breaks
+-- before the second and the last \item are forbidden. end_penalty, if given,
+-- applies to a break right after the list.
+local SHORT_LIST_LINES = 5
+local function keep_list_ends(list, end_penalty)
+  local items = list.content
+  local n = #items
+  local total = 0
+  for _, item in ipairs(items) do total = total + item_lines(item) end
+  local function add(k, tex, at_start)
+    local item = items[k]
+    local idx = at_start and 1 or #item
+    local blk = item[idx]
+    if not blk or (blk.t ~= 'Plain' and blk.t ~= 'Para') then return end
+    local content = blk.content
+    if at_start then content:insert(1, rawinline(tex)) else content:insert(rawinline(tex)) end
+    blk.content = content
+    item[idx] = blk
+    items[k] = item
+  end
+  if n >= 2 and total <= SHORT_LIST_LINES then
+    for k = 1, n - 1 do add(k, '\\hbkeepnextitem{}') end
+  elseif n >= 2 then
+    add(1, '\\hbkeepnextitem{}')
+    if n >= 3 then
+      add(2, '\\hbreleaseitem{}', true)
+      add(n - 1, '\\hbkeepnextitem{}')
+    end
+  end
+  if end_penalty and n >= 1 then add(n, '\\hblistendpenalty{' .. end_penalty .. '}') end
+  list.content = items
+  return list
+end
+
+-- Chapters set ragged-right without hyphenation (long titles and URLs).
+local RAGGED_CHAPTERS = { ['ch-further-reading'] = true }
+
+---------------------------------------------------------------------------
 -- Document pass
 ---------------------------------------------------------------------------
 
 local function is_structural_raw(b)
-  return b.t == 'RawBlock' and (b.text:match('\\hbpart') or b.text:match('\\hbsetlabel'))
+  return b.t == 'RawBlock' and (b.text:match('\\hbpart') or b.text:match('\\hbsetlabel')
+    or b.text:match('\\newgeometry') or b.text:match('\\restoregeometry')) ~= nil
 end
 
 local function Pandoc(doc)
   local blocks, out = doc.blocks, {}
   local card = nil        -- blocks collected for the current position card
   local in_panel = false
+  local ragged = false
 
   local function emit(b) table.insert(out, b) end
+  -- Pandoc sets a heading's link anchor (\hypertarget) before \section, where
+  -- the heading's break penalty can leave it at the foot of the previous page.
+  -- Set the anchor inside the heading instead (\hbanchor), and keep the \label
+  -- that the "In this chapter" boxes link to.
+  local function emit_header(h)
+    if h.identifier == '' then return emit(h) end
+    local id, c = h.identifier, h:clone()
+    c.identifier = ''
+    table.insert(c.content, 1, rawinline('\\hbanchor{' .. id .. '}'))
+    emit(c)
+    emit(raw('\\label{' .. id .. '}'))
+  end
   local function close_panel()
     if in_panel then emit(raw('\\end{hbpanel}')); in_panel = false end
+  end
+  local function close_ragged()
+    if ragged then emit(raw('\\endgroup')); ragged = false end
   end
   local function flush_card()
     if card then
@@ -377,19 +600,38 @@ local function Pandoc(doc)
     for _, h in ipairs(sections) do
       local text = stringify(h.content)
       local num, title = text:match('^(%d+)%.%s+(.*)$')
+      -- Tie the last two words so a wrapped title never leaves one word alone.
+      local shown = latex_escape(title or text):gsub('%s+(%S+)$', '~%1')
       table.insert(tex, string.format('\\hbtocitem{%s}{%s}{%s}',
-        h.identifier, num or '', latex_escape(title or text)))
+        h.identifier, num or '', shown))
     end
     table.insert(tex, '\\end{hbchaptercontents}')
     return raw(table.concat(tex, '\n'))
   end
 
+  -- Lines to reserve so that a column list starting at blocks[i] (after an
+  -- optional heading and lead-in line) begins on the same page as them;
+  -- multicols otherwise starts a new page and strands them. nil if none.
+  local function column_list_room(i)
+    local j, lines = i, 1
+    if blocks[j].t == 'Header' then lines = lines + 2; j = j + 1 end
+    if is_leadin(blocks[j]) then lines = lines + line_estimate(blocks[j]); j = j + 1 end
+    local list = blocks[j]
+    if j == i or not list or list.t ~= 'BulletList' then return nil end
+    local cols = column_count(list)
+    if cols == 0 then return nil end
+    return math.min(lines + math.ceil(#list.content / cols), 14)
+  end
+
   for i, b in ipairs(blocks) do
+    local prev, nxt = blocks[i - 1], blocks[i + 1]
     if (b.t == 'Header' and b.level == 1) or is_structural_raw(b) then
       close_panel()
       flush_card()
+      close_ragged()
       if b.t == 'Header' then
-        local name = stringify(b.content):match('^(.-)%s*[—–-]+%s*Position Card$')
+        local title = stringify(b.content):gsub(NBSP, ' ')
+        local name = title:match('^(.-)%s*[—–-]+%s*Position Card$')
         if name then
           -- "Center Back (#4 / #5)" -> name plus a styled number badge.
           local base, numbers = name:match('^(.-)%s*%((#[^)]+)%)$')
@@ -405,30 +647,51 @@ local function Pandoc(doc)
           card = {}
         end
       end
+      -- Break the page before pandoc's \hypertarget, not inside \chapter, so
+      -- links to the chapter land on its first page (no-op at a page top).
+      if b.t == 'Header' and not card then emit(raw('\\clearpage')) end
       emit(b)
       if b.t == 'Header' and not card and sections_after[i] and #sections_after[i] >= 12 then
         emit(chapter_contents(sections_after[i]))
       end
+      if b.t == 'Header' and RAGGED_CHAPTERS[b.identifier] then
+        emit(raw('\\begingroup\\raggedright\\hyphenpenalty=10000\\exhyphenpenalty=10000'))
+        ragged = true
+      end
     elseif card then
       table.insert(card, b)
-    elseif b.t == 'Header' and b.level == 2 then
-      close_panel()
-      if stringify(b.content) == 'Every position, every game' then
-        emit(raw('\\begin{hbpanel}{Every position, every game}'))
-        in_panel = true
-      else
-        emit(b)
-      end
-    elseif b.t == 'BulletList' and not in_panel and column_count(b) > 0 then
-      emit(raw('\\begin{hblistcols}{' .. column_count(b) .. '}'))
-      emit(b)
-      emit(raw('\\end{hblistcols}'))
     else
-      emit(b)
+      if not in_panel and (b.t == 'Header' or (is_leadin(b) and not (prev and prev.t == 'Header'))) then
+        local room = column_list_room(i)
+        if room then emit(raw('\\hbneedspace{' .. room .. '\\baselineskip}')) end
+      end
+      if b.t == 'Header' and b.level == 2 then
+        close_panel()
+        if stringify(b.content) == 'Every position, every game' then
+          emit(raw('\\begin{hbpanel}{Every position, every game}'))
+          in_panel = true
+        else
+          emit_header(b)
+        end
+      elseif b.t == 'BulletList' and not in_panel and column_count(b) > 0 then
+        emit(raw('\\begin{hblistcols}{' .. column_count(b) .. '}'))
+        emit(b)
+        emit(raw('\\end{hblistcols}'))
+      elseif b.t == 'BulletList' or b.t == 'OrderedList' then
+        emit(keep_list_ends(b, starts_box(nxt) and 300 or nil))
+      else
+        -- A cue that closes a paragraph: discourage (not forbid) a break.
+        if starts_box(b) and prev and prev.t == 'Para' and not is_leadin(prev) then
+          emit(raw('\\penalty300'))
+        end
+        if b.t == 'Header' then emit_header(b) else emit(b) end
+      end
+      if is_leadin(b) and nxt and nxt.t ~= 'Header' then emit(raw('\\nopagebreak')) end
     end
   end
   close_panel()
   flush_card()
+  close_ragged()
 
   doc.blocks = out
   return doc
@@ -437,7 +700,8 @@ end
 return {
   { BulletList = drop_transcript_items, Header = demote_stray_h1 },
   { Pandoc = drop_index_sections },
-  { Link = Link, Table = Table },
-  { Para = Para },
+  { Pandoc = scope_anchors },
+  { Link = Link, Table = Table, Inlines = bind_position_numbers },
+  { Para = Para, OrderedList = OrderedList },
   { Pandoc = Pandoc },
 }

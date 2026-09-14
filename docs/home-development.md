@@ -13,11 +13,11 @@ Team practices, games, other sports, and structured training sessions all add up
 - no more hours of organized sport per week (all sports together) than your age in years
 - at least two days a week free of organized training and games
 
-More organized hours than your age is a warning sign. Relaxed free play (juggling, pickup, kicking around) is different from adding another hard session.
+Going over that is a warning sign. Relaxed free play (juggling, pickup, kicking around) is different from adding another hard session.
 
 **Rest is part of the plan.**
 
-- Take at least 1–2 days a week with no soccer at all, home menu included. Other active play is fine.
+- On at least 1–2 of your days free of organized training, skip soccer completely: no home menu, juggling, or pickup. Other active play is fine.
 - Build real breaks from soccer into the year.
 
 ## 1. Wall work: primary first-touch training
@@ -100,7 +100,7 @@ Keep-away is a game skill, not just a drill. You do not need to be a flashy drib
 
 ## 5. Passing and longer ball work
 
-Players should become comfortable with more than short rondo distances. In games, when we escape pressure and the field opens, the problem has changed: a longer pass into space can be the best solution.
+Get comfortable with more than short rondo distances. In games, when we escape pressure and the field opens, the problem has changed: a longer pass into space can be the best solution.
 
 When space allows, practice:
 
@@ -134,10 +134,10 @@ Useful for:
 
 - rhythm
 - lower-leg coordination
-- ankle stiffness
+- springy, reactive ankles
 - general foot activity
 
-Keep it short and crisp. Jump rope counts as jumping, so the dose and pain rule in section 8 apply to it too.
+Keep it short and crisp. It counts as jumping, so the "How much" and "Pain rule" guidance in section 8 applies to it too.
 
 ## 8. Low-level plyometrics
 
@@ -154,7 +154,7 @@ Examples:
 ### Priorities
 
 - **Land soft and quiet.** Stick the landing before the next jump.
-- **Knees stay in line over the toes. Don't let them cave in.**
+- **Knees stay in line over the toes.** Don't let them cave in.
 - On cuts: plant, sink the hips, push off with the knee over the foot.
 - Quality over quantity.
 
@@ -177,17 +177,19 @@ Heel pain, or pain at the bump just below the kneecap, is common in growing play
 - Tell a parent and your coach.
 - A limp, or pain that is making soccer no fun, means see a doctor.
 
+For any pain or injury beyond this kind of growth pain, tell a parent and your coach, and see [Injuries, Recovery, and Return to Play](injuries-and-return-to-play.md).
+
 ## 9. Strength basics: calves, hips, hamstrings, trunk
 
 Examples:
 
-- straight- and bent-knee calf raises
+- straight- and bent-knee calf raises, then single-leg raises and holds near the top
 - squats and lunges (knees in line over the toes)
 - single-leg balance and slow single-leg squats
 - front and side planks
 - partner Nordic hamstrings at the FIFA 11+ beginner level, only after learning them at team training
 
-1–3 sets of 6–15 controlled reps (far fewer for Nordics), 2–3 times a week, not on back-to-back days. Our injury-prevention warm-up (FIFA 11+ or a similar program) uses many of these same exercises, so warm-up days count.
+1–3 sets of 6–15 controlled reps (far fewer for Nordics), 2–3 times a week, not on back-to-back days. Our injury-prevention warm-up (FIFA 11+ or a similar program) uses many of these same exercises, so warm-up days count toward your 2–3 strength days.
 
 **Technique first, then add reps.** Stop the set when form breaks down.
 
@@ -204,6 +206,8 @@ Examples:
 - short planned cuts
 - short reactive cuts with a partner cue
 
+On every cut, use the priorities in section 8. If heel or knee pain shows up, the pain rule in section 8 applies to sprints too.
+
 Real agility involves reacting to information. Ladders can help rhythm and coordination, but should not be treated as the main agility method.
 
 ## 11. Film study counts as development
@@ -217,10 +221,10 @@ Use the [Film Review Guide](film-review-guide.md).
 3–5 minutes, especially the day before a game:
 
 - picture your role in the four moments
-- rehearse your response after a mistake: your reset, then next play
+- rehearse your response after a mistake: your [team reset](team-culture-and-leadership.md#team-reset), then next play
 - pick one cue from your [position card](positions/)
 
-**Mental reps add to real practice. They do not replace it.**
+Mental reps add to real practice. **They do not replace it.**
 
 ## Sample short sessions
 
@@ -232,14 +236,14 @@ Use the [Film Review Guide](film-review-guide.md).
 
 ### Athletic 12 minutes
 
-- 3 min jump rope
+- jump rope in a few short, crisp sets with rest (about 3 min)
 - 2–3 short sets of pogos or line hops, full rest
 - 3 min strength basics
 - 3 min short acceleration or movement quality
 
 ### Mixed 20 minutes
 
-- 4 min jumping and coordination: jump rope, or 2–3 short sets of hops with full rest
+- about 4 min jumping and coordination: a few short sets of jump rope, or 2–3 short sets of hops, full rest
 - 8 min wall work
 - 5 min dribbling
 - 3 min film or visualization
@@ -250,12 +254,12 @@ For visualization, replay one receiving moment from your last game in your head:
 
 **Sleep is training.** Aim for 8–10 hours. Teen athletes who usually sleep less than 8 hours get injured more often. When time is short, sleep beats an extra session.
 
-Parents: fueling and other health signals are covered in [Parent Partnership](parent-partnership.md).
+Rest days and weekly hours are covered at the start of this menu ("Count the whole week" and "Rest is part of the plan").
+
+Parents: fueling, health signals, and how to help at home are covered in [Parent Partnership](parent-partnership.md#helping-at-home).
 
 ## Final principle
 
 Extra work should sharpen skills and confidence without undermining team training, school, sleep, or recovery.
-
-Parents helping at home: use the team's words (scan, carry, next play), offer rather than require, and leave new tactical instruction to the coach.
 
 **Short, focused, high-quality work beats tired volume.**

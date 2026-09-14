@@ -8,7 +8,7 @@ Tactics and technique matter. But players also need courage, responsibility, sel
 
 Youth soccer gives us chances to practice courage before the stakes are truly high. Pressure is not something to avoid. It is something to learn from.
 
-At U14, a penalty kick, difficult pass, 1v1 duel, late-game shot, or moment of leadership can feel enormous. But these are primarily development opportunities.
+A penalty kick, difficult pass, 1v1 duel, late-game shot, or moment of leadership can feel enormous. But these are primarily development opportunities.
 
 At U14, the real loss is not missing the penalty. The real loss is avoiding the chance to learn how you respond under pressure.
 
@@ -33,7 +33,9 @@ You may be nervous. You may miss. Neither is shameful. A missed penalty can teac
 
 This applies far beyond penalty kicks. We want players who think: "This is hard. Good. I want the chance to learn from it." At this age, one result will soon be forgotten. The confidence, courage, and experience gained by stepping into difficult moments can stay with you for years.
 
-A useful routine for any pressure moment is **Breathe → decide → commit → execute.** Then, whatever the result: **Respond. Reflect. Learn. Next play.**
+A useful routine for any pressure moment is **Breathe → decide → commit → execute.** Then, whatever the result: **RESPOND. REFLECT. LEARN. NEXT PLAY.**
+
+Wanting the moment never means playing through pain or hiding an injury. Tell a parent and your coach what hurts; see [Injuries, Recovery, and Return to Play](injuries-and-return-to-play.md).
 
 ### Penalty kicks
 
@@ -48,8 +50,8 @@ Everyone trains to be ready. Tell the coach during the week if you want a kick; 
 
 In a shootout:
 
-- Scored? Celebrate with your team. It helps the next kicker.
-- Missed? Head up, and walk back to your team. **Respond. Reflect. Learn. Next play.**
+- Scored? Celebrate with your team. It can lift the next kicker.
+- Missed? Head up, and walk back to your team. **RESPOND. REFLECT. LEARN. NEXT PLAY.**
 - Teammates stand together and go to every kicker, scored or missed.
 
 ## Mistakes are learning moments
@@ -117,17 +119,16 @@ Players should learn to:
 - set personal development goals
 - reflect after mistakes
 - recognize when something is not working and try a different solution
-- motivate themselves
 
 **Be coachable — and learn to coach yourself.**
 
 Becoming your own coach does not mean ignoring your coach. It means understanding why things work.
 
-During a game, self-coaching looks like: **scan → understand → decide → execute → reflect → adjust.**
+In a game, self-coaching looks like: **scan → understand → decide → execute → reflect → adjust.**
 
 After every practice, ask: **What soccer problem did today's practice teach me to solve?** The answer might be escaping pressure, switching the field, creating a 2v1, finding a teammate between the lines, or defending a 2v2.
 
-The coach provides guidance, structure, feedback, and perspective. The player owns her development.
+The coach provides guidance, structure, feedback, and perspective. You own your development.
 
 ### Team role and development role
 
@@ -147,7 +148,7 @@ Want a different role, more minutes, or more chances to develop part of your gam
 - Ask for something specific: "Could I get some minutes at \_\_\_ so I can work on receiving and combining?"
 - Show the qualities of the role you want in the role you have.
 - You do the talking. A parent can help you prepare.
-- Conversations happen at the field, in view of others. Messages to the coach always include a parent.
+- Book up to 5 minutes of office hours, in person or through the team app with a parent included. The talk itself happens at the field, in view of others.
 
 ## Help each other learn
 
@@ -179,9 +180,7 @@ Body language counts. No sighs, eye-rolls, or arms-out after a teammate's mistak
 
 ### Group chats and body talk
 
-**Peer feedback lives on the field, not in the group chat.**
-
-Never share a teammate's mistake in a group chat or a story.
+**Peer feedback lives on the field, not in the group chat.** Never share a teammate's mistake in a group chat or a story.
 
 **Talk about what bodies can do, never how they look.**
 
@@ -207,7 +206,7 @@ Players should want to win. They should care, compete, defend, recover, communic
 
 No player carries a result alone. Losses are team problems to solve, never one player's fault.
 
-But coaches should not sacrifice long-term development simply to improve a temporary scoreline. A team can lose while developing well and win while developing poorly.
+Coaches should not sacrifice long-term development simply to improve a temporary scoreline. A team can lose while developing well and win while developing poorly.
 
 The goal is to combine:
 

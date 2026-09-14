@@ -13,6 +13,8 @@
 \newfontfamily\hbblack{Lato-Black}[Extension=.ttf, Path=/usr/share/fonts/truetype/lato/]
 \newfontfamily\hbheavy{Lato-Heavy}[Extension=.ttf, Path=/usr/share/fonts/truetype/lato/]
 \newfontfamily\hblight{Lato-Light}[Extension=.ttf, Path=/usr/share/fonts/truetype/lato/]
+% One ordinary space after a sentence, not TeX's wider sentence space.
+\frenchspacing
 
 % ---------- Colors ----------
 \definecolor{hbink}{HTML}{1B2620}
@@ -24,6 +26,7 @@
 \color{hbink}
 
 % ---------- Page layout ----------
+\usepackage{etoolbox}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
@@ -36,10 +39,50 @@
 \usepackage{colortbl}
 \usepackage{xurl}
 
+% URLs break after punctuation; a break between letters or digits is a last
+% resort (xurl alone breaks anywhere, splitting words such as "workboo-k").
+\def\UrlBigBreaks{\do\/\do\.\do\-\do\_\do\=\do\&\do\?\do\#\do\:\do\;\do\,\do\!\do\|\do\)\do\]\do+}
+\def\UrlBreaks{\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m%
+  \do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z%
+  \do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M%
+  \do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z%
+  \do0\do1\do2\do3\do4\do5\do6\do7\do8\do9}
+\mathchardef\UrlBigBreakPenalty=100
+\mathchardef\UrlBreakPenalty=8000
+
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.55em plus 0.15em minus 0.1em}
 \linespread{1.06}
 \raggedbottom
+
+% ---------- Page breaks ----------
+% \raggedbottom only adds fill at the page bottom when a page is shipped out.
+% While choosing a break TeX sees almost no stretch, so every short page scores
+% as equally bad and the heading rules below would win even with inches left.
+% Stretch in \topskip (plain TeX's ragged-bottom value) lets TeX weigh how
+% short a page is against the penalties; the bottom fill keeps pages ragged.
+\setlength{\topskip}{11pt plus 60pt}
+\makeatletter
+% Never leave a single line of a paragraph or list item alone at the top or
+% bottom of a page.
+\clubpenalty=10000 \@clubpenalty=10000
+\widowpenalty=10000 \displaywidowpenalty=10000
+% Used by handbook.lua inside list items: \hbkeepnextitem forbids a break
+% before the next \item and \hbreleaseitem restores the normal penalty (so no
+% list leaves its first or last item alone); \hblistendpenalty sets the
+% penalty for a break after the list (a cue box that closes it).
+\def\hb@itempenalty{-\@lowpenalty}
+\newcommand{\hbkeepnextitem}{\edef\hb@itempenalty{\the\@itempenalty}\@itempenalty=\@M\relax}
+\newcommand{\hbreleaseitem}{\@itempenalty=\hb@itempenalty\relax}
+\newcommand{\hblistendpenalty}[1]{\@endparpenalty=#1\relax}
+% Reserve room for what follows (a heading, lead-in line, or column list), but
+% never directly after a heading: a break there would strand the heading.
+\newcommand{\hbneedspace}[1]{\par\if@nobreak\else\Needspace{#1}\fi}
+% The running header and footer follow the text block whenever the geometry
+% changes (the position cards use narrower margins).
+\apptocmd{\Gm@changelayout}{\setlength{\headwidth}{\textwidth}}{}%
+  {\PackageWarning{handbook}{Could not patch geometry; header width may not follow the text}}
+\makeatother
 
 \newcommand{\hbchapterlabel}{}
 \newcommand{\hbshorttitle}{Soccer Development Handbook}
@@ -95,10 +138,18 @@
   {}{0pt}{}
 \titlespacing*{\subsubsection}{0pt}{0.7em}{0.1em}
 
+% Headings should not be stranded at the bottom of a page. \Needspace (inside
+% \hbneedspace) breaks only when the space is short and adds no false stretch.
+\pretocmd{\section}{\hbneedspace{5\baselineskip}}{}{}
+\pretocmd{\subsection}{\hbneedspace{4\baselineskip}}{}{}
+% A section's link anchor, set inside its heading by handbook.lua so it moves to
+% the next page with the heading instead of staying at the foot of this one.
+\DeclareRobustCommand{\hbanchor}[1]{\hypertarget{#1}{}}
+
 % Part pages
 \newcommand{\hbpart}[4]{% id, kicker, title, description
-  \renewcommand{\hbchapterlabel}{}%
   \clearpage
+  \renewcommand{\hbchapterlabel}{}%
   \thispagestyle{empty}%
   \phantomsection\hypertarget{#1}{}%
   \addcontentsline{toc}{part}{#3}%
@@ -114,17 +165,20 @@
     \vspace{10pt}
     {\hbblack\fontsize{40}{46}\selectfont\color{white}#3\par}
     \vspace{14pt}
-    {\hblight\fontsize{14}{19}\selectfont\color{white!88!hbgreen}\parbox{4.4in}{\centering #4}\par}
+    {\hblight\fontsize{14}{19}\selectfont\color{white!88!hbgreen}\parbox{5.2in}{\centering #4}\par}
   }%
   \clearpage
 }
-\newcommand{\hbsetlabel}[1]{\renewcommand{\hbchapterlabel}{#1}}
+% Start a new page before changing the running label so the previous chapter's
+% last page keeps its own label.
+\newcommand{\hbsetlabel}[1]{\clearpage\renewcommand{\hbchapterlabel}{#1}}
 
 % Position numbers beside card titles (also shown in the contents).
 \DeclareRobustCommand{\hbposnum}[1]{\hspace{0.4em}{\hblight\color{hbgreen}#1}}
 
 % ---------- Lists ----------
-\setlist{itemsep=0.12em, parsep=0pt, topsep=0.3em, partopsep=0pt}
+% beginpenalty: a lead-in line is never left behind at the bottom of a page.
+\setlist{itemsep=0.12em, parsep=0pt, topsep=0.3em, partopsep=0pt, beginpenalty=10000}
 \setlist[itemize,1]{label={\color{hbgreen}\small\raisebox{0.05em}{$\bullet$}}, leftmargin=1.3em}
 \setlist[itemize,2]{label={\color{hbmuted}\textendash}, leftmargin=1.2em}
 \setlist[enumerate,1]{label={\sffamily\bfseries\color{hbgreen}\arabic*.}, leftmargin=1.6em}
@@ -139,6 +193,18 @@
   before skip=0.6em, after skip=0.6em,
   fontupper={\sffamily\bfseries\color{hbgreendark}\fontsize{11.5}{14.5}\selectfont\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000},
 }
+% A cue that would wrap breaks at the sentence boundary nearest its middle
+% (chosen by handbook.lua), but only when both halves fit on one line.
+\newsavebox{\hbcuemeasure}
+\newcommand{\hbcuesplit}[2]{%
+  \sbox{\hbcuemeasure}{#1 #2}%
+  \ifdim\wd\hbcuemeasure>\linewidth
+    \sbox{\hbcuemeasure}{#1}%
+    \ifdim\wd\hbcuemeasure>\linewidth #1 #2\else
+      \sbox{\hbcuemeasure}{#2}%
+      \ifdim\wd\hbcuemeasure>\linewidth #1 #2\else #1\\#2\fi
+    \fi
+  \else #1 #2\fi}
 \newtcolorbox{hbmantra}{
   enhanced, breakable=false,
   colback=hbgreen, colframe=hbgreen,
@@ -176,21 +242,33 @@
 \newcommand{\hbrowstart}{\par\noindent}
 \newcommand{\hbfreedom}[1]{\par\vspace{0.1em}{\centering\sffamily\bfseries\footnotesize\color{hbgreen}#1\par}}
 \newcommand{\hbrowend}{\par\vspace{0.35em}{\color{hbrule}\hrule height 0.5pt}\vspace{0.4em}}
+% Before a panel, the panel's own border separates the rows.
+\newcommand{\hbrowendpanel}{\par\vspace{0.6em}}
 \newenvironment{hbpurpose}[1]
   {\par\hbcellhead{#1}\vspace{-0.35em}\begingroup\fontsize{10.5}{13}\selectfont\raggedright}
   {\par\endgroup\vspace{0.15em}{\color{hbrule}\hrule height 0.5pt}\vspace{0.4em}}
-
-% Long lists of very short items are set in columns.
-\newenvironment{hblistcols}[1]
+% Column lists inside a card panel sit close under the panel title.
+\newenvironment{hbpanelcols}[1]
   {\par\vspace{-0.2em}\setlength{\columnsep}{18pt}\setlength{\multicolsep}{0.2em}\begin{multicols}{#1}\raggedcolumns
    \raggedright\interlinepenalty=10000\hyphenpenalty=10000\exhyphenpenalty=10000}
   {\end{multicols}\vspace{-0.2em}}
 
+% Long lists of very short items are set in columns, with the same space above
+% and below as an ordinary list (topsep plus parskip above, topsep below).
+% handbook.lua reserves room first, so the list starts on the same page as its
+% heading or lead-in line.
+\newenvironment{hblistcols}[1]
+  {\par\addvspace{0.85em plus 0.15em}\setlength{\columnsep}{18pt}\setlength{\multicolsep}{0.3em}%
+   \begin{multicols}{#1}\raggedcolumns
+   \raggedright\interlinepenalty=10000\hyphenpenalty=10000\exhyphenpenalty=10000}
+  {\end{multicols}}
+
 % Reference tables (pandoc longtable): sans, compact, soft rules.
 \AtBeginEnvironment{longtable}{\sffamily\small\arrayrulecolor{hbrule}\renewcommand{\arraystretch}{1.35}}
 
-% Tables and write-in forms (built by handbook.lua).
-\newcommand{\hbtablehead}[1]{{\sffamily\bfseries\footnotesize\color{hbgreen}#1}}
+% Tables and write-in forms (built by handbook.lua). \leavevmode starts the
+% header cell's line before the color change, so the label is not pushed down.
+\newcommand{\hbtablehead}[1]{\leavevmode{\sffamily\bfseries\footnotesize\color{hbgreen}#1}}
 \newcommand{\hbformstrut}{\rule{0pt}{1.9em}}
 \newenvironment{hbtable}[1]
   {\par\vspace{0.3em}\noindent\sffamily\small\arrayrulecolor{hbrule}\renewcommand{\arraystretch}{1.45}%
@@ -210,14 +288,15 @@
    \setlength{\columnsep}{20pt}\setlength{\parskip}{0.5pt}%
    \begin{multicols}{2}\raggedcolumns}
   {\end{multicols}\end{tcolorbox}}
+% Titles wrap before the page-number column (\rightskip), continuation lines
+% align with the title (\hangindent), and the leader keeps a small gap after the
+% title and at least three dots (1.6em of aligned 0.4em dot cells) within the
+% same 1.8em minimum, so no title wraps just to make room for dots.
 \newcommand{\hbtocitem}[3]{%
-  \noindent\hyperref[#1]{\makebox[1.5em][r]{\bfseries\color{hbgreen}#2}\hspace{0.5em}{\color{hbink}#3}}%
-  \nobreak\leaders\hbox to 0.6em{\hss.\hss}\hfill\nobreak\hbox to 1.6em{\hfill\color{hbmuted}\pageref{#1}}\par}
-
-% Headings should not be stranded at the bottom of a page.
-\usepackage{etoolbox}
-\pretocmd{\section}{\needspace{5\baselineskip}}{}{}
-\pretocmd{\subsection}{\needspace{4\baselineskip}}{}{}
+  {\hangindent=2em \rightskip=2.6em plus 1fil \parfillskip=-\rightskip
+   \noindent\hyperref[#1]{\makebox[1.5em][r]{\bfseries\color{hbgreen}#2}\hspace{0.5em}{\color{hbink}#3}}%
+   \nobreak\hskip 0.2em\leaders\hbox to 0.4em{\hss.\hss}\hskip 1.6em plus 1fill
+   \nobreak\makebox[1.6em][r]{\color{hbmuted}\pageref{#1}}\par}}
 
 % Title page is supplied by cover.tex.
 \renewcommand{\maketitle}{}

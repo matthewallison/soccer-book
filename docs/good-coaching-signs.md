@@ -40,9 +40,9 @@ Game day shows only part of the picture. Look at the week too.
 
 ## Questions a player can ask herself
 
-- **"What soccer problem did today's practice teach me to solve?"** Escaping pressure, switching the field, defending a 2v2. If players cannot answer week after week, that is meaningful evidence.
-- **"Where could I go right now that would make me useful?"** Well-coached players ask this all game, with and without the ball.
+- **"What soccer problem did today's practice teach me to solve?"** Escaping pressure, switching the field, defending a 2v2. If players cannot answer week after week, that is meaningful evidence that practice is not teaching clearly.
+- **"Where could I go right now that would make me useful?"** Ask it all game, with and without the ball.
 - **"Will this environment make me a better player?"** Judge it over a season, not a weekend. Game roles hand out touches unevenly, so training, small-sided games, and rotation should give her the repetitions her match role does not.
 - **"How do I make sure I still become the player I want to become?"** Her team role is where she helps the team today. Her development role is the complete player she is becoming. See [Team role and development role](team-culture-and-leadership.md#team-role-and-development-role).
 
-If the answers raise concerns, start with a conversation, not a verdict (see [Parent Partnership](parent-partnership.md)). Coaches can use every question here as a self-check: the best coaching progressively makes the coach less necessary.
+If the answers raise concerns, start with a conversation, not a verdict. Players, see [Asking for opportunities](team-culture-and-leadership.md#asking-for-opportunities); families, see [Parent Partnership](parent-partnership.md). Coaches can use every question here as a self-check: the best coaching progressively makes the coach less necessary.

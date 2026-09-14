@@ -12,12 +12,13 @@ trap 'rm -rf "$BUILD"' EXIT
 INCLUDED=()
 
 # Emit a Markdown file, tagging its first H1 with an anchor (#ch-<basename>)
-# so cross-document links resolve inside the PDF.
+# so cross-document links resolve inside the PDF. An optional second argument
+# replaces the H1 text in print only (the Markdown file is unchanged).
 chapter() {
-  local file="$1" id
+  local file="$1" title="${2:-}" id
   INCLUDED+=("$file")
   id="ch-$(basename "$file" .md)"
-  awk -v id="$id" '!done && /^# / { print $0 " {#" id "}"; done = 1; next } { print }' "$ROOT/$file"
+  awk -v id="$id" -v title="$title" '!done && /^# / { print (title == "" ? $0 : "# " title) " {#" id "}"; done = 1; next } { print }' "$ROOT/$file"
   printf '\n\n'
 }
 
@@ -27,7 +28,8 @@ latex() { printf '\n```{=latex}\n%s\n```\n\n' "$1"; }
   latex '\frontmatter'
   latex '\tableofcontents'
   latex '\mainmatter'
-  chapter README.md
+  # The README's H1 is the book title; in print it is the introduction.
+  chapter README.md Introduction
 
   latex '\hbpart{part-players}{Part one}{For Players}{The principles, language, and habits every player should own.}'
   latex '\hbsetlabel{For players}'
@@ -38,7 +40,7 @@ latex() { printf '\n```{=latex}\n%s\n```\n\n' "$1"; }
   chapter docs/film-review-guide.md
   chapter docs/home-development.md
 
-  latex '\hbpart{part-positions}{Part two}{Position Cards}{One-page references to review before every match. Numbers follow the common 1–11 system; the right side takes the lower number.}'
+  latex '\hbpart{part-positions}{Part two}{Position Cards}{One-page pregame preparation and visualization cards to review before every match. The right side takes the lower number.}'
   latex '\hbsetlabel{Position card}\newgeometry{top=0.6in, bottom=0.62in, left=0.62in, right=0.62in, headsep=0.18in, footskip=0.3in}'
   for card in goalkeeper outside-back center-back defensive-midfield winger striker attacking-midfield; do
     chapter "docs/positions/$card.md"
@@ -62,12 +64,10 @@ latex() { printf '\n```{=latex}\n%s\n```\n\n' "$1"; }
   chapter docs/further-reading.md
 } > "$BUILD/handbook.md"
 
-# Every handbook document must have a place in the print order. The chat
-# transcript is source material, not part of the handbook.
+# Every handbook document must have a place in the print order.
 missing=0
 while IFS= read -r doc; do
   doc="${doc#"$ROOT/"}"
-  [[ "$doc" == docs/chat-transcript.md ]] && continue
   if [[ ! " ${INCLUDED[*]} " == *" $doc "* ]]; then
     echo "error: $doc is not in the print order in print/build.sh" >&2
     missing=1

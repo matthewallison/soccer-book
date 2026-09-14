@@ -69,14 +69,15 @@ For each useful clip:
 - Did I step, delay, cover, or recover appropriately?
 - Could I have intercepted instead of simply following my player?
 - If recovering, did I use a good pursuit angle or simply chase from behind?
+- If we could not win it immediately, did we get compact and protect the middle?
 
 ### Transition
 
 After losing it:
 
 - Could we counterpress?
-- If not, did I recover immediately and help us get compact and protect the middle?
-- Was I already in a useful rest-defense position?
+- If not, did I recover immediately?
+- Was I already in a useful rest-defense position (placed to stop a counterattack while we still had the ball)?
 
 After winning it:
 
@@ -146,7 +147,7 @@ Something to continue and strengthen.
 
 A specific behavior, not a vague judgment.
 
-Bring your one thing to improve to the next team film share, where each player names one thing from her own game.
+Bring your one thing to improve to the next team film share at practice, where each player names one thing from her own game.
 
 ### One solution I want to try
 
@@ -162,15 +163,15 @@ From one half of film, count:
 
 - times I received the ball
 - receptions with at least one scan first (a head turn away from the ball in the 5 seconds before the first touch)
-- receptions facing forward or on the half-turn
-- passes or carries that broke a line
+- receptions facing forward or on the half-turn (side-on, so you can see forward and back)
+- passes or carries that broke a line (got the ball past a line of opponents)
 - times I moved to a new angle after passing
 - times I won or blocked the ball by reading the play
 - times I asked for the ball
 
-Skip clips where you cannot clearly see the head. Far-away team-camera video often cannot show it.
+Skip clips where you cannot clearly see the head. Far-away team-camera video often cannot show it. You often cannot hear calls on it either, so count only the asks for the ball you can see (pointing, showing for it) or hear.
 
-Compare scanning like with like. Everyone scans less under tight pressure, near the touchline, and near goal. Center midfielders usually scan the most and forwards the least, so compare clips from the same position and situation.
+Compare scanning like with like. Everyone scans less under tight pressure, near the touchline, and near goal. Center midfielders (the pivots and the 10) usually scan the most and forwards the least, so compare your own clips from the same position and situation.
 
 **Compare with your own last game, not with teammates.**
 
@@ -178,19 +179,19 @@ Record your tally and your three-part self-review on the [Game Reflection](templ
 
 ## Watch the next developmental level
 
-Professional matches are useful, but also watch soccer 2–3 years above your age group. For U13–U14, that means U15–U16.
+Professional matches are useful, but also watch soccer just 2–3 years above your age group. It shows what players only a little older are expected to do. For U13–U14, start with U15–U16.
 
 Starting in 2026–27, ECNL, ECNL RL, Girls Academy, and most U.S. youth leagues group players by **school year (Aug 1–Jul 31)**, not birth year. League events use U-ages, so search by U-age:
 
-- `ECNL girls U16 full match`
-- `ECNL RL girls U16 full match`
-- `ECNL girls national playoffs U16`
-- `Girls Academy National Finals U16`
-- a strong club name plus `U16 girls`
+- "ECNL girls U16 full match"
+- "ECNL RL girls U16 full match"
+- "ECNL girls national playoffs U16"
+- "Girls Academy National Finals U16"
+- a strong club name plus "U16 girls"
 
-Swap `U16` for `U15` in any of these searches.
+Swap "U16" for "U15" in any of these searches.
 
-**Be careful with birth-year titles.** A `2010` video from 2025–26 shows U16 players. Today the same label can mean U16 or U17 players. Add the season (for example `2025-26`) when you search by birth year.
+**Be careful with birth-year titles.** A "2010" video from 2025–26 shows U16 players. Today the same label can mean U16 or U17 players. Add the season (for example "2025-26") when you search by birth year.
 
 Where to find full games:
 
@@ -198,7 +199,7 @@ Where to find full games:
 - **Girls Academy on YouTube** (National Finals livestreams)
 - club channels that post their own full games
 
-Services change every season. Check each league's website first.
+Services change every season. Check each league's website first. Links are in [Sources and Further Reading](further-reading.md).
 
 Prefer **full matches**, not highlights.
 

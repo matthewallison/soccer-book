@@ -194,9 +194,7 @@ Gather information about:
 - opponents
 - dangerous space
 
-**See the ball and the most dangerous space or opponent.**
-
-Do not become so focused on a single mark that you lose the larger picture.
+**See the ball and the most dangerous space or opponent.** Do not become so focused on a single mark that you lose the larger picture.
 
 **Protect dangerous space first. Get tighter as the ball and danger get closer.**
 
