@@ -14,7 +14,7 @@ This document is for coaches. Players are **not** expected to consciously rememb
 
 ### Where to start
 
-Do not try to install 45 sections at once. Build in layers, and move on when the previous layer shows up in games without reminders:
+Do not try to install 45 sections at once. Build in layers, and move on when the previous layer is showing up consistently in games with fewer reminders:
 
 1. **Culture and the four moments** (§2–5, §27–33): mantras, mistake culture, courage, and the habit of reacting the instant the ball changes hands.
 2. **Spacing and outlets** (§12–15, §18–19): everyone becomes an option, pass and move, five lanes, building from the back with the goalkeeper.

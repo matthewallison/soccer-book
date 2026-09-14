@@ -21,11 +21,15 @@ Players say the mantras out loud, together: the practice mantra is the first thi
 
 ### Players
 
-- Know the four mantras and the bold principles in the [High-Level Player Sheet](player-philosophy.md) by memory; use the rest as a quick reference.
+- Know the four mantras by memory. Learn the bold principles in the [High-Level Player Sheet](player-philosophy.md) over time, and use it as a quick reference.
 - Read [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) for the ideas behind the sheet.
 - Before each match, review the [position card](positions/index.md) for your role and picture its moments.
 - Study your games with the [Film Review Guide](film-review-guide.md), and choose short sessions from the [Home Development Menu](home-development.md).
 - If something hurts, tell a parent and your coach, and read [Injuries, Recovery, and Return to Play](injuries-and-return-to-play.md).
+
+### Position cards
+
+- Find your role by number in the [position card index](positions/index.md): one page to read before every match.
 
 ### Coaches
 
@@ -50,4 +54,4 @@ The full explanation and training progression are in §7 of the [Coaching Game M
 
 Version 1.0 · September 2026. Laws, safety policies, league structures, and media sources change; check them each season. The principles were checked against federation, academy, and research sources (see [Sources and Further Reading](further-reading.md)) but are not an official program of any of them.
 
-Shared under [Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/): clubs, coaches, players, and families may copy, adapt, print, and share it for any non-commercial purpose. The source is on [GitHub](https://github.com/matthewallison/soccer-book).
+Shared under [Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/): clubs, coaches, players, and families may copy, adapt, print, and share it for any non-commercial purpose. Appropriate attribution is required, and adaptations should indicate that changes were made; see the [full license terms](https://creativecommons.org/licenses/by-nc/4.0/legalcode). The source is on [GitHub](https://github.com/matthewallison/soccer-book).

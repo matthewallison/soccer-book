@@ -35,7 +35,7 @@ The full explanation and training progression are in §7 of the [Coaching Game M
 
 ### Players
 
-- Know the four mantras and the bold principles in the [High-Level Player Sheet](docs/player-philosophy.md) by memory; use the rest as a quick reference.
+- Know the four mantras by memory. Learn the bold principles in the [High-Level Player Sheet](docs/player-philosophy.md) over time, and use it as a quick reference.
 - Read [Team Culture, Courage, Leadership & Self-Coaching](docs/team-culture-and-leadership.md) for the ideas behind the sheet.
 - Learn the team's shared words, body shape, and movement habits in [Communication & Movement Fundamentals](docs/communication-and-movement.md).
 - Before each match, review the [position card](docs/positions/) for your role and picture its moments.
@@ -57,7 +57,7 @@ The full explanation and training progression are in §7 of the [Coaching Game M
 
 ## Documents
 
-- [High-Level Player Sheet](docs/player-philosophy.md) — the mantras and principles every player should know; the bold lines are the ones to memorize.
+- [High-Level Player Sheet](docs/player-philosophy.md) — the four mantras to memorize and the principles to learn over time.
 - [Team Culture, Courage, Leadership & Self-Coaching](docs/team-culture-and-leadership.md) — wanting the moment, penalty kicks, mistake culture, leadership, self-coaching, asking for opportunities, and peer support.
 - [Injuries, Recovery, and Return to Play](docs/injuries-and-return-to-play.md) — what toughness really means, staying connected while injured, and returning progressively and confidently once cleared.
 - [Communication & Movement Fundamentals](docs/communication-and-movement.md) — shared vocabulary, changing the size of the game, body shape, movement timing, and defensive posture.
@@ -102,4 +102,4 @@ The system itself should keep improving: attached to sound principles, not to on
 
 ## Website and license
 
-Read it online at <https://matthewallison.github.io/soccer-book/>. Shared under [CC BY-NC 4.0](LICENSE): clubs, coaches, and families may copy, adapt, print, and share it for any non-commercial purpose, but it may not be sold.
+Read it online at <https://matthewallison.github.io/soccer-book/>. Shared under [CC BY-NC 4.0](LICENSE): clubs, coaches, and families may copy, adapt, print, and share it for any non-commercial purpose, but it may not be sold. Appropriate attribution is required, and adaptations should indicate that changes were made; see [LICENSE](LICENSE) for the full terms.

@@ -1,6 +1,6 @@
 # High-Level Player Sheet
 
-This is the short version. Know the four mantras and the bold principles by memory, and use the rest of this sheet as a quick reference. The fuller explanations live in [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) and, for how we play, [Communication & Movement Fundamentals](communication-and-movement.md).
+This is the short version. Know the four mantras by memory. Learn the bold principles over time, and use this sheet as a quick reference. The fuller explanations live in [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) and, for how we play, [Communication & Movement Fundamentals](communication-and-movement.md).
 
 ## Our four team mantras
 
