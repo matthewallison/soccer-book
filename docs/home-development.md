@@ -222,7 +222,7 @@ Use the [Film Review Guide](film-review-guide.md).
 
 - picture your role in the four moments
 - rehearse your response after a mistake: your [team reset](team-culture-and-leadership.md#team-reset), then next play
-- pick one cue from your [position card](positions/)
+- pick one cue from your [position card](positions/index.md)
 
 Mental reps add to real practice. **They do not replace it.**
 

@@ -68,6 +68,7 @@ latex() { printf '\n```{=latex}\n%s\n```\n\n' "$1"; }
 missing=0
 while IFS= read -r doc; do
   doc="${doc#"$ROOT/"}"
+  [[ "$(basename "$doc")" == index.md ]] && continue  # website landing pages
   if [[ ! " ${INCLUDED[*]} " == *" $doc "* ]]; then
     echo "error: $doc is not in the print order in print/build.sh" >&2
     missing=1

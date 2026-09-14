@@ -956,7 +956,7 @@ Plan on the [Weekend Role Sheet](templates/weekend-role-sheet.md). The coach kee
 
 ### Position cards
 
-Each [position card](positions/) is a pregame preparation and visualization tool, not a miniature version of this manual. It gives the player:
+Each [position card](positions/index.md) is a pregame preparation and visualization tool, not a miniature version of this manual. It gives the player:
 
 - her purpose in the role
 - a role-specific pregame mindset

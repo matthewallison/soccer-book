@@ -1,0 +1,93 @@
+site_name: Soccer Development Handbook
+site_description: A player-development and team-coaching handbook for intelligent, technical, courageous youth soccer.
+site_url: https://matthewallison.github.io/soccer-book/
+repo_url: https://github.com/matthewallison/soccer-book
+repo_name: matthewallison/soccer-book
+edit_uri: ""
+copyright: Version 1.0 · September 2026 · CC BY-NC 4.0
+
+docs_dir: docs
+
+# MkDocs excludes a docs/templates/ folder by default; the handbook uses it for printable forms.
+exclude_docs: |
+  !/templates/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Lato
+  icon:
+    logo: material/soccer
+  favicon: assets/favicon.svg
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - assets/handbook.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - tables
+  - attr_list
+  - admonition
+  - pymdownx.smartsymbols
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+nav:
+  - Start here: index.md
+  - For players:
+      - High-Level Player Sheet: player-philosophy.md
+      - Team Culture, Courage & Leadership: team-culture-and-leadership.md
+      - Injuries, Recovery & Return to Play: injuries-and-return-to-play.md
+      - Communication & Movement: communication-and-movement.md
+      - Film Review Guide: film-review-guide.md
+      - Home Development Menu: home-development.md
+  - Position cards:
+      - positions/index.md
+      - "Goalkeeper (#1)": positions/goalkeeper.md
+      - "Outside Back (#2 / #3)": positions/outside-back.md
+      - "Center Back (#4 / #5)": positions/center-back.md
+      - "Pivot (#6 / #8)": positions/defensive-midfield.md
+      - "Winger (#7 / #11)": positions/winger.md
+      - "Striker (#9)": positions/striker.md
+      - "Attacking Midfielder (#10)": positions/attacking-midfield.md
+  - For coaches & parents:
+      - Coaching Game Model: coaching-game-model.md
+      - What Good Coaching Looks Like: good-coaching-signs.md
+      - Parent Partnership: parent-partnership.md
+  - Templates & resources:
+      - Weekend Role Sheet: templates/weekend-role-sheet.md
+      - Game Reflection: templates/game-reflection.md
+      - Development Plan: templates/development-plan.md
+      - Sources & Further Reading: further-reading.md

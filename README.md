@@ -82,9 +82,10 @@ The full explanation and training progression are in §7 of the [Coaching Game M
 - [Striker (#9)](docs/positions/striker.md)
 - [Attacking Midfielder (#10)](docs/positions/attacking-midfield.md)
 
-## Printing
+## Printing and website
 
 - [Print files](print/) — `print/build.sh` builds `soccer-development-handbook.pdf` in the repository root (pass a path to write it elsewhere). It requires pandoc, XeLaTeX with a full TeX Live installation, TeX Gyre Pagella, and the Lato .ttf files in `/usr/share/fonts/truetype/lato/` (for example, the fonts-lato package).
+- [Website files](.github/workflows/) — `mkdocs.yml` builds the site with MkDocs Material; `.github/workflows/pages.yml` publishes it to GitHub Pages on every push to `main`. Preview locally with `pip install -r requirements.txt && mkdocs serve`.
 
 ## Roles and privacy
 
@@ -99,6 +100,6 @@ Winning matters, and players should want to win.
 
 The system itself should keep improving: attached to sound principles, not to one method, with training, roles, and constraints evolving as players develop. The principles were checked against federation, academy, and research sources (see [Sources and Further Reading](docs/further-reading.md)) but are not an official program of any of them.
 
-## License
+## Website and license
 
-This handbook is shared under the [Creative Commons Attribution-NonCommercial 4.0](LICENSE) license. Clubs, coaches, players, and families may copy, adapt, print, and share it for any non-commercial purpose. It may not be sold or used commercially without permission. A simple credit to this repository is all the license asks for.
+Read it online at <https://matthewallison.github.io/soccer-book/>. Shared under [CC BY-NC 4.0](LICENSE): clubs, coaches, and families may copy, adapt, print, and share it for any non-commercial purpose, but it may not be sold.

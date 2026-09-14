@@ -133,10 +133,10 @@ local function Link(el)
   end
   if target:match('^%a+:') then return el end
   local base = target:match('([^/#]+)%.md')
-  if base then
-    el.target = '#ch-' .. base
-  elseif target:match('positions/?$') then
+  if target:match('positions/index%.md$') or target:match('positions/?$') then
     el.target = '#part-positions'
+  elseif base then
+    el.target = '#ch-' .. base
   end
   return el
 end
@@ -326,8 +326,11 @@ local function drop_index_sections(doc)
   while i <= #blocks do
     local b = blocks[i]
     if b.t == 'Header' and b.level == 2 then
+      -- The README's website/license note is printed on the cover instead.
+      local always = stringify(b.content) == 'Website and license'
       local j, only_links = i + 1, true
-      while j <= #blocks and not (blocks[j].t == 'Header' and blocks[j].level <= 2) do
+      while j <= #blocks and not (blocks[j].t == 'Header' and blocks[j].level <= 2)
+          and not (blocks[j].t == 'RawBlock' and blocks[j].text:match('\\hb%a')) do
         local s = blocks[j]
         if s.t ~= 'BulletList' then only_links = false
         else
@@ -337,7 +340,7 @@ local function drop_index_sections(doc)
         end
         j = j + 1
       end
-      if only_links and j > i + 1 then
+      if (always or only_links) and j > i + 1 then
         i = j
       else
         table.insert(out, b)

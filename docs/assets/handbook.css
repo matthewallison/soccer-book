@@ -1,0 +1,27 @@
+/* Website styling for the Soccer Development Handbook (matches the print colors). */
+:root {
+  --md-primary-fg-color: #1e5e3b;
+  --md-primary-fg-color--light: #2d7a50;
+  --md-primary-fg-color--dark: #143f28;
+  --md-accent-fg-color: #2d7a50;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1e5e3b;
+  --md-accent-fg-color: #6fbf8f;
+  --md-typeset-a-color: #6fbf8f;
+}
+
+/* Write-in form tables (templates): give empty cells writing room when printed from the browser. */
+.md-typeset table:not([class]) td:empty {
+  height: 2rem;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+  color: var(--md-primary-fg-color);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: var(--md-default-fg-color);
+}
