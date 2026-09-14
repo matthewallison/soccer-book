@@ -1,6 +1,8 @@
 # Weekend Role Sheet
 
-About 48 hours before the match, you get your roles in person at practice or through the team app with parents included. This is not the starting lineup, and roles may still change.
+Roles go out about 48 hours before the match, in person or through the team app with parents included. This is not the starting lineup, and roles may still change. The coach keeps the table; each player receives only her own row, then reviews the [position card](../positions/) for each role and pictures its moments. Continue on a second sheet as needed.
+
+**Preparation happens before the game. Thinking happens during the game.**
 
 | Match | Date | Opponent |
 |---|---|---|
@@ -23,7 +25,4 @@ About 48 hours before the match, you get your roles in person at practice or thr
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
-
-The coach keeps this table. Each player receives only her own row. Before the match, review the [position card](../positions/) for each role — your pregame preparation card — and picture its moments.
-
-**Preparation happens before the game. Thinking happens during the game.**
+|  |  |  |  |  |

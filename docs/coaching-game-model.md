@@ -12,6 +12,18 @@ We are a committed, technical team without dominant athletes. We will not win a 
 
 This document is for coaches. Players are **not** expected to consciously remember every item during games. The detailed principles here should be taught through representative training and reduced to simple cues for players.
 
+### Where to start
+
+Do not try to install 45 sections at once. Build in layers, and move on when the previous layer shows up in games without reminders:
+
+1. **Culture and the four moments** (§2–5, §27–33): mantras, mistake culture, courage, and the habit of reacting the instant the ball changes hands.
+2. **Spacing and outlets** (§12–15, §18–19): everyone becomes an option, pass and move, five lanes, building from the back with the goalkeeper.
+3. **The middle gear** (§6–8): recognizing when pressure is escaped and the field is big, carrying, switching, purposeful longer passing.
+4. **Defensive coordination** (§20–26): rest defense, delay, marking distance, pressing together, restarts, game state.
+5. **Rotations and advanced detail** (§9–11, §16–17): fixing defenders, deception, third-player runs, front-line and outside-back movement.
+
+Practice design (§40–41) and the development system (§29–31) run throughout.
+
 The coaching system itself is a living system. We should be attached to good principles, not rigidly attached to one method.
 
 Regularly ask:

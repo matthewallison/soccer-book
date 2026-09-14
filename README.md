@@ -2,6 +2,8 @@
 
 A practical player-development and team-coaching handbook for a U13–U14 girls' ECNL Regional League team, built around intelligent, technical, courageous soccer. The framework applies across U13–U16.
 
+Version 1.0 · September 2026. Laws, safety policies, league structures, and media sources in this handbook change; check them each season.
+
 The central goal is not to create players who memorize instructions. It is to develop players who can **scan, communicate, make intentional decisions, solve problems, compete, reflect, lead, and adapt**.
 
 ## Core team mantras
@@ -27,13 +29,13 @@ We want to replace it with:
 
 **Combine → escape → expand → exploit space with intention.**
 
-Players have the short version in the [High-Level Player Sheet](docs/player-philosophy.md) and the team cues in [Communication & Movement Fundamentals](docs/communication-and-movement.md). Coaches have the full explanation and training progression in §7 of the [Coaching Game Model & Development Manual](docs/coaching-game-model.md).
+The full explanation and training progression are in §7 of the [Coaching Game Model & Development Manual](docs/coaching-game-model.md).
 
 ## How to use this handbook
 
 ### Players
 
-- Know the [High-Level Player Sheet](docs/player-philosophy.md) by memory.
+- Know the four mantras and the bold principles in the [High-Level Player Sheet](docs/player-philosophy.md) by memory; use the rest as a quick reference.
 - Read [Team Culture, Courage, Leadership & Self-Coaching](docs/team-culture-and-leadership.md) for the ideas behind the sheet.
 - Learn the team's shared words, body shape, and movement habits in [Communication & Movement Fundamentals](docs/communication-and-movement.md).
 - Before each match, review the [position card](docs/positions/) for your role and picture its moments.
@@ -55,7 +57,7 @@ Players have the short version in the [High-Level Player Sheet](docs/player-phil
 
 ## Documents
 
-- [High-Level Player Sheet](docs/player-philosophy.md) — the few principles every player should know by memory.
+- [High-Level Player Sheet](docs/player-philosophy.md) — the mantras and principles every player should know; the bold lines are the ones to memorize.
 - [Team Culture, Courage, Leadership & Self-Coaching](docs/team-culture-and-leadership.md) — wanting the moment, penalty kicks, mistake culture, leadership, self-coaching, asking for opportunities, and peer support.
 - [Injuries, Recovery, and Return to Play](docs/injuries-and-return-to-play.md) — what toughness really means, staying connected while injured, and returning progressively and confidently once cleared.
 - [Communication & Movement Fundamentals](docs/communication-and-movement.md) — shared vocabulary, changing the size of the game, body shape, movement timing, and defensive posture.
@@ -86,8 +88,7 @@ Players have the short version in the [High-Level Player Sheet](docs/player-phil
 
 ## Roles and privacy
 
-Position numbers follow the common U.S. 1–11 numbering; the right side takes the lower number.
-
+Position numbers follow the common U.S. 1–11 numbering; the right side takes the lower number. 
 **Shareable documents use roles and positions only, never player names.** Each player receives only her own Weekend Role Sheet row, in person or through the team app with parents included, and development feedback happens face to face at the field, in view of others.
 
 ## Philosophy
@@ -96,8 +97,4 @@ Winning matters, and players should want to win.
 
 **Winning is not the primary measure of development, but competing to win is part of development.**
 
-Players should also learn to want difficult moments, lead without needing an armband, and gradually become capable of coaching themselves.
-
-The system itself should keep improving. Coaches should be attached to sound principles, not rigidly attached to one method. Training, roles, constraints, and tactical details should evolve as players develop and the team reveals new needs.
-
-These principles were checked against publicly available federation, academy, and research sources, including ideas from Ajax, Barça, The FA, and U.S. Soccer youth guidance, but this handbook is not an official program of any of them (see [Sources and Further Reading](docs/further-reading.md)).
+The system itself should keep improving: attached to sound principles, not to one method, with training, roles, and constraints evolving as players develop. The principles were checked against federation, academy, and research sources (see [Sources and Further Reading](docs/further-reading.md)) but are not an official program of any of them.

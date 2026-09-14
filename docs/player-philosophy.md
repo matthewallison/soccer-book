@@ -1,6 +1,6 @@
 # High-Level Player Sheet
 
-This is the short version. These are the ideas every player should know by memory. The fuller explanations live in [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) and, for how we play, [Communication & Movement Fundamentals](communication-and-movement.md).
+This is the short version. Know the four mantras and the bold principles by memory, and use the rest of this sheet as a quick reference. The fuller explanations live in [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) and, for how we play, [Communication & Movement Fundamentals](communication-and-movement.md).
 
 ## Our four team mantras
 
@@ -46,12 +46,18 @@ At every moment, ask: **Where could I go right now that would make me useful?**
 
 ### When the field opens
 
+Rondos teach us how to survive when the game gets small. Soccer also requires us to recognize when the game becomes big.
+
 - **Small space: combine. Big space: exploit.**
-- When we escape pressure, recognize that the problem has changed.
-- Do not stay trapped in the small-space game after the field opens.
-- Carry open grass, switch the field, find the weak side, or attack before the defense recovers.
+- When we escape pressure, recognize that the problem has changed. Look up.
+- Do not keep playing five-yard passes in the same crowded area after the field opens.
+- Carry open grass, switch the field, find a runner, or attack before the defense recovers.
 - A longer pass with a clear purpose is not a clearance.
 - **Find the biggest useful space.**
+
+**SMALL SPACE: COMBINE. BIG SPACE: EXPLOIT.**
+
+The goal is not to pass short or to pass long. The goal is to recognize the space and use the right solution.
 
 ### Without the ball and in transition
 
@@ -60,20 +66,6 @@ At every moment, ask: **Where could I go right now that would make me useful?**
 - On loss: counterpress if we can win it; otherwise recover into shape immediately.
 - Defend from a position you can attack from.
 - Head with purpose, not habit.
-
-## Use the whole field
-
-Rondos teach us how to survive when the game gets small. Soccer also requires us to recognize when the game becomes big. When we escape pressure, do not automatically keep playing five-yard passes in the same crowded area. Look up. If space has opened:
-
-- carry it
-- switch it
-- attack it
-- find a runner
-- or play a longer pass with purpose
-
-**SMALL SPACE: COMBINE. BIG SPACE: EXPLOIT.**
-
-The goal is not to pass short. The goal is not to pass long. The goal is to recognize the space and use the right solution.
 
 ## Brave soccer
 
