@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1e5e3b">
+  <title>Reaction Trainer</title>
+  <style>
+    :root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    html, body { margin:0; min-height:100%; background:#f7f8f7; color:#18201b; }
+    body { padding: max(20px, env(safe-area-inset-top)) 18px max(24px, env(safe-area-inset-bottom)); }
+    .app { max-width:720px; margin:0 auto; }
+    h1 { color:#1e5e3b; margin:.2rem 0 .5rem; font-size:2rem; }
+    .intro { color:#53605a; margin:0 0 1.2rem; }
+    h2 { font-size:1.1rem; margin:1.2rem 0 .6rem; }
+    .colors { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.65rem; }
+    .color { --swatch:#888; appearance:none; -webkit-appearance:none; display:flex; align-items:center; gap:.65rem; width:100%; padding:.8rem; border:2px solid #d7ddd9; border-radius:12px; background:white; color:#18201b; font:inherit; font-weight:600; text-align:left; }
+    .color[aria-pressed="true"] { border-color:#1e5e3b; box-shadow:0 0 0 1px #1e5e3b; background:#eef7f1; }
+    .color[aria-pressed="true"]::after { content:"✓"; margin-left:auto; font-weight:900; color:#1e5e3b; }
+    .swatch { width:30px; height:30px; flex:none; border-radius:50%; background:var(--swatch); border:1px solid rgba(0,0,0,.22); }
+    .settings { margin-top:1.2rem; }
+    .interval-row { display:flex; align-items:center; gap:.6rem; margin-top:.4rem; }
+    input { width:90px; font:inherit; font-size:1.05rem; padding:.65rem; border:1px solid #c7cfca; border-radius:10px; background:white; color:#18201b; }
+    .message { min-height:1.5rem; margin:.7rem 0 .35rem; color:#a02323; font-weight:700; }
+    .start { appearance:none; -webkit-appearance:none; width:100%; border:0; border-radius:12px; padding:.95rem 1rem; background:#1e5e3b; color:white; font:800 1.05rem/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .help { color:#68736d; font-size:.86rem; line-height:1.4; }
+    .back { display:inline-block; margin-top:1.2rem; color:#1e5e3b; text-decoration:none; font-weight:650; }
+    #stage { position:fixed; inset:0; z-index:999999; width:100vw; height:100vh; background:#111; display:none; touch-action:manipulation; }
+    #stage.active { display:block; }
+    .stop-hint { position:absolute; left:50%; bottom:max(18px,env(safe-area-inset-bottom)); transform:translateX(-50%); padding:.5rem .8rem; border-radius:999px; background:rgba(0,0,0,.38); color:white; font-size:.78rem; font-weight:700; white-space:nowrap; }
+    @media (min-width:560px) { .colors { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+    @media (prefers-color-scheme:dark) {
+      html,body { background:#141815; color:#eef2ef; }
+      h1 { color:#78c798; }
+      .intro,.help { color:#aab4ae; }
+      .color { background:#202622; color:#eef2ef; border-color:#3a433d; }
+      .color[aria-pressed="true"] { background:#173323; border-color:#78c798; box-shadow:0 0 0 1px #78c798; }
+      .color[aria-pressed="true"]::after,.back { color:#78c798; }
+      input { background:#202622; color:#eef2ef; border-color:#3a433d; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <h1>Reaction Trainer</h1>
+    <p class="intro">Choose at least two colors, choose the interval, and press Start. The next cue will always be different from the current one.</p>
+
+    <h2>Choose colors</h2>
+    <div class="colors" id="colors">
+      <button class="color" type="button" aria-pressed="true" data-color="#e53935" data-name="Red" style="--swatch:#e53935"><span class="swatch"></span>Red</button>
+      <button class="color" type="button" aria-pressed="true" data-color="#1e88e5" data-name="Blue" style="--swatch:#1e88e5"><span class="swatch"></span>Blue</button>
+      <button class="color" type="button" aria-pressed="true" data-color="#43a047" data-name="Green" style="--swatch:#43a047"><span class="swatch"></span>Green</button>
+      <button class="color" type="button" aria-pressed="false" data-color="#fdd835" data-name="Yellow" style="--swatch:#fdd835"><span class="swatch"></span>Yellow</button>
+      <button class="color" type="button" aria-pressed="false" data-color="#fb8c00" data-name="Orange" style="--swatch:#fb8c00"><span class="swatch"></span>Orange</button>
+      <button class="color" type="button" aria-pressed="false" data-color="#8e24aa" data-name="Purple" style="--swatch:#8e24aa"><span class="swatch"></span>Purple</button>
+      <button class="color" type="button" aria-pressed="false" data-color="#ffffff" data-name="White" style="--swatch:#ffffff"><span class="swatch"></span>White</button>
+      <button class="color" type="button" aria-pressed="false" data-color="#111111" data-name="Black" style="--swatch:#111111"><span class="swatch"></span>Black</button>
+    </div>
+
+    <div class="settings">
+      <label for="interval"><strong>Change every</strong></label>
+      <div class="interval-row"><input id="interval" type="number" inputmode="decimal" min="0.2" max="60" step="0.1" value="1.0"><span>seconds</span></div>
+    </div>
+
+    <div id="message" class="message" role="status" aria-live="polite"></div>
+    <button id="start" class="start" type="button">Start full-screen cues</button>
+    <p class="help">Tap anywhere on the color screen to stop. The app will try to keep the display awake while the drill is running.</p>
+    <a class="back" href="../">← Back to handbook tools</a>
+  </main>
+
+  <div id="stage" aria-label="Reaction cue"><div class="stop-hint">Tap anywhere to stop</div></div>
+
+  <script>
+    const colorsEl = document.getElementById('colors');
+    const stage = document.getElementById('stage');
+    const startButton = document.getElementById('start');
+    const intervalInput = document.getElementById('interval');
+    const message = document.getElementById('message');
+    let timer = null;
+    let currentValue = null;
+    let wakeLock = null;
+
+    colorsEl.addEventListener('click', (event) => {
+      const button = event.target.closest('button.color');
+      if (!button) return;
+      button.setAttribute('aria-pressed', button.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+      message.textContent = '';
+    });
+
+    function selectedColors() {
+      return Array.from(document.querySelectorAll('button.color[aria-pressed="true"]')).map((button) => ({
+        value: button.dataset.color,
+        name: button.dataset.name
+      }));
+    }
+
+    function nextCue() {
+      const selected = selectedColors();
+      const choices = currentValue === null ? selected : selected.filter((color) => color.value !== currentValue);
+      if (!choices.length) return;
+      const next = choices[Math.floor(Math.random() * choices.length)];
+      currentValue = next.value;
+      stage.style.backgroundColor = next.value;
+      stage.setAttribute('aria-label', next.name + ' reaction cue');
+    }
+
+    async function keepAwake() {
+      try {
+        if ('wakeLock' in navigator) wakeLock = await navigator.wakeLock.request('screen');
+      } catch (_) {}
+    }
+
+    async function start() {
+      const selected = selectedColors();
+      const seconds = Number(intervalInput.value);
+      if (selected.length < 2) {
+        message.textContent = 'Choose at least two colors.';
+        return;
+      }
+      if (!Number.isFinite(seconds) || seconds < 0.2) {
+        message.textContent = 'Choose an interval of at least 0.2 seconds.';
+        return;
+      }
+
+      message.textContent = '';
+      currentValue = null;
+      stage.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      nextCue();
+      timer = window.setInterval(nextCue, seconds * 1000);
+      keepAwake();
+    }
+
+    async function stop() {
+      if (timer) window.clearInterval(timer);
+      timer = null;
+      stage.classList.remove('active');
+      stage.style.backgroundColor = '#111';
+      document.body.style.overflow = '';
+      currentValue = null;
+      try { if (wakeLock) await wakeLock.release(); } catch (_) {}
+      wakeLock = null;
+    }
+
+    startButton.addEventListener('click', start);
+    stage.addEventListener('click', stop);
+    document.addEventListener('visibilitychange', () => {
+      if (timer && document.visibilityState === 'visible' && !wakeLock) keepAwake();
+    });
+  </script>
+</body>
+</html>
