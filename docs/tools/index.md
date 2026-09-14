@@ -5,15 +5,15 @@ A simple full-screen color reaction tool for training. Choose at least two color
 <div class="rt-app" id="reaction-trainer">
   <div class="rt-panel">
     <h2>Choose colors</h2>
-    <div class="rt-colors" role="group" aria-label="Colors">
-      <label class="rt-color-option" style="--swatch:#e53935"><input type="checkbox" value="#e53935" data-name="Red" checked><span class="rt-swatch"></span><span>Red</span></label>
-      <label class="rt-color-option" style="--swatch:#1e88e5"><input type="checkbox" value="#1e88e5" data-name="Blue" checked><span class="rt-swatch"></span><span>Blue</span></label>
-      <label class="rt-color-option" style="--swatch:#43a047"><input type="checkbox" value="#43a047" data-name="Green" checked><span class="rt-swatch"></span><span>Green</span></label>
-      <label class="rt-color-option" style="--swatch:#fdd835"><input type="checkbox" value="#fdd835" data-name="Yellow"><span class="rt-swatch"></span><span>Yellow</span></label>
-      <label class="rt-color-option" style="--swatch:#fb8c00"><input type="checkbox" value="#fb8c00" data-name="Orange"><span class="rt-swatch"></span><span>Orange</span></label>
-      <label class="rt-color-option" style="--swatch:#8e24aa"><input type="checkbox" value="#8e24aa" data-name="Purple"><span class="rt-swatch"></span><span>Purple</span></label>
-      <label class="rt-color-option rt-light" style="--swatch:#ffffff"><input type="checkbox" value="#ffffff" data-name="White"><span class="rt-swatch"></span><span>White</span></label>
-      <label class="rt-color-option" style="--swatch:#111111"><input type="checkbox" value="#111111" data-name="Black"><span class="rt-swatch"></span><span>Black</span></label>
+    <div class="rt-colors" id="rt-colors" role="group" aria-label="Colors">
+      <button type="button" class="rt-color-option is-selected" data-color="#e53935" data-name="Red" aria-pressed="true" style="--swatch:#e53935"><span class="rt-swatch"></span><span>Red</span></button>
+      <button type="button" class="rt-color-option is-selected" data-color="#1e88e5" data-name="Blue" aria-pressed="true" style="--swatch:#1e88e5"><span class="rt-swatch"></span><span>Blue</span></button>
+      <button type="button" class="rt-color-option is-selected" data-color="#43a047" data-name="Green" aria-pressed="true" style="--swatch:#43a047"><span class="rt-swatch"></span><span>Green</span></button>
+      <button type="button" class="rt-color-option" data-color="#fdd835" data-name="Yellow" aria-pressed="false" style="--swatch:#fdd835"><span class="rt-swatch"></span><span>Yellow</span></button>
+      <button type="button" class="rt-color-option" data-color="#fb8c00" data-name="Orange" aria-pressed="false" style="--swatch:#fb8c00"><span class="rt-swatch"></span><span>Orange</span></button>
+      <button type="button" class="rt-color-option" data-color="#8e24aa" data-name="Purple" aria-pressed="false" style="--swatch:#8e24aa"><span class="rt-swatch"></span><span>Purple</span></button>
+      <button type="button" class="rt-color-option" data-color="#ffffff" data-name="White" aria-pressed="false" style="--swatch:#ffffff"><span class="rt-swatch"></span><span>White</span></button>
+      <button type="button" class="rt-color-option" data-color="#111111" data-name="Black" aria-pressed="false" style="--swatch:#111111"><span class="rt-swatch"></span><span>Black</span></button>
     </div>
 
     <div class="rt-settings">
@@ -36,12 +36,12 @@ A simple full-screen color reaction tool for training. Choose at least two color
 </div>
 
 <style>
-.rt-app { margin: 1.25rem 0 2rem; }
-.rt-panel { max-width: 44rem; }
+.rt-app { margin:1.25rem 0 2rem; }
+.rt-panel { max-width:44rem; }
 .rt-colors { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.65rem; margin:.6rem 0 1.35rem; }
-.rt-color-option { --swatch:#888; display:flex; align-items:center; gap:.65rem; border:1px solid var(--md-default-fg-color--lightest); border-radius:.55rem; padding:.72rem .8rem; cursor:pointer; user-select:none; }
-.rt-color-option:has(input:checked) { border-color:var(--md-accent-fg-color); box-shadow:0 0 0 1px var(--md-accent-fg-color); }
-.rt-color-option input { width:1.15rem; height:1.15rem; margin:0; }
+.rt-color-option { --swatch:#888; appearance:none; -webkit-appearance:none; width:100%; display:flex; align-items:center; gap:.65rem; border:2px solid var(--md-default-fg-color--lightest); border-radius:.55rem; padding:.72rem .8rem; cursor:pointer; user-select:none; background:var(--md-default-bg-color); color:var(--md-default-fg-color); font:inherit; text-align:left; }
+.rt-color-option.is-selected { border-color:var(--md-accent-fg-color); box-shadow:0 0 0 1px var(--md-accent-fg-color); background:color-mix(in srgb, var(--md-accent-fg-color) 10%, var(--md-default-bg-color)); }
+.rt-color-option.is-selected::after { content:'✓'; margin-left:auto; font-weight:800; }
 .rt-swatch { width:1.7rem; height:1.7rem; border-radius:50%; background:var(--swatch); border:1px solid rgba(127,127,127,.45); flex:none; }
 .rt-settings { margin:1rem 0; }
 .rt-interval-row { display:flex; align-items:center; gap:.55rem; margin-top:.35rem; }
@@ -58,27 +58,47 @@ A simple full-screen color reaction tool for training. Choose at least two color
 <script>
 (() => {
   const root = document.getElementById('reaction-trainer');
-  if (!root || root.dataset.ready) return;
+  if (!root || root.dataset.ready === '1') return;
   root.dataset.ready = '1';
 
-  const stage = document.getElementById('rt-stage');
-  const startButton = document.getElementById('rt-start');
-  const intervalInput = document.getElementById('rt-interval');
-  const message = document.getElementById('rt-message');
-  const checks = [...root.querySelectorAll('.rt-color-option input[type="checkbox"]')];
+  const stage = root.querySelector('#rt-stage');
+  const startButton = root.querySelector('#rt-start');
+  const intervalInput = root.querySelector('#rt-interval');
+  const message = root.querySelector('#rt-message');
+  const colorGroup = root.querySelector('#rt-colors');
 
   let timer = null;
   let current = null;
   let wakeLock = null;
   let running = false;
 
-  const selectedColors = () => checks.filter(c => c.checked).map(c => ({ value: c.value, name: c.dataset.name }));
+  function colorButtons() {
+    return Array.from(root.querySelectorAll('.rt-color-option'));
+  }
 
-  function showMessage(text) { message.textContent = text || ''; }
+  function selectedColors() {
+    return colorButtons()
+      .filter(button => button.getAttribute('aria-pressed') === 'true')
+      .map(button => ({ value: button.dataset.color, name: button.dataset.name }));
+  }
+
+  function showMessage(text) {
+    message.textContent = text || '';
+  }
+
+  colorGroup.addEventListener('click', event => {
+    const button = event.target.closest('.rt-color-option');
+    if (!button || !colorGroup.contains(button)) return;
+    const selected = button.getAttribute('aria-pressed') === 'true';
+    button.setAttribute('aria-pressed', selected ? 'false' : 'true');
+    button.classList.toggle('is-selected', !selected);
+    showMessage('');
+  });
 
   function chooseNext() {
     const colors = selectedColors();
-    const choices = current ? colors.filter(c => c.value !== current.value) : colors;
+    if (colors.length < 2) return;
+    const choices = current ? colors.filter(color => color.value !== current.value) : colors;
     const next = choices[Math.floor(Math.random() * choices.length)];
     current = next;
     stage.style.backgroundColor = next.value;
@@ -88,7 +108,7 @@ A simple full-screen color reaction tool for training. Choose at least two color
   async function requestWakeLock() {
     try {
       if ('wakeLock' in navigator) wakeLock = await navigator.wakeLock.request('screen');
-    } catch (_) { /* Wake Lock is optional. */ }
+    } catch (_) {}
   }
 
   async function releaseWakeLock() {
@@ -120,7 +140,7 @@ A simple full-screen color reaction tool for training. Choose at least two color
 
     try {
       if (stage.requestFullscreen && !document.fullscreenElement) await stage.requestFullscreen();
-    } catch (_) { /* iPhone Safari may not allow element fullscreen; fixed viewport is the fallback. */ }
+    } catch (_) {}
   }
 
   async function stop() {
