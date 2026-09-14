@@ -98,3 +98,7 @@ Winning matters, and players should want to win.
 **Winning is not the primary measure of development, but competing to win is part of development.**
 
 The system itself should keep improving: attached to sound principles, not to one method, with training, roles, and constraints evolving as players develop. The principles were checked against federation, academy, and research sources (see [Sources and Further Reading](docs/further-reading.md)) but are not an official program of any of them.
+
+## License
+
+This handbook is shared under the [Creative Commons Attribution-NonCommercial 4.0](LICENSE) license. Clubs, coaches, players, and families may copy, adapt, print, and share it for any non-commercial purpose. It may not be sold or used commercially without permission. A simple credit to this repository is all the license asks for.
