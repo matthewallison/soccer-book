@@ -27,7 +27,8 @@ When a `docs/` chapter changes, update its track.
 - **Stability:** start with Natural. If tags are ignored, try Creative, which follows tags more closely but can hallucinate. Avoid Robust, which largely ignores tags.
 - **Speed:** start at 1.0. The allowed range is 0.7–1.2.
 - **Length:** v3 takes up to 5,000 characters per request, and Studio allows 5,000 per paragraph. Position cards (about 3,000 characters) fit in one request. The longer chapters (6,600–12,700) need two or three chunks, split at blank lines.
-- **Title line:** strip the leading `# ` before generating. Studio can split chapters on Heading 1 when importing EPUB or DOCX.
+- **Title line:** strip the leading `# ` before pasting a single track into Text to Speech.
+- **Studio import:** run `./build-epub.sh` (needs pandoc). It builds `soccer-handbook-player-audio.epub`, with one Heading 1 per track, so Studio makes one chapter per track. Rebuild it after editing any transcript.
 
 ### Audio tags used
 
