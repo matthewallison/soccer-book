@@ -21,6 +21,7 @@ Players say the mantras out loud, together: the practice mantra is the first thi
 
 ### Players
 
+- Prefer to listen? Play the [audio edition](audio/index.md) on your phone.
 - Know the four mantras by memory. Learn the bold principles in the [High-Level Player Sheet](player-philosophy.md) over time, and use it as a quick reference.
 - Read [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) for the ideas behind the sheet.
 - Before each match, review the [position card](positions/index.md) for your role and picture its moments.

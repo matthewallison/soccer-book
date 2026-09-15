@@ -2,6 +2,8 @@
 
 The player chapters and position cards, rewritten for listening. One transcript file per track in `transcript/`; each becomes one audio file (and one chapter marker in a combined audiobook).
 
+Finished MP3s go in `docs/audio/`, named like their transcripts (`09-goalkeeper.mp3`), so they publish with the website. Add a player for each new track to `docs/audio/index.md`.
+
 ## Tracks
 
 | # | Transcript | Source |

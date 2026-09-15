@@ -66,6 +66,7 @@ validation:
 
 nav:
   - Start here: index.md
+  - Audio edition: audio/index.md
   - For players:
       - High-Level Player Sheet: player-philosophy.md
       - Team Culture, Courage & Leadership: team-culture-and-leadership.md
