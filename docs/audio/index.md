@@ -45,3 +45,7 @@ More chapters are being recorded, and this page grows as they're added.
 ## Goalkeeper: Number One
 
 <audio controls preload="none" src="09-goalkeeper.mp3"></audio>
+
+## Outside Back: Numbers Two and Three
+
+<audio controls preload="none" src="10-outside-back.mp3"></audio>
