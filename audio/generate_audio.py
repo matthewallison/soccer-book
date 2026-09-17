@@ -17,7 +17,8 @@ speech, so the generator should not rewrite prose, expand abbreviations, or othe
 4. Send each chunk to ElevenLabs using one consistent voice/model/output format.
 5. Cache every generated chunk locally. If generation is interrupted, or if we rerun
    an unchanged chapter, we do not pay to synthesize the same chunk again.
-6. Join the chunk MP3s losslessly with ffmpeg into one finished MP3 per track.
+6. Join the chunk MP3s losslessly with ffmpeg into one finished MP3 per track, with
+   a short silence between chunks so each join sounds like a paragraph break.
 
 The cache key includes the exact text plus every setting that can change the audio.
 That matters for both reproducibility and cost: changing the voice, model, output
@@ -96,6 +97,13 @@ MAX_CHARS = 4_500
 # not require us to transcode after generation. Keeping every chunk in exactly the
 # same format also lets ffmpeg concatenate them without re-encoding.
 OUTPUT_FORMAT = "mp3_44100_128"
+
+# Each chunk is generated separately and ends with only about a quarter-second of
+# silence, so joined chunks ran straight into each other and sounded rushed. This
+# much silence goes between chunks, making each join sound like a paragraph break.
+# The silence is encoded to match OUTPUT_FORMAT (44.1 kHz, 128 kbps, mono) so it can
+# still be joined without re-encoding the narration.
+DEFAULT_CHUNK_GAP = 0.6
 
 # The project README currently identifies Amelia as the working narration voice and
 # records this ID. Keep it as a default for convenience, but --voice-id exists so we
@@ -294,11 +302,38 @@ def require_ffmpeg() -> str:
     return ffmpeg
 
 
-def concatenate_mp3s(ffmpeg: str, chunk_files: list[Path], destination: Path) -> None:
+def silence_mp3(ffmpeg: str, seconds: float) -> Path:
+    """Return a cached MP3 of silence encoded to match the ElevenLabs chunks.
+
+    No ID3 tag or Xing header is written: this file sits in the middle of a track,
+    where either would be stray data rather than a header.
+    """
+    path = CACHE_DIR / f"silence-{seconds:.2f}s.mp3"
+    if path.exists() and path.stat().st_size > 0:
+        return path
+
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    temporary = CACHE_DIR / f".{path.name}.tmp"
+    subprocess.run(
+        [ffmpeg, "-hide_banner", "-loglevel", "error", "-y",
+         "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", f"{seconds:.2f}",
+         "-c:a", "libmp3lame", "-b:a", "128k",
+         "-write_xing", "0", "-id3v2_version", "0", "-f", "mp3", str(temporary)],
+        check=True,
+    )
+    temporary.replace(path)
+    return path
+
+
+def concatenate_mp3s(
+    ffmpeg: str, chunk_files: list[Path], destination: Path, gap: float
+) -> None:
     """Losslessly concatenate identically encoded MP3 chunks with ffmpeg.
 
     The concat demuxer copies the already-generated MP3 audio (`-c copy`) rather than
     decoding and re-encoding it, so joining chunks does not reduce narration quality.
+    `gap` seconds of silence go between chunks, never before the first or after the
+    last.
     """
     destination.parent.mkdir(parents=True, exist_ok=True)
 
@@ -306,9 +341,16 @@ def concatenate_mp3s(ffmpeg: str, chunk_files: list[Path], destination: Path) ->
         shutil.copy2(chunk_files[0], destination)
         return
 
+    parts: list[Path] = []
+    silence = silence_mp3(ffmpeg, gap) if gap > 0 else None
+    for index, chunk in enumerate(chunk_files):
+        if index and silence:
+            parts.append(silence)
+        parts.append(chunk)
+
     with tempfile.NamedTemporaryFile("w", suffix=".txt", encoding="utf-8", delete=False) as fh:
         list_path = Path(fh.name)
-        for chunk in chunk_files:
+        for chunk in parts:
             # ffmpeg concat files use single-quoted paths. Escape a literal quote using
             # the shell-compatible sequence documented for concat list files.
             escaped = str(chunk.resolve()).replace("'", "'\\''")
@@ -381,6 +423,11 @@ def parse_args() -> argparse.Namespace:
         "--max-chars", type=int, default=MAX_CHARS,
         help=f"Maximum characters per API request; default {MAX_CHARS}."
     )
+    parser.add_argument(
+        "--chunk-gap", type=float, default=DEFAULT_CHUNK_GAP,
+        help=f"Seconds of silence between chunks; default {DEFAULT_CHUNK_GAP}. "
+             "Changing it re-joins cached chunks without new API calls."
+    )
     args = parser.parse_args()
 
     # ElevenLabs documents speed as 0.7-1.2 and v3 requests as at most 5,000
@@ -389,6 +436,8 @@ def parse_args() -> argparse.Namespace:
         parser.error("--speed must be between 0.7 and 1.2")
     if not 1 <= args.max_chars <= 5_000:
         parser.error("--max-chars must be between 1 and 5000")
+    if not 0 <= args.chunk_gap <= 5:
+        parser.error("--chunk-gap must be between 0 and 5 seconds")
     return args
 
 
@@ -443,7 +492,7 @@ def main() -> int:
             generated.append(synthesize_chunk(client, chunk, args.voice_id, args.speed))
 
         destination = OUTPUT_DIR / f"{path.stem}.mp3"
-        concatenate_mp3s(ffmpeg, generated, destination)
+        concatenate_mp3s(ffmpeg, generated, destination, args.chunk_gap)
         print(f"  wrote {destination.relative_to(REPO_ROOT)}")
 
     print("\nDone. Listen before committing generated MP3s; narration QA is the final edit pass.")
