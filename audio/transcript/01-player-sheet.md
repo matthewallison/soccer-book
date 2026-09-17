@@ -70,6 +70,8 @@ When we lose the ball, decide right away. If we're close enough to win it back i
 
 Two more habits belong here. Defend from a position you can attack from, so that when we win the ball back, you're already useful. And head the ball with purpose, not out of habit.
 
+Keep one frame in your head for all of this. Every moment of a game is one of four: when we have it, when we lose it, when they have it, and when we win it back. And our formation is a starting shape, not a set of fixed spots. We keep relationships, not coordinates. The How We Play chapter shows how that works.
+
 Now, brave soccer.
 
 We want you to turn with the ball, carry it, dribble, disguise your passes, play through pressure, combine with teammates, and try creative solutions when you see the chance.
@@ -104,7 +106,7 @@ You also have a coach who's with you for every moment of every game. It's you.
 
 Be coachable, and learn to coach yourself. In a game, self-coaching is a loop. You scan, you understand what you see, you decide, you execute, you reflect on how it went, and you adjust. Then around again.
 
-Coaching yourself also means understanding that training shapes habits. What you repeat is what you learn to see. Every environment leaves some gaps, so some things you'll need to go looking for yourself. Your coach shapes your environment. You still own your development. The next chapter goes deeper into what that means.
+Coaching yourself also means understanding that training shapes habits. What you repeat is what you learn to see. Every environment leaves some gaps, so notice what you get lots of reps at, and what you get almost none of. Some things you'll need to go looking for yourself. Your coach shapes your environment. You still own your development. The next chapter goes deeper into what that means.
 
 And after every practice, ask yourself one question: What soccer problem did today's practice teach me to solve? [pause] What was the answer from your last practice? [long pause]
 

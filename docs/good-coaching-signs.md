@@ -38,6 +38,22 @@ Game day shows only part of the picture. Look at the week too.
 
 **Warning signs:** intimidation, public blame, rivalry between teammates, players afraid to ask for the ball.
 
+## What good coaching is trying to do
+
+Knowing the goal makes the signs easier to read:
+
+- **Practice responds to games.** Problems seen on the weekend show up in the next sessions ([§40](coaching-game-model.md#40-practice-design-should-respond-to-games)).
+- **Most practice looks like soccer:** teammates, opponents, direction, pressure, transition, and consequences.
+- **Constraints are temporary tools.** A rule like "no forward passes" is run, lifted, and discussed. The goal is understanding the problem, not obeying the rule ([§41](coaching-game-model.md#41-game-based-learning-and-constraints)).
+- **Coaches ask "What did you see?"** and separate decision quality from execution quality.
+- **Intelligent risk is tolerated,** so creativity survives.
+- **Players learn relationships and principles,** not coordinates.
+- **Every player has a development target** and a path toward more opportunity.
+- **The aim is complete players,** not only the strongest lineup this weekend.
+- **The coach becomes less necessary over time,** and learning is visible in games even when the coach is silent.
+
+Reasonable coaches pursue these goals in different ways. We should be attached to good principles, not rigidly attached to one method.
+
 ## If something seems to be missing
 
 This is not about scoring a coach. Reasonable coaches disagree about methods and tactics, and one bad session proves little. It is about noticing what your environment teaches well, what may be missing, and what those gaps may be teaching you, so you can keep developing.
@@ -53,13 +69,16 @@ Focus on the second and third, and look at patterns over weeks, not single pract
 | If this keeps happening | It tends to teach | What you can do |
 |---|---|---|
 | Possession work is almost always in tight spaces | Short passing after pressure is escaped, then panic clearances | Train longer passing and carrying at home; watch for big-space moments on film |
-| Players aren't taught to become options | Forced forward passes and isolated ball carriers | Keep asking where you could go to be useful; study off-ball movement on film |
+| Players aren't taught to become options | Forced forward passes, isolated ball carriers, and blame on the player with the ball | Keep asking where you could go to be useful; study off-ball movement on film |
 | Intelligent mistakes are punished | Fear of turning, dribbling, and trying things | Keep taking intelligent risks; judge the decision separately from the outcome |
 | No shared mistake culture or positive leadership | Blame, eye-rolls, teammates policing each other | Don't join it; support, inform, and praise ([When the culture slips](team-culture-and-leadership.md#when-the-culture-slips)) |
 | One player stays in one role all season | A narrower game, few touches in low-touch roles | Build missing skills in small-sided games and at home; ask for rotation or role-specific work |
 | No development feedback for long stretches | Stalled progress and guessing at what matters | Draft your own priority and bring it to office hours |
 | The same game problem recurs and practice never addresses it | The problem starts to feel normal | Make it your film theme and home work; ask about it as a question |
 | Constant instructions from the sideline | Waiting to be told instead of reading the game | Scan and decide first; on film, notice what you saw before the call |
+| Rules like "two touch" or "stay wide" are never explained or lifted | Obeying the rule after the picture has changed | Ask what problem the rule solves; notice when the picture changes |
+| Roles assigned by current size or speed | A narrow role that may not fit the player you become | Keep building the skills your body isn't doing for you yet |
+| Low-touch roles with no extra reps in training | On-ball skills falling behind | Replace the reps: small-sided games, rondos, wall work, pickup |
 
 These patterns are meaningful. A team that repeats the same developmental problem while training never addresses it, a player who gets no development feedback for months, a player fixed in one role through these years with nothing to compensate, and a mistake culture that produces fear and peer blame can all stall a player who is working hard. None of that proves the coach doesn't care, and none of it makes your development someone else's job.
 

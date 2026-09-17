@@ -132,14 +132,17 @@ The coach provides guidance, structure, feedback, and perspective. You own your 
 
 ### How training shapes you
 
-Coaching yourself also means understanding how your environment teaches you. **What practice repeatedly shows you becomes what you learn to see and solve.** If you get almost no reps at something, it is hard to become good at it, however hard you work.
+Coaching yourself also means understanding how your environment teaches you. **What practice repeatedly shows you becomes what you learn to see and solve.** If you get almost no reps at something, it is hard to become good at it, however hard you work. **Your environment will shape you. Learn from it, but do not let its limitations become your limitations.**
 
 So a pattern can look like a player problem and be partly a training problem:
 
 - Mostly tight-space possession work can produce a team that keeps passing short after escaping pressure, then clears in a panic.
-- If teammates are not taught to become options, the ball carrier is left forcing it forward.
+- If teammates are not taught to become options, the ball carrier is left forcing it forward, then blamed for having no option. Pressure is a team problem.
 - Where intelligent mistakes get punished, players stop turning, dribbling, and trying things.
-- Constant instructions can leave players waiting to be told instead of reading the game.
+- Constant instructions can leave players waiting to be told instead of reading the game. Ask what you saw and what else was possible, and learn the reason behind an instruction.
+- Rules like "two touch" or "stay wide" are useful teaching tools, but players can keep obeying them after the picture has changed. Learn what problem a rule solves.
+- Early size or speed can steer a player into a narrow role that may not fit the player she becomes. Current usefulness is not developmental destiny.
+- Low-touch roles without extra reps in training leave on-ball skills behind. Replace the missing reps with small-sided games, rondos, wall work, and pickup.
 
 Reasonable coaches use different methods, and one session proves little. Something important missing for weeks is different. Notice it, because it will shape your habits.
 
@@ -151,9 +154,10 @@ Ask yourself:
 - What am I getting lots of reps at? What am I getting almost none of?
 - What game problem keeps coming back that we are not working on?
 - Am I following this rule because I understand the principle, or because I was told to?
+- What do I need to develop outside my current role?
 - What should I ask my coach, and what can I solve myself?
 
-Then act on it: study the pattern on [film](film-review-guide.md), fill the gap with the [Home Development Menu](home-development.md) and pickup games, look for the reps you are missing, and ask the coach a good question. For what an environment may be teaching well or leaving out, see [What Good Coaching Looks Like](good-coaching-signs.md#if-something-seems-to-be-missing).
+Then act on it: study the pattern on [film](film-review-guide.md), fill the gap with the [Home Development Menu](home-development.md) and pickup games, look for the reps you are missing, and ask the coach a good question (for example, "When we break pressure, what should I be looking for?"). For what an environment may be teaching well or leaving out, see [What Good Coaching Looks Like](good-coaching-signs.md#if-something-seems-to-be-missing).
 
 Avoid both extremes: "The coach is always right, so just be more coachable" and "The coach is wrong, so ignore the coach."
 
@@ -186,7 +190,7 @@ Want a different role, more minutes, or more chances to develop part of your gam
 - You do the talking. A parent can help you prepare.
 - Book up to 5 minutes of office hours, in person or through the team app with a parent included. The talk itself happens at the field, in view of others.
 
-No development priority yet, or none for a long stretch? That gap slows progress, and you can respond to it. Draft your own: one strength to build, one current priority, and one observable sign of progress. Bring it to office hours and ask, "Is this the right priority?" Record it on the [Development Plan](templates/development-plan.md).
+No development priority yet, or none for a long stretch? Effort without a target turns into vague development, and you can respond to it. Draft your own: one strength to build, one current priority, and one observable sign of progress. Bring it to office hours and ask, "Is this the right priority?" Record it on the [Development Plan](templates/development-plan.md).
 
 ## Help each other learn
 

@@ -181,6 +181,10 @@ Heel pain, or pain at the bump just below the kneecap, is common in growing play
 
 For any pain or injury beyond this kind of growth pain, tell a parent and your coach, and see [Injuries, Recovery, and Return to Play](injuries-and-return-to-play.md).
 
+### Growing bodies
+
+**Same age, different body age.** Girls usually grow fastest around 11–12, but anywhere from about 9 to 15 is normal. Some temporary clumsiness during a growth spurt is normal; keep training landing, balance, and strength, which do the most for knees at this age. Don't mistake early size for talent, or late growth for a lack of it.
+
 ## 9. Strength basics: calves, hips, hamstrings, trunk
 
 Examples:
@@ -191,7 +195,7 @@ Examples:
 - front and side planks
 - partner Nordic hamstrings at the FIFA 11+ beginner level, only after learning them at team training
 
-1–3 sets of 6–15 controlled reps (far fewer for Nordics), 2–3 times a week, not on back-to-back days. Our injury-prevention warm-up (FIFA 11+ or a similar program) uses many of these same exercises, so warm-up days count toward your 2–3 strength days.
+1–3 sets of 6–15 controlled reps (far fewer for Nordics), 2–3 times a week, not on back-to-back days. Our injury-prevention warm-up (FIFA 11+ or a similar program) uses many of these same exercises, so warm-up days count toward your 2–3 strength days. In teenage girls, programs like this cut ACL injuries by roughly half, but only when every exercise is done correctly.
 
 **Technique first, then add reps.** Stop the set when form breaks down.
 
@@ -255,6 +259,8 @@ For visualization, replay one receiving moment from your last game in your head:
 ## Recovery basics
 
 **Sleep is training.** Aim for 8–10 hours. Teen athletes who usually sleep less than 8 hours get injured more often. When time is short, sleep beats an extra session.
+
+**Fuel the work.** Eat enough for your training, including iron, calcium, and vitamin D. Once periods have started, going about 3 months or more without one, or no period by age 15, is not a normal part of hard training: tell a parent and see a doctor. See [Parent Partnership: Health signals](parent-partnership.md#health-signals).
 
 Rest days and weekly hours are covered at the start of this menu ("Count the whole week" and "Rest is part of the plan").
 

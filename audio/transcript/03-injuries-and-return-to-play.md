@@ -26,13 +26,13 @@ Don't. After any blow to the head or body, tell your coach right away, and come 
 
 Here's what to watch for, in yourself or in a teammate. Feeling dazed or confused. Being slow to answer, or not remembering what just happened. Being unsteady, clumsier than usual, or suddenly different in mood. A headache, dizziness, nausea, trouble seeing, or being bothered by light or noise. Or simply feeling foggy.
 
-Any one of those, and you come out.
+Any one of those, and you come out. And unless a health care professional at the field clears you, you're done for the day.
 
 Say it with me. [pause] [slows down] When in doubt, sit out.
 
 Never try to shake it off. And if you see those signs in a teammate, tell a coach, even if she says she's fine.
 
-A concussion follows its own step-by-step plan, led by your health care provider. The first day or two means rest, light walking, and less screen time. Then you move up one step at a time: light exercise, then soccer drills without contact, then full training. There's no contact, no heading, and no full training until you're cleared. Most teens recover within a month.
+A concussion follows its own step-by-step plan, led by your health care provider. The first day or two means rest, light walking, and less screen time. Then you move up one step at a time: light exercise, then soccer drills without contact, then full training. Each step takes at least a day, and if symptoms come back, you step back and your family calls your provider. There's no contact, no heading, and no full training until you're cleared. Most teens recover within a month. If headaches, dizziness, or neck pain last more than about ten days, go back to your provider.
 
 Since we're on the subject, let's talk about heading.
 

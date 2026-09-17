@@ -60,7 +60,7 @@ Let's do it now, for your last game. [pause] One thing you did well. [long pause
 
 Film trains what you look for. Practice and games turn it into speed.
 
-If you want something more concrete, keep a simple tally. From one half of film, count seven things. How many times you received the ball. How many of those receptions had at least one scan first, meaning your head turned away from the ball in the five seconds before your first touch. How many receptions were facing forward, or on the half-turn. How many passes or carries broke a line, getting the ball past a line of opponents. How many times you moved to a new angle after passing. How many times you won or blocked the ball by reading the play. And how many times you asked for the ball.
+If you want something more concrete, keep a simple tally. From one half of film, count seven things. How many times you received the ball. How many of those receptions had at least one scan first, meaning your head turned away from the ball in the five seconds before your first touch. How many receptions were facing forward, or on the half-turn, meaning side-on, so you could see both forward and back. How many passes or carries broke a line, getting the ball past a line of opponents. How many times you moved to a new angle after passing. How many times you won or blocked the ball by reading the play. And how many times you asked for the ball.
 
 A couple of honest cautions. Far-away team-camera video often can't show your head clearly, so skip those clips when you count scans. You often can't hear calls on that video either, so only count the asks for the ball you can actually see or hear.
 
@@ -78,7 +78,7 @@ Leagues, age labels, and streaming services change every season, so the written 
 
 A good exercise is to compare four levels with the same questions: our match, a good under-sixteen match, a top under-sixteen match, and a professional women's match. How quickly do players reposition after passing? How often do they scan before receiving? How fast does the ball move without getting rushed? How often do they carry into open space, or switch fields on purpose? What do the weak-side players do? And what happens right after possession changes?
 
-Then try the freeze test. Stop the video at a random moment and look at the whole team, not just the ball. Where are players standing? What are they looking at? Can you see evidence of coaching, without hearing the coach? One freeze proves very little. Do it several times, and look for the pattern.
+Then try the freeze test. Stop the video at a random moment and look at the whole team, not just the ball. Where are players standing? What are they looking at? Can you see evidence of coaching, without hearing the coach? One freeze proves very little. Do it several times, and look for the pattern. It's a better measure of coaching than the scoreboard. A team can lose and still show clear evidence of learning, and a team can win without much of it.
 
 When you're preparing for a specific role, study one strong player in that position, and ignore the ball whenever she doesn't have it. Where does she stand when the ball is on the opposite side? How does she create an outlet? What does she do after passing? When does she step, drop, press, or delay? And what does she do the moment possession changes?
 

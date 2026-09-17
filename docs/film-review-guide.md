@@ -228,7 +228,7 @@ Ask:
 - How often are defenders forced to make decisions by movement or deception?
 - Freeze the video at a random moment. Can you see evidence of coaching without hearing the coach?
 
-For more on the freeze test, see [What Good Coaching Looks Like](good-coaching-signs.md).
+The freeze test measures learning, not results: a team can lose and still show clear evidence of coaching, and win without much of it. For more, see [What Good Coaching Looks Like](good-coaching-signs.md).
 
 Full professional women's matches (U.S., 2026–27):
 

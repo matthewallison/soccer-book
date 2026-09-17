@@ -35,6 +35,16 @@ Nerves are normal. They are your body getting ready. Step forward anyway.
 
 At every moment, ask: **Where could I go right now that would make me useful?**
 
+### Four moments and our shape
+
+- Think in four moments: **when we have it, when we lose it, when they have it, when we win it.** Your [position card](positions/index.md) uses the same frame.
+- The formation is a starting structure, not fixed spots. **Preserve the relationships, not the coordinates.**
+- Midfield triangle: **One shows. One protects. One threatens.**
+- Front line: **Exchange positions without losing attacking shape.** The 9 and 10: **One comes. One goes.**
+- Building from the back: **Safe does not automatically mean clearance.** The goalkeeper is part of possession. Read the press: **Short invites the press. Long punishes it. Choose on purpose.**
+
+Details are in the [Coaching Game Model](coaching-game-model.md), §4, §16, and §18–19.
+
 ### When we have it
 
 - Everyone is a potential outlet. Not being an option makes the ball carrier's problem harder.
@@ -127,6 +137,6 @@ See [Team Culture: Help each other learn](team-culture-and-leadership.md#help-ea
 
 ## Development ownership
 
-Know one current strength to build on, one current development priority chosen with the coach, and what progress would look like. These change as you improve. **Your team role is where you help the team today. Your development role is the complete player you are becoming.**
+Know one current strength to build on, one current development priority chosen with the coach, and what progress would look like. These change as you improve. No priority yet? Draft one and ask the coach whether it's right. **Your team role is where you help the team today. Your development role is the complete player you are becoming.**
 
 Want a different role or more minutes? Ask the coach yourself: **"What would I need to show to earn that?"** Talk with the coach during office hours at the field, or send a film question through the team app, with a parent included. See [Team Culture: Asking for opportunities](team-culture-and-leadership.md#asking-for-opportunities).

@@ -22,7 +22,7 @@ And in pressure moments, we use the pressure mantra. Say it with me. [pause] [sl
 
 Know those four by heart. You'll hear them again and again, because they carry everything else. When the game gets loud and fast, short words you already know are the ones that come back to you.
 
-Here's how the rest of the audiobook is organized. First comes the High-Level Player Sheet, the short version of how we play and who we want to be. Then the chapters behind it: team culture, courage, and leadership; injuries and recovery; communication and movement; a chapter of ideas from the coaching manual that are worth hearing straight from the source; film review; and the home development menu.
+Here's how the rest of the audiobook is organized. First comes the High-Level Player Sheet, the short version of how we play and who we want to be. Then the chapters behind it: team culture, courage, and leadership; injuries and recovery; communication and movement; a chapter on how we play, and how coaching and training shape the way you learn it; film review; and the home development menu.
 
 After that come seven position cards. Those are different. Each one is a short track, just a few minutes long, made to play before a match. Find your role, press play on the way to the game, and picture the moments before they happen.
 

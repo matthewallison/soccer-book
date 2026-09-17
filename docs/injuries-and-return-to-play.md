@@ -23,7 +23,7 @@ Sore muscles the day after a hard or new workout are common and ease with rest. 
 
 A limp, swelling, not being able to move it normally, very bad pain, or pain or swelling that gets worse or does not go away after a few days means see a doctor. Growing players: also see [Home Development Menu: Pain rule](home-development.md#pain-rule).
 
-After a blow to the head or body, tell your coach right away, and come out if you feel dazed, dizzy, or "not right." A concussion follows its own step-by-step plan led by your health care provider, with no contact, heading, or full training until you are cleared. See [Parent Partnership: Health signals](parent-partnership.md#health-signals) and [Coaching Game Model: Returning after a concussion](coaching-game-model.md#returning-after-a-concussion).
+After a blow to the head or body, tell your coach right away, and come out if you feel dazed, dizzy, or "not right." Watch for these in yourself or a teammate: dazed or confused, slow to answer, unsteady, a change in mood, headache, dizziness, nausea, vision problems, bothered by light or noise, or feeling foggy. Any of these: come out, and unless a health care professional on site clears you, you are done for the day. **When in doubt, sit out.** A concussion follows its own step-by-step plan led by your health care provider, with no contact, heading, or full training until you are cleared. See [Parent Partnership: Health signals](parent-partnership.md#health-signals) and [Coaching Game Model: Returning after a concussion](coaching-game-model.md#returning-after-a-concussion).
 
 ## What toughness means
 

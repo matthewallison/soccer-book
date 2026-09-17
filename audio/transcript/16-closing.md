@@ -16,7 +16,7 @@ Underneath all of it is one standard. [pause] [slows down] No hiding. No watchin
 
 At the very start, I asked you to think of one thing you want to get better at this season. [pause] Bring it back to mind. [long pause] Which idea from this audiobook will help you most with it? [long pause] That's your next step. Take it this week.
 
-One more thing to carry with you. You won't always be in a perfect environment, and no coach can teach you everything. The players who keep improving use good coaching well, and keep growing when the coaching is incomplete. [pause] Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.
+One more thing to carry with you. You won't always be in a perfect environment, and no coach can teach you everything. The players who keep improving use good coaching well, and keep growing when it's incomplete. Your environment will shape you. Learn from it, but do not let its limitations become your limitations. [pause] Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.
 
 One last time, your four mantras.
 

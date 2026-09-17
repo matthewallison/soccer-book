@@ -78,6 +78,8 @@ The best time to look away is when nothing new can happen to the ball, such as w
 
 **Quick looks are enough. You do not need to stare.**
 
+Look for three things: your open teammate, the nearest opponent, and the space. At least one look before receiving whenever there is time; more looks are not automatically better.
+
 ### Side-on when possible
 
 Open your hips enough to see both where the ball came from and where the next action may go.
@@ -113,6 +115,8 @@ Use the arriving ball to:
 
 A touch past or away from an arriving defender can take her out of the play before you pass or dribble.
 
+**The pass tells the receiver which way to turn.** Receiving under pressure is a skill to develop, not a situation to avoid.
+
 ## Athletic posture
 
 General principles:
@@ -142,6 +146,10 @@ Use controlled side-to-side and crossover steps, depending on the attacker's dis
 ### Show rather than dive
 
 Use your body angle to influence the attacker toward less dangerous space.
+
+### Delay when she has the advantage
+
+**Protect → slow → show → wait → win.** Stay between her and goal, take away her speed, steer her away from danger, stay balanced, and win the ball when the moment comes. An excellent delay may contain no tackle. See [Coaching Game Model §21](coaching-game-model.md#21-delay-defending).
 
 ## Pursuit angles
 

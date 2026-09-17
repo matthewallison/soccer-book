@@ -132,15 +132,11 @@ Coaching yourself also means understanding something most players never think ab
 
 Picture a team whose possession work is almost all tight rondos. They get sharp in small spaces. Then, in games, they break pressure and keep playing short anyway, until they're trapped and someone clears it in a panic. Nobody on that team is lazy or uncoachable. They're doing exactly what they practiced.
 
-Say you notice that pattern. Not in one game, but on film, across several. What do you do?
+If you notice a pattern like that across several games, you don't decide your coach is bad. You fill the gap: longer passing and big-space reps at home or in pickup, a film theme, and a good question for your coach. The How We Play chapter goes deeper into how training creates habits, and how to recognize what's missing.
 
-You don't decide your coach is bad. Reasonable coaches use different methods, and one session proves very little. But when something important is missing for weeks, it's worth noticing, because it's shaping your habits. So you fill the gap. You get longer passing and big-space reps at home or in pickup. You make it your film theme. And you ask a good question: "When we break pressure, what should I be looking for?"
-
-Your coach shapes your environment. You still own your development.
+Your coach shapes your environment. You still own your development. Your environment will shape you. Learn from it, but do not let its limitations become your limitations.
 
 There are two traps here. One says the coach is always right, so just be more coachable. The other says the coach is wrong, so ignore the coach. Neither one makes you better. Take responsibility for your development without taking responsibility for every failure in your environment.
-
-A few questions help you see clearly. What am I getting lots of reps at? What am I getting almost none of? What problem keeps showing up in our games that we aren't working on? And am I following this rule because I understand it, or because I was told to? [long pause]
 
 This isn't about scoring your coach. It's about seeing your own development clearly. Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.
 
@@ -168,7 +164,7 @@ Maybe you want a different role, more minutes, or more chances to develop part o
 
 Keep the conversation about your own development, not about what teammates deserve. For example: "My current role isn't giving me many chances to develop my receiving." Then ask for something specific: "Could I get some minutes in midfield, so I can work on receiving and combining?" And in the meantime, show the qualities of the role you want in the role you have.
 
-And what if weeks go by and nobody has given you a development priority at all? That silence is something you can respond to. Draft your own: one strength to build, one priority, and one sign you'd actually be able to see if you were making progress. Then bring it to office hours, and ask your coach whether it's the right one.
+And what if weeks go by and nobody has given you a development priority at all? Effort without a target turns into vague development, and that silence is something you can respond to. Draft your own: one strength to build, one priority, and one sign you'd actually be able to see if you were making progress. Then bring it to office hours, and ask your coach whether it's the right one.
 
 You do the talking. A parent can help you prepare. You can book up to five minutes of office hours, in person or through the team app with a parent included, and the conversation itself happens at the field, in view of others.
 
