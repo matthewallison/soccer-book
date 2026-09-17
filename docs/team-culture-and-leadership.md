@@ -159,6 +159,8 @@ Ask yourself:
 
 Then act on it: study the pattern on [film](film-review-guide.md), fill the gap with the [Home Development Menu](home-development.md) and pickup games, look for the reps you are missing, and ask the coach a good question (for example, "When we break pressure, what should I be looking for?"). For what an environment may be teaching well or leaving out, see [What Good Coaching Looks Like](good-coaching-signs.md#if-something-seems-to-be-missing).
 
+Not every gap is yours to close. **Some gaps you can fill yourself. Some you can partly compensate for. Some require the team or coach to change. Know the difference.** You can build your weak foot on your own. You can partly make up for a low-touch role with extra reps. You cannot teach ten teammates to press together. For that kind of gap, ask a good question at office hours, keep modeling the habit, and don't carry it as your fault.
+
 Avoid both extremes: "The coach is always right, so just be more coachable" and "The coach is wrong, so ignore the coach."
 
 **Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.**

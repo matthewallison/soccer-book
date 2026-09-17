@@ -132,13 +132,13 @@ Coaching yourself also means understanding something most players never think ab
 
 Picture a team whose possession work is almost all tight rondos. They get sharp in small spaces. Then, in games, they break pressure and keep playing short anyway, until they're trapped and someone clears it in a panic. Nobody on that team is lazy or uncoachable. They're doing exactly what they practiced.
 
-If you notice a pattern like that across several games, you don't decide your coach is bad. You fill the gap: longer passing and big-space reps at home or in pickup, a film theme, and a good question for your coach. The How We Play chapter goes deeper into how training creates habits, and how to recognize what's missing.
+If you notice a pattern like that across several games, the useful response is to fill the gap: longer passing and big-space reps at home or in pickup, a film theme, and a good question for your coach. The How We Play chapter goes deeper into how training creates habits, and how to recognize what's missing.
 
 Your coach shapes your environment. You still own your development. Your environment will shape you. Learn from it, but do not let its limitations become your limitations.
 
 There are two traps here. One says the coach is always right, so just be more coachable. The other says the coach is wrong, so ignore the coach. Neither one makes you better. Take responsibility for your development without taking responsibility for every failure in your environment.
 
-This isn't about scoring your coach. It's about seeing your own development clearly. Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.
+Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.
 
 That ownership shows up in how you think about your position.
 

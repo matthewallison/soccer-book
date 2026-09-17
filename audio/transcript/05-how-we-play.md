@@ -144,6 +144,8 @@ Then turn what you notice into questions. What problem is this practice trying t
 
 Then act. Study the pattern on film. Use your home work to fill the gap. Ask a good question, like, "When we break pressure, what should I be looking for?" And ask for opportunities: some rotation, a clearer priority, or a chance to work on what your role doesn't give you.
 
+One more distinction keeps all of this healthy. Some gaps you can fill yourself. Some you can partly compensate for. Some require the team or coach to change. Know the difference. You can build your weak foot on your own. You can partly make up for a low-touch role with extra reps. But you can't teach ten teammates to press together by yourself. For that kind of gap, ask a good question, keep modeling the habit, and don't carry it as your fault. Take responsibility for your development without taking responsibility for every failure in your environment.
+
 Remember: your environment will shape you. Learn from it, but do not let its limitations become your limitations.
 
 Come back to where we started. We don't win by outrunning people. We win by seeing the space, keeping our relationships, making defenders choose, and making better decisions than the team in front of us. And you keep getting better the same way: by understanding what you're seeing, on the field and in your own development.

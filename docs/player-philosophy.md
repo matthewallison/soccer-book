@@ -58,7 +58,6 @@ Details are in the [Coaching Game Model](coaching-game-model.md), §4, §16, and
 
 Rondos teach us how to survive when the game gets small. Soccer also requires us to recognize when the game becomes big.
 
-- **Small space: combine. Big space: exploit.**
 - When we escape pressure, recognize that the problem has changed. Look up.
 - Do not keep playing five-yard passes in the same crowded area after the field opens.
 - Carry open grass, switch the field, find a runner, or attack before the defense recovers.

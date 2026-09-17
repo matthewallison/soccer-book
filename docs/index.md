@@ -2,7 +2,7 @@
 
 A practical player-development and team-coaching handbook for a U13–U14 girls' team, built around intelligent, technical, courageous soccer. The framework applies across U13–U16.
 
-The central goal is not to create players who memorize instructions. It is to develop players who can **scan, communicate, make intentional decisions, solve problems, compete, reflect, lead, and adapt**.
+The central goal is not to create players who memorize instructions. It is to develop players who can **scan, communicate, make intentional decisions, solve problems, compete, reflect, lead, and adapt**. They should also understand how they learn, well enough to take part in their own development instead of simply being the product of whatever coaching reaches them.
 
 [Download the printable handbook (PDF)](soccer-development-handbook.pdf){ .md-button .md-button--primary }
 

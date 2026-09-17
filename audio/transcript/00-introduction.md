@@ -4,7 +4,7 @@ Welcome. This is the audio edition of the Soccer Development Handbook, and it's 
 
 The handbook was written for an under-thirteen and under-fourteen girls' team. But the ideas aren't really about an age group. They work for players up through about sixteen, and honestly, well beyond.
 
-Here's what it's all aiming at. The goal is not to turn you into a player who memorizes instructions and waits to be told what to do. The goal is a player who can scan, communicate, make intentional decisions, solve problems, compete, reflect, lead, and adapt. A player who can figure the game out for herself.
+Here's what it's all aiming at. The goal is not to turn you into a player who memorizes instructions and waits to be told what to do. The goal is a player who can scan, communicate, make intentional decisions, solve problems, compete, reflect, lead, and adapt. A player who can figure the game out for herself. And a player who understands how she learns, well enough to take part in her own development, instead of just being shaped by whatever coaching happens to reach her.
 
 So this isn't meant to be background noise. Now and then, I'll ask you to say something with me: mostly our team mantras, and a few cues on the position cards. Say them out loud if you can, or in your head if you can't. And sometimes I'll ask you a question, and then stop talking for a moment. Use that pause. Actually think of an answer before I keep going.
 

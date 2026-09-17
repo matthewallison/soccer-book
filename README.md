@@ -4,7 +4,7 @@ A practical player-development and team-coaching handbook for a U13–U14 girls'
 
 Version 1.0 · September 2026. Laws, safety policies, league structures, and media sources in this handbook change; check them each season.
 
-The central goal is not to create players who memorize instructions. It is to develop players who can **scan, communicate, make intentional decisions, solve problems, compete, reflect, lead, and adapt**.
+The central goal is not to create players who memorize instructions. It is to develop players who can **scan, communicate, make intentional decisions, solve problems, compete, reflect, lead, and adapt**. They should also understand how they learn, well enough to take part in their own development instead of simply being the product of whatever coaching reaches them.
 
 ## Core team mantras
 
@@ -58,14 +58,14 @@ The full explanation and training progression are in §7 of the [Coaching Game M
 ## Documents
 
 - [High-Level Player Sheet](docs/player-philosophy.md) — the four mantras to memorize and the principles to learn over time.
-- [Team Culture, Courage, Leadership & Self-Coaching](docs/team-culture-and-leadership.md) — wanting the moment, penalty kicks, mistake culture, leadership, self-coaching, asking for opportunities, and peer support.
+- [Team Culture, Courage, Leadership & Self-Coaching](docs/team-culture-and-leadership.md) — wanting the moment, penalty kicks, mistake culture, leadership, self-coaching and how training shapes you, asking for opportunities, and peer support.
 - [Injuries, Recovery, and Return to Play](docs/injuries-and-return-to-play.md) — what toughness really means, staying connected while injured, and returning progressively and confidently once cleared.
 - [Communication & Movement Fundamentals](docs/communication-and-movement.md) — shared vocabulary, changing the size of the game, body shape, movement timing, and defensive posture.
 - [Film Review Guide](docs/film-review-guide.md) — how players can study their own games and higher-level soccer, with a simple game tally and one question for each position.
 - [Home Development Menu](docs/home-development.md) — short optional technical, athletic, and mental development ideas, plus rest and recovery basics.
 - [Position Cards](docs/positions/) — pregame preparation and visualization cards for each role: purpose, mindset, moments to picture, relationships, and a fallback when unsure.
 - [Coaching Game Model & Development Manual](docs/coaching-game-model.md) — coaching philosophy, tactical framework, training methodology, the development system, and safety and safeguarding.
-- [What Good Coaching Looks Like](docs/good-coaching-signs.md) — the freeze test, the signs of a well-coached team and a good development environment, and questions a player can ask herself.
+- [What Good Coaching Looks Like](docs/good-coaching-signs.md) — the freeze test, signs of a well-coached team and a good development environment, what good coaching is trying to do, how to recognize and respond to developmental gaps, and questions a player can ask herself.
 - [Parent Partnership](docs/parent-partnership.md) — how families support a player-first environment, from the sideline and home support to health signals, communication, safeguarding, and team film.
 - [Weekend Role Sheet](docs/templates/weekend-role-sheet.md) — printable form for each player's primary and secondary roles, restart jobs, and one focus, shared about 48 hours before a match.
 - [Game Reflection](docs/templates/game-reflection.md) — printable form for a player's game tally and three-part self-review.
