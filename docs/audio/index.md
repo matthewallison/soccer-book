@@ -14,6 +14,10 @@ More chapters are being recorded, and this page grows as they're added.
 
 <audio controls preload="none" src="01-player-sheet.mp3"></audio>
 
+## Team Culture, Courage, Leadership, and Self-Coaching
+
+<audio controls preload="none" src="02-team-culture.mp3"></audio>
+
 ## Injuries, Recovery, and Return to Play
 
 <audio controls preload="none" src="03-injuries-and-return-to-play.mp3"></audio>
