@@ -4,8 +4,6 @@ The player chapters and position cards, narrated for players. Tap play on any ch
 
 The tracks ask you to say the mantras out loud and pause to let you think, so listen somewhere you can talk. Position cards are made to play on the way to a match.
 
-More chapters are being recorded, and this page grows as they're added.
-
 ## Introduction
 
 <audio controls preload="none" src="00-introduction.mp3"></audio>
@@ -69,3 +67,7 @@ More chapters are being recorded, and this page grows as they're added.
 ## Attacking Midfielder: Number Ten
 
 <audio controls preload="none" src="15-attacking-midfielder.mp3"></audio>
+
+## Closing: Think, Move, Influence the Game
+
+<audio controls preload="none" src="16-closing.mp3"></audio>
