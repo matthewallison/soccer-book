@@ -1,4 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["elevenlabs"]
+# ///
 """Generate audiobook tracks from audio/transcript/*.md with ElevenLabs.
 
 This script is deliberately conservative. The audiobook source is already edited for
@@ -21,8 +25,11 @@ format, or speed should create a new cached generation rather than silently reus
 old audio.
 
 Requirements:
-    python -m pip install elevenlabs
-    ffmpeg                         # e.g. `brew install ffmpeg` on macOS
+    uv                             # installs the elevenlabs SDK from the block above
+    ffmpeg                         # e.g. `sudo apt install ffmpeg`
+
+Run from the repository root with `uv run`, which reads the dependency block at
+the top of this file. No virtualenv or pip install is needed.
 
 Authentication:
     export ELEVENLABS_API_KEY='...'
@@ -31,19 +38,19 @@ Do NOT put an API key in this file or commit one to Git.
 
 Examples:
     # Dry-run the whole book: show chunks and character counts, spend nothing.
-    python audio/generate_audio.py --dry-run
+    uv run audio/generate_audio.py --dry-run
 
     # Generate one pilot chapter for listening QA.
-    python audio/generate_audio.py 05-how-we-play
+    uv run audio/generate_audio.py 05-how-we-play
 
     # Generate a position card as a second pilot.
-    python audio/generate_audio.py 11-center-back
+    uv run audio/generate_audio.py 11-center-back
 
     # Once the voice and pacing are approved, generate every track.
-    python audio/generate_audio.py --all
+    uv run audio/generate_audio.py --all
 
     # Override the configured voice without editing this file.
-    python audio/generate_audio.py 05-how-we-play --voice-id YOUR_VOICE_ID
+    uv run audio/generate_audio.py 05-how-we-play --voice-id YOUR_VOICE_ID
 
 Finished files go to docs/audio/<track>.mp3. Intermediate chunks go to
 .audio-cache/ at the repository root and are intentionally local build artifacts.
@@ -282,7 +289,7 @@ def require_ffmpeg() -> str:
     ffmpeg = shutil.which("ffmpeg")
     if not ffmpeg:
         raise SystemExit(
-            "ffmpeg was not found. Install it first (for example: brew install ffmpeg)."
+            "ffmpeg was not found. Install it first (for example: sudo apt install ffmpeg)."
         )
     return ffmpeg
 
@@ -321,11 +328,21 @@ def concatenate_mp3s(ffmpeg: str, chunk_files: list[Path], destination: Path) ->
 # Command-line workflow
 # ---------------------------------------------------------------------------
 
-def transcript_files(requested: list[str], generate_all: bool) -> list[Path]:
-    """Resolve track names like '05-how-we-play' to transcript Markdown files."""
+def transcript_files(requested: list[str], generate_all: bool, dry_run: bool) -> list[Path]:
+    """Resolve track names like '05-how-we-play' to transcript Markdown files.
+
+    With no track names, only --all or --dry-run selects every track. A bare run
+    must never quietly spend the whole book's worth of credits.
+    """
     available = sorted(TRANSCRIPT_DIR.glob("[0-9][0-9]-*.md"))
-    if generate_all or not requested:
+    if generate_all or (dry_run and not requested):
         return available
+    if not requested:
+        choices = "\n  ".join(path.stem for path in available)
+        raise SystemExit(
+            "Name the track(s) to generate, or pass --all for the whole book.\n"
+            f"Available tracks:\n  {choices}"
+        )
 
     by_stem = {path.stem: path for path in available}
     resolved: list[Path] = []
@@ -364,12 +381,20 @@ def parse_args() -> argparse.Namespace:
         "--max-chars", type=int, default=MAX_CHARS,
         help=f"Maximum characters per API request; default {MAX_CHARS}."
     )
-    return parser.parse_args()
+    args = parser.parse_args()
+
+    # ElevenLabs documents speed as 0.7-1.2 and v3 requests as at most 5,000
+    # characters. Reject anything outside that before any API call.
+    if not 0.7 <= args.speed <= 1.2:
+        parser.error("--speed must be between 0.7 and 1.2")
+    if not 1 <= args.max_chars <= 5_000:
+        parser.error("--max-chars must be between 1 and 5000")
+    return args
 
 
 def main() -> int:
     args = parse_args()
-    tracks = transcript_files(args.tracks, args.all)
+    tracks = transcript_files(args.tracks, args.all, args.dry_run)
     if not tracks:
         raise SystemExit(f"No transcripts found in {TRANSCRIPT_DIR}")
 
@@ -405,7 +430,7 @@ def main() -> int:
         from elevenlabs.client import ElevenLabs
     except ImportError as exc:
         raise SystemExit(
-            "The ElevenLabs Python SDK is not installed. Run: python -m pip install elevenlabs"
+            "The ElevenLabs Python SDK is not available. Run with: uv run audio/generate_audio.py ..."
         ) from exc
 
     client = ElevenLabs(api_key=api_key)
