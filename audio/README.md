@@ -92,4 +92,4 @@ Parent Partnership:
 
 - Printable templates, sources, and links.
 - League and streaming search tips. They go stale and don't work aloud; the film track points to the written handbook instead.
-- Coach-only and parent-only material: practice design, coach safeguarding logistics, and sideline and after-game guidance for parents.
+- Coach-only and parent-only material: session-planning detail, coach safeguarding logistics, and sideline and after-game guidance for parents. (Track 05 does explain, for players, how good practice works.)
