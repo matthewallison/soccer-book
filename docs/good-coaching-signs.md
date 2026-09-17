@@ -38,6 +38,33 @@ Game day shows only part of the picture. Look at the week too.
 
 **Warning signs:** intimidation, public blame, rivalry between teammates, players afraid to ask for the ball.
 
+## If something seems to be missing
+
+This is not about scoring a coach. Reasonable coaches disagree about methods and tactics, and one bad session proves little. It is about noticing what your environment teaches well, what may be missing, and what those gaps may be teaching you, so you can keep developing.
+
+Separate three things:
+
+- **Coaching disagreement:** a different method or tactic than you expected. Often fine.
+- **Coaching limitation:** something important is under-taught, left out, or rarely reinforced.
+- **Developmental consequence:** that gap starts shaping habits, confidence, decisions, role, or team culture.
+
+Focus on the second and third, and look at patterns over weeks, not single practices.
+
+| If this keeps happening | It tends to teach | What you can do |
+|---|---|---|
+| Possession work is almost always in tight spaces | Short passing after pressure is escaped, then panic clearances | Train longer passing and carrying at home; watch for big-space moments on film |
+| Players aren't taught to become options | Forced forward passes and isolated ball carriers | Keep asking where you could go to be useful; study off-ball movement on film |
+| Intelligent mistakes are punished | Fear of turning, dribbling, and trying things | Keep taking intelligent risks; judge the decision separately from the outcome |
+| No shared mistake culture or positive leadership | Blame, eye-rolls, teammates policing each other | Don't join it; support, inform, and praise ([When the culture slips](team-culture-and-leadership.md#when-the-culture-slips)) |
+| One player stays in one role all season | A narrower game, few touches in low-touch roles | Build missing skills in small-sided games and at home; ask for rotation or role-specific work |
+| No development feedback for long stretches | Stalled progress and guessing at what matters | Draft your own priority and bring it to office hours |
+| The same game problem recurs and practice never addresses it | The problem starts to feel normal | Make it your film theme and home work; ask about it as a question |
+| Constant instructions from the sideline | Waiting to be told instead of reading the game | Scan and decide first; on film, notice what you saw before the call |
+
+These patterns are meaningful. A team that repeats the same developmental problem while training never addresses it, a player who gets no development feedback for months, a player fixed in one role through these years with nothing to compensate, and a mistake culture that produces fear and peer blame can all stall a player who is working hard. None of that proves the coach doesn't care, and none of it makes your development someone else's job.
+
+**Your coach shapes your environment. You still own your development.**
+
 ## Questions a player can ask herself
 
 - **"What soccer problem did today's practice teach me to solve?"** Escaping pressure, switching the field, defending a 2v2. If players cannot answer week after week, that is meaningful evidence that practice is not teaching clearly.

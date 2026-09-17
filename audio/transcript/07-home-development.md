@@ -6,6 +6,8 @@ Here's the standard for all of it: work at home should make you more capable, no
 
 This is a menu, not a checklist. You don't have to do everything in it, and in a heavy team week, the best choice might be recovery. A good session usually means picking two or three short things and doing them with real quality.
 
+The menu is also how you fill gaps. Maybe you're a defender who almost never has to turn under pressure in games. Maybe your team rarely practices longer passing. Whatever your role and your training aren't giving you many reps of, this is where you go and get them.
+
 So as you listen, choose two or three things you'll actually do this week. At the end, I'll ask what you picked.
 
 Before anything on the menu, count the whole week.

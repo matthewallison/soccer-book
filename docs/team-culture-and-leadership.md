@@ -130,6 +130,35 @@ After every practice, ask: **What soccer problem did today's practice teach me t
 
 The coach provides guidance, structure, feedback, and perspective. You own your development.
 
+### How training shapes you
+
+Coaching yourself also means understanding how your environment teaches you. **What practice repeatedly shows you becomes what you learn to see and solve.** If you get almost no reps at something, it is hard to become good at it, however hard you work.
+
+So a pattern can look like a player problem and be partly a training problem:
+
+- Mostly tight-space possession work can produce a team that keeps passing short after escaping pressure, then clears in a panic.
+- If teammates are not taught to become options, the ball carrier is left forcing it forward.
+- Where intelligent mistakes get punished, players stop turning, dribbling, and trying things.
+- Constant instructions can leave players waiting to be told instead of reading the game.
+
+Reasonable coaches use different methods, and one session proves little. Something important missing for weeks is different. Notice it, because it will shape your habits.
+
+**Your coach shapes your environment. You still own your development.** Take responsibility for your development without taking responsibility for every failure in your environment.
+
+Ask yourself:
+
+- What problem is this practice trying to solve, and what am I being asked to notice?
+- What am I getting lots of reps at? What am I getting almost none of?
+- What game problem keeps coming back that we are not working on?
+- Am I following this rule because I understand the principle, or because I was told to?
+- What should I ask my coach, and what can I solve myself?
+
+Then act on it: study the pattern on [film](film-review-guide.md), fill the gap with the [Home Development Menu](home-development.md) and pickup games, look for the reps you are missing, and ask the coach a good question. For what an environment may be teaching well or leaving out, see [What Good Coaching Looks Like](good-coaching-signs.md#if-something-seems-to-be-missing).
+
+Avoid both extremes: "The coach is always right, so just be more coachable" and "The coach is wrong, so ignore the coach."
+
+**Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.**
+
 ### Team role and development role
 
 **Your team role is where you help the team today. Your development role is the complete player you are becoming.**
@@ -140,6 +169,13 @@ Say "I am a complete soccer player who can currently help my team at \_\_\_" —
 - Ask yourself: "How do I make sure I still become the player I want to become?"
 - You can be a great teammate and ambitious.
 
+**Being useful to the team today and becoming a complete player are both valid goals. They are not always automatically aligned.** Reliability can keep a player in one role: a dependable center back may stay there all season with few touches on the ball. Protect both goals:
+
+- Seek reps in the skills your role doesn't give you, and use training intentionally.
+- Ask for rotation, or for role-specific work that builds what you're missing.
+- Watch film of other roles, not only your own.
+- Don't define yourself by one current position.
+
 ## Asking for opportunities
 
 Want a different role, more minutes, or more chances to develop part of your game? Ask the coach yourself: **"What would I need to show to earn that?"**
@@ -149,6 +185,8 @@ Want a different role, more minutes, or more chances to develop part of your gam
 - Show the qualities of the role you want in the role you have.
 - You do the talking. A parent can help you prepare.
 - Book up to 5 minutes of office hours, in person or through the team app with a parent included. The talk itself happens at the field, in view of others.
+
+No development priority yet, or none for a long stretch? That gap slows progress, and you can respond to it. Draft your own: one strength to build, one current priority, and one observable sign of progress. Bring it to office hours and ask, "Is this the right priority?" Record it on the [Development Plan](templates/development-plan.md).
 
 ## Help each other learn
 
@@ -177,6 +215,17 @@ Avoid:
 Tactical disagreement is allowed. Different players may see different good solutions.
 
 Body language counts. No sighs, eye-rolls, or arms-out after a teammate's mistake. In games, give information and encouragement. Save advice for later.
+
+### When the culture slips
+
+When a team lacks clear standards around mistakes, risk, communication, and leadership, teammates can start blaming, criticizing, eye-rolling, or policing each other. That spreads fear, and fear shuts down courage and creativity. Don't join the blame cycle. Help build a better culture:
+
+- Support teammates after mistakes.
+- Give information instead of judgment.
+- Praise useful actions.
+- Separate the decision from the outcome.
+- Compete hard without ranking teammates socially.
+- Lead constructively, with or without an armband.
 
 ### Group chats and body talk
 

@@ -22,6 +22,8 @@ If the pressure is gone, the solution usually changes too. Look for open grass, 
 
 What we don't want is to escape one crowded area and then build another crowded area five yards away. Much of the time, the whole reason we combine through pressure is to reach better space. Getting out is the means. The space is the reward.
 
+One honest note. If most of the possession work you get is in tight spaces, recognizing big space may not come automatically. That isn't your fault, but it is yours to solve. Practice longer passing at home, play pickup on a bigger field, and watch for the moment the field opens when you study film.
+
 Here's something that surprises a lot of players. A short pass into pressure isn't automatically safer than a longer pass into space. A thirty-yard diagonal to a teammate running onto it can keep the ball far better than three five-yard passes into a defense that's collapsing on you. And long doesn't automatically mean hopeful. The difference between a smart long pass and a panicked clearance is intention.
 
 Remember: purposeful distance, not hopeful distance.

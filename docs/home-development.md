@@ -6,6 +6,8 @@ This is an optional menu, not a requirement to complete everything. In a heavy t
 
 A useful approach is to choose 2–3 short items and work with quality.
 
+Use the menu to fill gaps. If your role or your team's training gives you few reps at something, such as turning under pressure or longer passing, make that one of your picks.
+
 **Count the whole week.**
 
 Team practices, games, other sports, and structured training sessions all add up. The National Athletic Trainers' Association recommends:

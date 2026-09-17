@@ -32,6 +32,10 @@ Praise strong, fast, balanced, and brave. No comments about weight, shape, or ap
 
 Use the team's words (scan, carry, next play), offer rather than require, and leave new tactical instruction to the coach. The [Home Development Menu](home-development.md) has short, optional sessions she can choose from. Count the whole week: all organized sport adds up. The National Athletic Trainers' Association recommends at least two days a week free of organized training and games. Protect sleep; teens need 8–10 hours ([Recovery basics](home-development.md#recovery-basics)).
 
+## If something seems to be missing
+
+Every environment teaches some things well and others less. If you see a pattern over weeks (the same game problem never addressed, no development feedback, one role all season, or fear after mistakes), help her notice it without turning it into a verdict on the coach. Ask what she gets lots of reps at and what she gets almost none of. Help her fill gaps with the [Home Development Menu](home-development.md) and pickup games, and help her prepare a good question for office hours. Keep criticism of the coach out of her hearing. See [What Good Coaching Looks Like](good-coaching-signs.md#if-something-seems-to-be-missing).
+
 ## Health signals
 
 **Fuel and periods.** Growing athletes need enough total food, including iron, calcium, and vitamin D. Eating too little for the training load (low energy availability) harms both health and performance. Once periods have started, going about 3 months or more without one is not a normal part of hard training. The same goes for no period by age 15, or within 3 years after her breasts started to develop. See a doctor.

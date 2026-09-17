@@ -104,6 +104,8 @@ You also have a coach who's with you for every moment of every game. It's you.
 
 Be coachable, and learn to coach yourself. In a game, self-coaching is a loop. You scan, you understand what you see, you decide, you execute, you reflect on how it went, and you adjust. Then around again.
 
+Coaching yourself also means understanding that training shapes habits. What you repeat is what you learn to see. Every environment leaves some gaps, so some things you'll need to go looking for yourself. Your coach shapes your environment. You still own your development. The next chapter goes deeper into what that means.
+
 And after every practice, ask yourself one question: What soccer problem did today's practice teach me to solve? [pause] What was the answer from your last practice? [long pause]
 
 How we treat each other matters just as much.
@@ -118,7 +120,7 @@ Last, your own development.
 
 At any point in the season, you should be able to name three things: one current strength to build on, one development priority you've chosen with your coach, and what progress on that priority would look like. Those will change as you improve. That's the point.
 
-Can you name all three right now? [long pause] If any of them were hard to find, that's a great conversation to have with your coach.
+Can you name all three right now? [long pause] If any of them were hard to find, that's a great conversation to have with your coach. And if nobody has given you a priority yet, don't just wait. Draft one yourself, and ask your coach whether it's the right one.
 
 It helps to keep two ideas separate. Your team role is where you help the team today. Your development role is the complete player you're becoming. You might play center back this season and still be becoming a player who can receive, turn, and combine anywhere on the field.
 

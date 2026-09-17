@@ -126,7 +126,23 @@ In a game, self-coaching is that same loop: scan, understand, decide, execute, r
 
 And after practice, it's one question: What soccer problem did today's practice teach me to solve? Maybe it was escaping pressure. Maybe it was switching the field, creating a two-on-one, finding a teammate between the lines, or defending a two-on-two. If you can name the problem, you're much more likely to recognize it in a game.
 
-The coach provides guidance, structure, feedback, and perspective. But you own your development.
+The coach provides guidance, structure, feedback, and perspective.
+
+Coaching yourself also means understanding something most players never think about: training shapes habits. Whatever you repeat week after week is what you learn to see and solve. Usually that works in your favor. Sometimes it leaves a gap.
+
+Picture a team whose possession work is almost all tight rondos. They get sharp in small spaces. Then, in games, they break pressure and keep playing short anyway, until they're trapped and someone clears it in a panic. Nobody on that team is lazy or uncoachable. They're doing exactly what they practiced.
+
+Say you notice that pattern. Not in one game, but on film, across several. What do you do?
+
+You don't decide your coach is bad. Reasonable coaches use different methods, and one session proves very little. But when something important is missing for weeks, it's worth noticing, because it's shaping your habits. So you fill the gap. You get longer passing and big-space reps at home or in pickup. You make it your film theme. And you ask a good question: "When we break pressure, what should I be looking for?"
+
+Your coach shapes your environment. You still own your development.
+
+There are two traps here. One says the coach is always right, so just be more coachable. The other says the coach is wrong, so ignore the coach. Neither one makes you better. Take responsibility for your development without taking responsibility for every failure in your environment.
+
+A few questions help you see clearly. What am I getting lots of reps at? What am I getting almost none of? What problem keeps showing up in our games that we aren't working on? And am I following this rule because I understand it, or because I was told to? [long pause]
+
+This isn't about scoring your coach. It's about seeing your own development clearly. Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.
 
 That ownership shows up in how you think about your position.
 
@@ -138,6 +154,12 @@ Finish that sentence for yourself. "I'm a complete soccer player who can current
 
 Here's how that plays out. Say you're a center back. In a game, you might only get a handful of touches, and most of them come facing forward with time. So in rondos and small-sided games, go looking for what your match role doesn't give you: receiving under pressure, turning, carrying, and combining. Keep asking yourself, "How do I make sure I still become the player I want to become?"
 
+There's a trap hiding in that example. Say you're the dependable center back, the one the coach never has to worry about. So you stay there, all season, getting a handful of touches and almost no turning under pressure. The team is better for it today. But your game can quietly narrow.
+
+Being useful to the team today and becoming a complete player are both valid goals. They are not always automatically aligned.
+
+So protect both. Use training on purpose for the skills your role doesn't give you. Ask for some rotation, or for role-specific work on what you're missing. Watch film of strong players in other positions. And don't define yourself by the one position you play right now.
+
 You can be a great teammate, and ambitious, at the same time.
 
 And sometimes, ambition means asking for something.
@@ -145,6 +167,8 @@ And sometimes, ambition means asking for something.
 Maybe you want a different role, more minutes, or more chances to develop part of your game. Then ask the coach yourself: "What would I need to show to earn that?"
 
 Keep the conversation about your own development, not about what teammates deserve. For example: "My current role isn't giving me many chances to develop my receiving." Then ask for something specific: "Could I get some minutes in midfield, so I can work on receiving and combining?" And in the meantime, show the qualities of the role you want in the role you have.
+
+And what if weeks go by and nobody has given you a development priority at all? That silence is something you can respond to. Draft your own: one strength to build, one priority, and one sign you'd actually be able to see if you were making progress. Then bring it to office hours, and ask your coach whether it's the right one.
 
 You do the talking. A parent can help you prepare. You can book up to five minutes of office hours, in person or through the team app with a parent included, and the conversation itself happens at the field, in view of others.
 
@@ -159,6 +183,10 @@ Good support includes useful information, questions, demonstrations, encourageme
 Tactical disagreement is allowed. Different players can see different good solutions, and talking that through is part of learning.
 
 Body language counts too. No sighs, no eye-rolls, no arms thrown out after a teammate's mistake. In games, give information and encouragement, and save advice for later.
+
+It helps to understand why teams slide into blame. When a team doesn't have clear standards around mistakes, risk, and leadership, frustration goes looking for a target. Picture a teammate trying a turn in midfield and losing the ball. Someone throws her arms up. Someone else rolls her eyes. A few weeks later, players are policing each other, and nobody wants to try anything difficult. A team that turns on itself after mistakes stops being brave, and that costs everyone, including the players doing the blaming.
+
+Don't join that cycle. Help build the other one. Support her after the mistake. Give information instead of judgment. Praise the useful action when it happens. Separate the decision from the outcome, because that turn may have been the right idea. Compete hard without ranking teammates socially. You don't need an armband to lead that.
 
 Two more lines matter here, even though they happen off the field.
 

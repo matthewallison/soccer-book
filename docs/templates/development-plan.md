@@ -1,6 +1,6 @@
 # Development Plan
 
-Start with your own view, then agree on one priority with the coach and check in roughly once a month. For work outside practice, use the [Home Development Menu](../home-development.md).
+Start with your own view, then agree on one priority with the coach and check in roughly once a month. No priority from the coach yet? Draft your own and bring it to office hours to check. For work outside practice, use the [Home Development Menu](../home-development.md).
 
 | Player | Date | Next check-in |
 |---|---|---|

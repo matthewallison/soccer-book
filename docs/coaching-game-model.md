@@ -35,6 +35,7 @@ Regularly ask:
 - Has a player's development changed what role best suits her?
 - Is one of our rules now limiting creativity rather than helping it?
 - Is this environment making each player better, or only helping us win this weekend?
+- What are players getting lots of reps at, and what are they getting almost none of?
 - Could someone freeze our game at a random moment and see evidence of coaching?
 
 For the signs to look for, see [What Good Coaching Looks Like](good-coaching-signs.md).
@@ -438,6 +439,8 @@ Every player is a potential passing option.
 If you do not move to become an option, you are making the ball carrier's problem harder.
 
 The player on the ball is not solely responsible for solving pressure. Teammates must help by creating angles, changing height, stretching space, and communicating.
+
+When players are not taught to become options, the ball carrier is left to force play forward or clear it. That looks like her decision problem, but it is a team movement problem.
 
 At every moment, players ask: **Where could I go right now that would make me useful?**
 
@@ -863,6 +866,8 @@ Coaches avoid:
 
 **Praise brave decisions out loud.** Correct details specifically, away from the group when possible and always in view of others.
 
+What tends to happen otherwise: when intelligent mistakes are punished, players stop turning, dribbling, and experimenting, and start hiding from the ball. When a team has no shared mistake culture or positive leadership, players fill the gap by blaming and policing each other. Players are taught not to join that cycle ([When the culture slips](team-culture-and-leadership.md#when-the-culture-slips)), but setting the standard is the coach's job.
+
 Revisit this list mid-season. Coaching habits slip back without reminders.
 
 ## 28. Courage and responsibility
@@ -940,7 +945,7 @@ Make rotation real, not occasional:
 
 ### Reliability, size, and confidence
 
-Reliability should not lock a player into one role. A dependable player in a hard position is easy to leave there. That helps the team today and puts the cost on her.
+Reliability should not lock a player into one role. A dependable player in a hard position is easy to leave there. That helps the team today and puts the cost on her. Kept there through these years with nothing to compensate, her game narrows, often in ways that only show later. When team needs keep her in one role, compensate on purpose: rotation in training, small-sided games in other roles, and a development priority beyond her match role.
 
 Do not assign roles by current height, speed, or physical maturity. Players mature at different rates, and early size can hide or exaggerate future ability. Center back is the role most often handed to whoever is biggest now, and future coaches may choose positions by different physical profiles (§36).
 
@@ -991,6 +996,8 @@ These are not permanent labels and should be updated as players improve.
 
 No player on the bench should be confused about what she needs to improve to earn greater opportunity.
 
+When players go long stretches without a priority, progress stalls and they guess at what matters, often wrongly. Players are taught to draft their own and ask about it ([Asking for opportunities](team-culture-and-leadership.md#asking-for-opportunities)). Welcome it.
+
 ### The conversation
 
 1. Ask her first: "What do you think your next priority is?"
@@ -1037,6 +1044,8 @@ Structured peer feedback happens face to face, in coach-led settings such as fil
 The player-facing version is [Help each other learn](team-culture-and-leadership.md#help-each-other-learn).
 
 Coaches should also periodically ask players what team problem they see and how they might solve it. Give players chances to lead warm-ups, explain principles, and organize small groups ([Team Culture: Everyone leads](team-culture-and-leadership.md#everyone-leads)).
+
+Build coaching literacy too. Players who understand what an activity trains, why it exists, and what it leaves out learn faster, and keep developing when coaching is incomplete. Tell them what problem a session solves, and welcome their questions about reps, roles, and priorities ([How training shapes you](team-culture-and-leadership.md#how-training-shapes-you)).
 
 ## 33. Team development culture
 
@@ -1283,6 +1292,16 @@ A club curriculum can provide structure, but it should not replace coaching.
 
 If matches reveal recurring problems, upcoming training should address them.
 
+**What practice repeatedly exposes players to becomes what they learn to see and solve.** Omissions shape habits as surely as drills do:
+
+- Small-space work without large-space work can produce players who are comfortable only when the game is small (§7).
+- Technical drills without decisions can produce technique that does not transfer to games (§41).
+- Constant instructions can reduce independent problem solving (§43).
+- Training disconnected from game problems leaves recurring match problems untouched, until players treat them as normal.
+- Position-specific repetition without role variety can narrow development (§29).
+
+When the same problem shows up week after week and training never addresses it, that is a coaching problem to solve, not only a player problem.
+
 Examples in possession:
 
 - automatic vertical play
@@ -1389,6 +1408,8 @@ Questions only help if players are really thinking:
 - Still show and tell when a player doesn't have the information to solve the problem.
 
 Short cues and pictures ("Make a defender choose") tend to survive game pressure better than long technical explanations.
+
+Constant instructions have a cost: players learn to wait for the call instead of reading the game. Give information and questions more often than commands.
 
 The best coaching should progressively make the coach less necessary.
 

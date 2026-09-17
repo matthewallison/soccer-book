@@ -135,6 +135,8 @@ Then add themes such as:
 - deception
 - weak-side behavior
 
+If the same problem shows up game after game, make it your theme. A recurring problem is worth noticing, especially if practice is not addressing it yet. Work on your part of it at home, and bring it to the coach as a question ("What should I be looking for here?"), not a complaint.
+
 ## Three-part self-review
 
 After a game, identify:

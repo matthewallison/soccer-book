@@ -50,6 +50,8 @@ The next habit is about focus. Don't try to analyze a whole game at once. It's o
 
 If you're new to film study, work through the themes in this order. Scanning and awareness first. Then first touch. Then supporting the player on the ball. Then receiving and playing through pressure. Then off-ball movement. And then defending and defensive positioning. Once those feel familiar, add themes like carrying into space, switching play, pursuit angles, reacting in transition, deception, and weak-side behavior.
 
+Film also shows you patterns that repeat game after game. Maybe we get trapped every time we break pressure. Maybe your role almost never lets you turn. If the same problem keeps appearing and practice isn't touching it, make it your film theme and part of your home work. Then bring it to your coach as a question, not a complaint: "I keep seeing this on film. What should I be doing differently?"
+
 After every game, there's a short self-review with three parts. First, one thing you did well: something to continue and strengthen. Second, one thing you need to improve. Make it a specific behavior, not a vague judgment. "I need to scan before receiving in midfield" is useful. "I played badly" isn't. And third, one solution you want to try: a concrete action for the next practice or game.
 
 Those parts go somewhere. Your one thing to improve comes with you to the next team film share at practice, where each player names one thing from her own game. Your one solution goes into practice, and then you look for it again on the next film.

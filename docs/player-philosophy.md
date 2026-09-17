@@ -105,6 +105,8 @@ In games, self-coaching is a loop: scan → understand → decide → execute �
 
 After every practice, ask: **What soccer problem did today's practice teach me to solve?**
 
+Training shapes habits, including through what it leaves out. Notice what you get lots of reps at and what you get almost none of, and fill the gaps deliberately. **Your coach shapes your environment. You still own your development.** See [Team Culture: How training shapes you](team-culture-and-leadership.md#how-training-shapes-you).
+
 ## Team development culture
 
 **Your effort is part of your teammate's training.**
