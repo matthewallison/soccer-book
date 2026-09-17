@@ -6,7 +6,8 @@ speech, so the generator should not rewrite prose, expand abbreviations, or othe
 "improve" the text. Its job is mechanical:
 
 1. Read one or more transcript Markdown files.
-2. Remove the Markdown title (we do not want the chapter heading narrated).
+2. Convert the leading Markdown title into clean spoken audiobook text. We want the
+   listener to hear the title; we do not want Markdown syntax such as a leading '#'.
 3. Split long chapters at paragraph boundaries so each Eleven v3 request stays under
    its text limit.
 4. Send each chunk to ElevenLabs using one consistent voice/model/output format.
@@ -106,14 +107,33 @@ DEFAULT_SPEED = 1.0
 # ---------------------------------------------------------------------------
 
 def load_transcript(path: Path) -> str:
-    """Load a transcript and remove its leading Markdown H1 title.
+    """Load a transcript and make its Markdown H1 safe to narrate.
 
-    The H1 is useful in GitHub and the EPUB, but a standalone audio track should begin
-    with its actual narration rather than literally speaking the chapter heading.
-    Everything else is preserved, including Eleven v3 audio tags such as [pause].
+    The title is real audiobook content, so it should be spoken. The Markdown marker
+    is merely source formatting, so it should not be sent to TTS. For example:
+
+        # How We Play, and How You Learn It
+
+    becomes:
+
+        How We Play, and How You Learn It
+
+    We deliberately do *not* invent spoken chapter numbers here. The transcript is
+    the source of truth for what the listener hears; the filename already supplies
+    ordering and the player/website supplies track metadata. Position-card titles are
+    therefore handled naturally too: their descriptive title is spoken without an
+    artificial "Chapter Eleven" prefix.
+
+    Everything after the H1 is preserved exactly, including Eleven v3 audio tags such
+    as [pause], [long pause], and [slows down]. The blank line after the title gives
+    the model a natural beat before the opening narration.
     """
     text = path.read_text(encoding="utf-8").replace("\r\n", "\n").strip()
-    text = re.sub(r"^# .+?\n+", "", text, count=1)
+
+    # Remove only the Markdown syntax from the first H1. Do not remove the title
+    # itself. If a transcript somehow has no H1, leave it untouched rather than
+    # guessing what its title ought to be.
+    text = re.sub(r"^#\s+(.+?)\n+", r"\1\n\n", text, count=1)
     return text.strip()
 
 
