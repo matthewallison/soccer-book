@@ -53,3 +53,7 @@ More chapters are being recorded, and this page grows as they're added.
 ## Center Back: Numbers Four and Five
 
 <audio controls preload="none" src="11-center-back.mp3"></audio>
+
+## Pivot: Numbers Six and Eight
+
+<audio controls preload="none" src="12-pivot.mp3"></audio>
