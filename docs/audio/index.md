@@ -13,3 +13,7 @@ More chapters are being recorded, and this page grows as they're added.
 ## High-Level Player Sheet
 
 <audio controls preload="none" src="01-player-sheet.mp3"></audio>
+
+## Goalkeeper: Number One
+
+<audio controls preload="none" src="09-goalkeeper.mp3"></audio>
