@@ -22,6 +22,10 @@ More chapters are being recorded, and this page grows as they're added.
 
 <audio controls preload="none" src="03-injuries-and-return-to-play.mp3"></audio>
 
+## Communication and Movement Fundamentals
+
+<audio controls preload="none" src="04-communication-and-movement.mp3"></audio>
+
 ## Goalkeeper: Number One
 
 <audio controls preload="none" src="09-goalkeeper.mp3"></audio>
