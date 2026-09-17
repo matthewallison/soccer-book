@@ -38,6 +38,10 @@ More chapters are being recorded, and this page grows as they're added.
 
 <audio controls preload="none" src="07-home-development.mp3"></audio>
 
+## The Position Cards
+
+<audio controls preload="none" src="08-position-cards.mp3"></audio>
+
 ## Goalkeeper: Number One
 
 <audio controls preload="none" src="09-goalkeeper.mp3"></audio>
