@@ -26,6 +26,10 @@ More chapters are being recorded, and this page grows as they're added.
 
 <audio controls preload="none" src="04-communication-and-movement.mp3"></audio>
 
+## How We Play, and How You Learn It
+
+<audio controls preload="none" src="05-how-we-play.mp3"></audio>
+
 ## Goalkeeper: Number One
 
 <audio controls preload="none" src="09-goalkeeper.mp3"></audio>
