@@ -1,116 +1,86 @@
 # Film Review Guide
 
-The purpose of film study is not to decide whether you "played well." It's to learn to see the game more clearly, and to become your own coach.
+Most players watch their own game film the way they'd watch a highlight reel: waiting to see whether things went well. That's natural. But it isn't the point.
 
-The most important rule.
+The point of film study isn't to decide whether you "played well." It's to learn to see the game more clearly, and, over time, to become your own coach.
 
-Pause before you know the outcome.
+So let's start with the single most important rule. Pause before you know the outcome.
 
-If you wait until the play ends, it's too easy to judge the decision only by what happened. A good decision can fail because of execution. A poor decision can succeed because of luck.
+Here's why. Picture a clip where you force a risky pass into a crowd. It takes a deflection, falls kindly to our striker, and she scores. Watch that play all the way through and it looks like a great decision. Now picture a different clip. You play a perfect pass into space, and your teammate slips. Watch that one through and it looks like a bad decision. In both clips, the result is lying to you about the choice.
 
-Even professionals get fooled. In one study, shots that hit the post and went in earned players better ratings than similar shots that hit the post and stayed out.
+A good decision can fail because of execution. A poor decision can succeed because of luck.
 
-Say it with me. [pause] [slows down] Judge the choice, not the bounce.
+Even professionals get fooled by this. In one study, shots that hit the post and went in earned players better ratings than similar shots that hit the post and stayed out. Same strike. Different bounce. Different grade.
 
-The review sequence.
+Remember: judge the choice, not the bounce.
 
-For each useful clip, work through nine steps.
+So how do you actually study a clip? There's a nine-step sequence. It sounds like a lot, but after a few clips it becomes a habit.
 
-One: pause before the action.
+One, pause before the action. Two, scan the picture: what information should the player know? Three, list the realistic options, and try to find more than one. Four, play each option forward two to four actions. What might happen next? Five, look for an option that isn't obvious, where deception or creativity could change the picture. Six, choose. Commit to the option you'd pick before you press play. Seven, watch what actually happened. Eight, judge the decision and the execution separately. And nine, write down one useful lesson.
 
-Two: scan the picture. What information should the player know?
+Step six is the one that protects you. Committing before you press play is what stops the outcome from grading your decision for you.
 
-Three: list the realistic options. Try to find more than one.
+You can practice this without any video at all. Pick one moment from your last game when you received the ball. [pause] Freeze it in your mind, just before the ball arrived. What could you see, and what were your options? [long pause] Knowing what you know now, which one would you choose? [long pause] That's the review sequence. You just did it in your head.
 
-Four: play each option forward two to four actions. What might happen next?
+Now, what should you ask while you watch? There are a lot of good questions. Rather than list them all, let's walk through one clip together and see where they come up.
 
-Five: find one option that isn't obvious. Could deception or creativity change the picture?
+Picture this. You're watching a clip from last weekend. You're playing on the left side of midfield, and the ball is with our right center back.
 
-Six: choose. Commit to the option you'd pick before you press play.
+At first, you don't have the ball. It's tempting to skip ahead to your touch. Don't. Ask yourself: If I didn't touch the ball, could I still have influenced the play? Did my position create an option for her, pull a defender away, or protect dangerous space in case we lost it?
 
-Seven: watch the play. What actually happened?
+Now the center back looks up to pass to you. Pause here, before the ball arrives. Did you scan early enough? Where was the pressure coming from, and where was your best support? Was there open space you could have carried into? And what did your body shape let you see? If you were facing the center back square-on, you probably couldn't see the space behind you at all.
 
-Eight: judge the decision and the execution separately.
+The ball arrives, and now you're in possession. Did you recognize the best advantage, or did you pass just because someone was close? Could you have carried farther? Was a switch available? Could you have drawn a defender toward you first, so that a teammate came free? Did your pass help the receiver's next action? Could a little deception have opened a better option?
 
-And nine: write down one useful lesson.
+Then you pass. Keep watching yourself for the next five seconds. Did you move again? Did you become another outlet, or create space for someone else? Were you already preparing for a possible turnover?
 
-Let's practice the first few steps, from memory, with no video at all. [pause] Pick one moment from your last game when you received the ball. [long pause] Freeze it, just before the ball arrived. What could you see? [long pause] What were your options? Try to find more than one. [long pause] Knowing what you know now, which one would you choose? [long pause] That's the review sequence. You just did it in your head.
+A few passes later, we lose the ball, and it becomes a defending clip. Now the questions change. Did you protect the most dangerous space? Could you see both the ball and the dangerous opponent? Who pressured the ball, and who covered her? Did you step, delay, cover, or recover at the right moment? Could you have intercepted, instead of just following your player? If you were recovering, did you run on a good angle, to where the attacker was going, or just chase from behind? And if we couldn't win it back right away, did we get compact and protect the middle?
 
-Questions to ask.
+Transition moments deserve their own look, in both directions. Right after losing the ball: could we counterpress? If not, did you recover immediately? Were you already in a spot to stop a counterattack while we still had the ball? And right after winning it: did you scan forward first? Was there a real breakaway? If not, did we secure possession?
 
-Here are the questions to ask while you watch. Don't try to answer all of them. Listen for the one or two that sting a little. Those are your best questions.
+Finally, pull back and look at the whole team. Did we form triangles, or stand in flat lines? Who gave width, and who gave depth? Did players move before the pass, or only after it? Was there a backward option that could have opened something forward? When nothing good was on, did we keep the ball? And when would a dribble have been better than a pass?
 
-Without the ball: If I didn't touch the ball, could I still have influenced the play? Did my position create an option, pull a defender, or protect dangerous space?
+That's one clip, and a lot of questions. You won't ask all of them every time. Listen for the one or two that sting a little. Those are your best questions.
 
-Before receiving: Did I scan early enough? Where was pressure coming from, and where was my best support? Was there open space I could have carried into? What did my body shape let me see?
+Here's a way of watching that surprises most players. Some of the most important learning happens where the ball isn't.
 
-In possession: Did I recognize the best advantage? Did I pass just because someone was close? Could I have carried farther, or switched the field? Could I have made a defender commit first? Did my pass help the receiver's next action? Could deception have created a better option?
+Pick one player and watch only her, for five to ten minutes. Ignore the ball completely. Notice how often she scans, and when she moves before the pass. Notice how she creates angles, when she stays wide and when she comes inside, what she does right after passing, what she does on the weak side, and how she prepares for transitions. You'll start to see how much a good player influences the game without touching the ball at all.
 
-After passing: Did I move again? Did I become another outlet, or create space for someone else? Did I prepare for a possible turnover?
+The next habit is about focus. Don't try to analyze a whole game at once. It's overwhelming, and you end up learning nothing specific. Instead, choose six to ten useful clips around one theme.
 
-Defending: Did I protect the most dangerous space? Could I see both the ball and the dangerous opponent or space? Who pressured the ball, and who covered her? Did I step, delay, cover, or recover at the right time? Could I have intercepted, instead of just following my player? When recovering, did I use a good pursuit angle, or just chase from behind? And if we couldn't win it right away, did we get compact and protect the middle?
+If you're new to film study, work through the themes in this order. Scanning and awareness first. Then first touch. Then supporting the player on the ball. Then receiving and playing through pressure. Then off-ball movement. And then defending and defensive positioning. Once those feel familiar, add themes like carrying into space, switching play, pursuit angles, reacting in transition, deception, and weak-side behavior.
 
-In transition: After losing the ball, could we counterpress? If not, did I recover immediately? Was I already in a useful spot to stop a counterattack while we still had the ball? After winning it, did I scan forward first? Was there a real breakaway? And if not, did we secure possession?
+After every game, there's a short self-review with three parts. First, one thing you did well: something to continue and strengthen. Second, one thing you need to improve. Make it a specific behavior, not a vague judgment. "I need to scan before receiving in midfield" is useful. "I played badly" isn't. And third, one solution you want to try: a concrete action for the next practice or game.
 
-Team shape: Did we form triangles, or stand in flat lines? Who gave width, and who gave depth? Did players move before the pass, or only after it? Was there a backward option that could have opened something forward? When nothing good was on, did we keep the ball? And when was dribbling better than passing?
+Those parts go somewhere. Your one thing to improve comes with you to the next team film share at practice, where each player names one thing from her own game. Your one solution goes into practice, and then you look for it again on the next film.
 
-So, which question stung a little? [long pause] Start your next film session with that one.
-
-Watch away from the ball.
-
-Some of the most important learning happens where the ball isn't. Pick one player and watch only her for five to ten minutes. Notice how often she scans, when she moves before the pass, and how she creates angles. Notice when she stays wide or moves inside, how she reacts after passing, what she does on the weak side, and how she prepares for transitions. And notice how much she influences play without touching the ball.
-
-One theme at a time.
-
-Don't try to analyze a whole game at once. Choose six to ten useful clips around one theme.
-
-New to film study? Start with these themes, in this order: scanning and awareness; first touch; supporting the player on the ball; receiving and playing through pressure; off-ball movement; and defending and defensive positioning.
-
-Then add themes like carrying into space, switching play, pursuit angles, reacting in transition, deception, and weak-side behavior.
-
-The three-part self-review.
-
-After a game, name three things.
-
-One thing I did well: something to continue and strengthen.
-
-One thing I need to improve: a specific behavior, not a vague judgment. Bring it to the next team film share at practice, where each player names one thing from her own game.
-
-And one solution I want to try: a concrete action for the next practice or game. Take it into practice, then look for it again on the next film.
-
-Let's do it now, for your last game. [pause] One thing you did well. [long pause] One thing you need to improve. Make it a behavior, not a feeling. [long pause] And one solution you want to try. [long pause]
+Let's do it now, for your last game. [pause] One thing you did well. [long pause] One thing to improve, as a behavior. [long pause] And one solution you want to try. [long pause]
 
 Film trains what you look for. Practice and games turn it into speed.
 
-A simple game tally.
+If you want something more concrete, keep a simple tally. From one half of film, count seven things. How many times you received the ball. How many of those receptions had at least one scan first, meaning your head turned away from the ball in the five seconds before your first touch. How many receptions were facing forward, or on the half-turn. How many passes or carries broke a line, getting the ball past a line of opponents. How many times you moved to a new angle after passing. How many times you won or blocked the ball by reading the play. And how many times you asked for the ball.
 
-From one half of film, count seven things. How many times you received the ball. How many of those receptions had at least one scan first, meaning a head turn away from the ball in the five seconds before your first touch. How many receptions were facing forward, or on the half-turn. How many passes or carries broke a line, getting the ball past a line of opponents. How many times you moved to a new angle after passing. How many times you won or blocked the ball by reading the play. And how many times you asked for the ball.
+A couple of honest cautions. Far-away team-camera video often can't show your head clearly, so skip those clips when you count scans. You often can't hear calls on that video either, so only count the asks for the ball you can actually see or hear.
 
-Skip clips where you can't clearly see your head; far-away team-camera video often can't show it. You often can't hear calls on that video either, so only count the asks for the ball you can actually see or hear.
+And compare scanning like with like. Everyone scans less under tight pressure, near the touchline, and near goal. Center midfielders usually scan the most, and forwards the least. So a winger comparing her numbers to a pivot's learns nothing. Compare your own clips, from the same position and the same kind of situation.
 
-Compare scanning like with like. Everyone scans less under tight pressure, near the touchline, and near goal. Center midfielders usually scan the most, and forwards the least. So compare your own clips from the same position and situation.
-
-Compare with your own last game, not with teammates.
+Remember: compare with your own last game, not with your teammates.
 
 Record your tally and your self-review on the Game Reflection sheet in the written handbook.
 
-Watch the next level up.
+Your own games aren't the only film worth watching. Professional matches are useful. But also watch soccer just two or three years above your age group, because it shows you what players only a little older are expected to do. That's much closer to your next step. If you're under-thirteen or under-fourteen, start with under-fifteen and under-sixteen games.
 
-Professional matches are useful. But also watch soccer just two or three years above your age group, because it shows what players only a little older are expected to do. If you're under-thirteen or under-fourteen, start with under-fifteen and under-sixteen games.
+Choose full matches, not highlights. Highlights teach moments. Full matches teach soccer. A highlight shows you the finish. A full match shows you the ten passes, the movement, and the recovery runs that never make the highlight.
 
-Choose full matches, not highlights. Highlights teach moments. Full matches teach soccer.
+Leagues, age labels, and streaming services change every season, so the written handbook keeps the search tips and the list of where to find full games.
 
-Leagues, age labels, and streaming services change every season, so the written handbook lists search tips and where to find full games.
+A good exercise is to compare four levels with the same questions: our match, a good under-sixteen match, a top under-sixteen match, and a professional women's match. How quickly do players reposition after passing? How often do they scan before receiving? How fast does the ball move without getting rushed? How often do they carry into open space, or switch fields on purpose? What do the weak-side players do? And what happens right after possession changes?
 
-Compare four levels using the same questions: our match, a good under-sixteen match, a top under-sixteen match, and a professional women's match. How quickly do players reposition after passing? How often do they scan before receiving? How fast does the ball move without becoming rushed? How often do they carry into open space, or switch fields on purpose? What do the weak-side players do? And what happens right after possession changes?
+Then try the freeze test. Stop the video at a random moment and look at the whole team, not just the ball. Where are players standing? What are they looking at? Can you see evidence of coaching, without hearing the coach? One freeze proves very little. Do it several times, and look for the pattern.
 
-Then try the freeze test. Freeze the video at a random moment. Can you see evidence of coaching, without hearing the coach? Look at the whole team, not just the ball: where players are standing, and what they're looking at. One freeze proves little. Look for the pattern.
+When you're preparing for a specific role, study one strong player in that position, and ignore the ball whenever she doesn't have it. Where does she stand when the ball is on the opposite side? How does she create an outlet? What does she do after passing? When does she step, drop, press, or delay? And what does she do the moment possession changes?
 
-Position study.
-
-When you're preparing for a role, watch one strong player in that position, and ignore the ball whenever she doesn't have it. Where does she stand when the ball is on the opposite side? How does she create an outlet? What does she do after passing? When does she step, drop, press, or delay? And what does she do the moment possession changes?
-
-When you review your own game, start with the question for your position. Listen for yours.
+And when you review your own game, start with the one question for your position. Each one checks a moment your position card asks you to picture before the game. Listen for yours.
 
 Goalkeeper: After I collected the ball, did I scan and restart possession quickly, or punt out of habit?
 
@@ -126,12 +96,10 @@ Striker: Did my movement change what the center backs had to decide?
 
 Attacking midfielder: Did I find space between the lines, and did I move again after I passed?
 
-Sharing film safely.
+One more thing, and it matters. Team film stays with the team.
 
-Team film stays with the team. Watch game film through the team's private link or app, and don't repost it publicly. Clips of a teammate are for learning: describe, don't judge. Never share a teammate's mistake in a group chat, story, or comment. Questions about your film go to the coach through the team app, with a parent included. If a family asks for a clip of their daughter to come down, it comes down. No recording in locker rooms, restrooms, or changing areas. And when you watch other teams online, learn from them; don't repost or comment on their players.
+Watch game film through the team's private link or app, and don't repost it publicly. Clips of a teammate are for learning, so describe, don't judge. Never share a teammate's mistake in a group chat, a story, or a comment. Think about how it would feel to see your worst moment of the season in someone else's story. If you have questions about your film, send them to the coach through the team app, with a parent included. If a family asks for a clip of their daughter to come down, it comes down. No recording in locker rooms, restrooms, or changing areas. And when you watch other teams online, learn from them, but don't repost or comment on their players.
 
-The final principle.
+Let's finish where we started. Film review isn't about proving that a player was right or wrong. It's about building a better picture of the game in your head, so that next time, you see it sooner.
 
-Film review is not about proving that a player was right or wrong. It's about building a better picture of the game in your head.
-
-Say it with me. [pause] [slows down] See more. Understand more. Choose better.
+See more. Understand more. Choose better.
