@@ -61,3 +61,7 @@ More chapters are being recorded, and this page grows as they're added.
 ## Winger: Numbers Seven and Eleven
 
 <audio controls preload="none" src="13-winger.mp3"></audio>
+
+## Striker: Number Nine
+
+<audio controls preload="none" src="14-striker.mp3"></audio>
