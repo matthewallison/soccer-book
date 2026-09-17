@@ -30,6 +30,10 @@ More chapters are being recorded, and this page grows as they're added.
 
 <audio controls preload="none" src="05-how-we-play.mp3"></audio>
 
+## Film Review Guide
+
+<audio controls preload="none" src="06-film-review.mp3"></audio>
+
 ## Goalkeeper: Number One
 
 <audio controls preload="none" src="09-goalkeeper.mp3"></audio>
