@@ -195,7 +195,13 @@ Bringing what the game needs is not only about your own decisions.
 
 Sometimes what the game needs is a teammate who makes other players feel safer, clearer, and more willing to play.
 
-You do not need to be captain. You do not need to give speeches. You do not need to coach your teammates.
+You do not need to be captain or give speeches to lead.
+
+You are part of your team's environment. Your effort, communication, reactions, ideas, and willingness to help all shape it.
+
+If you know something that can help a teammate, help her. Share information, offer an idea, demonstrate it, or solve the problem together. Good teammates teach each other.
+
+The goal is not to become the teammate who constantly corrects everyone. **Help without grading. Lead without needing control.** Be willing to share what you know and equally willing to listen when someone else sees something you do not.
 
 You can lead with small actions.
 
@@ -225,9 +231,11 @@ They give teammates useful information, and they tell them that one mistake has 
 
 On a team that is becoming afraid of mistakes, that matters.
 
-There is also a difference between **supporting** teammates and **grading** them.
+There is also a difference between **helping** teammates and **grading** them.
 
-Try to give information, encouragement, cover, and options. Be careful about becoming the player who constantly tells everyone what they should have done.
+Give information, encouragement, cover, and options. Share something you know when it can genuinely help. Organize when the moment needs organizing. Ask questions and solve problems together.
+
+But notice when helping turns into constantly judging what everyone else should have done. Good leadership is not proving that you know more. It is making the people around you better.
 
 A useful leadership question is:
 
@@ -405,31 +413,53 @@ Confidence makes this easier, not harder.
 
 When criticism does not threaten your identity, you can examine it honestly.
 
-## You cannot fix everything
+## Help shape the environment without needing to control it
 
-There is an important limit to all of this.
+You are not separate from your environment.
 
-You cannot create a passing option and also make your teammate use it.
+**You help create it.**
 
-You cannot delay an attacker and simultaneously control what every other defender does.
+Every player does.
 
-You cannot create a team-wide possession structure by yourself.
+Your effort affects practice. Your communication affects teammates. Your response to mistakes affects whether other players feel brave enough to try again. What you know can help somebody else learn. Your willingness to ask for the ball can make it easier for somebody else to pass instead of panic.
 
-You cannot make ten teammates calm.
+So do not shrug at a problem just because you cannot solve it alone.
 
-You cannot solve every problem in your environment.
+**Influence what you can.**
 
-Leadership does not mean taking responsibility for everything.
+If you see something that can help a teammate, help.
 
-It means continuing to bring your best understanding, effort, courage, and support to the things you can influence.
+If the group needs organization and you understand the problem, communicate.
 
-Some gaps you can fill yourself.
+If practice needs more intensity, raise yours.
 
-Some you can partly compensate for.
+If teammates are becoming negative after mistakes, bring a different response.
 
-Some require the team or coach to change.
+If somebody knows something you do not, listen.
 
-Know the difference.
+Leadership can mean seeing a problem, helping where you can, bringing other people with you, learning from their response, and recognizing when you have done what you reasonably can.
+
+But influence is different from control.
+
+You can provide a passing option; you cannot make the pass come.
+
+You can explain something useful to a teammate; you cannot make her use it.
+
+You can organize the players around you; you cannot make every player see the same picture.
+
+You can bring calm, courage, effort, and support; you cannot control how ten other players respond.
+
+Some problems you can help solve yourself.
+
+Some you can improve with teammates.
+
+Some require the whole team or coach to change.
+
+Know the difference — but do not use that difference as an excuse to stop helping.
+
+> **Take responsibility for your contribution without taking ownership of every outcome.**
+
+> **HELP. DON'T CONTROL.**
 
 ## Bring what is missing
 
@@ -587,7 +617,9 @@ That could become a film-review marker for confidence.
 
 The new "Make the players around you better" section extends the chapter from self-protection into leadership. This is worth keeping because the chapter's main idea — bring what the game needs — should include psychological and informational support for teammates, not just tactical actions.
 
-The key boundary is **support rather than grading**. A young player should not become an assistant coach or take responsibility for fixing team culture. Useful behaviors are brief information ("time," "turn," "man on"), encouragement after mistakes, making oneself available, providing cover, and recognizing intelligent attempts even when they fail.
+The key boundary is **helping rather than grading**, not a prohibition on teaching or organizing teammates. Players are legitimate contributors to team culture and learning. If a player knows something useful, she should be willing to share it appropriately; good teammates teach each other. Useful behaviors include brief information ("time," "turn," "man on"), encouragement after mistakes, making oneself available, providing cover, recognizing intelligent attempts even when they fail, sharing an idea, asking a teammate a question, and organizing when the game genuinely needs organization.
+
+The guardrail is **HELP. DON'T CONTROL.** The player should contribute to improving the environment while recognizing that influence does not guarantee outcomes.
 
 The question **"Did I make somebody else's game easier today?"** is a strong candidate for a leadership reflection because it moves attention away from constant self-evaluation without making the player responsible for team outcomes.
 
@@ -712,7 +744,11 @@ The intended posture is curious and secure:
 
 **Listen. Think. Test against the game. Learn. Keep participating.**
 
-Likewise, do not imply that the player can personally repair a dysfunctional team environment. Preserve the handbook's existing distinction between gaps a player can fill, partly compensate for, and cannot solve alone.
+Likewise, avoid either extreme on responsibility for the environment. A player is part of the environment and should be encouraged to improve it: share useful knowledge, organize when appropriate, support teammates, model standards, raise training quality, and help solve problems. Good teammates teach each other.
+
+The boundary is not "do not coach your teammates." The better distinction is **help without grading; lead without needing control**. Preserve the handbook's existing distinction between gaps a player can fill, gaps players can improve together, and problems that ultimately require the team or coach to change. The player should not use "I can't control it" as an excuse for passivity, nor interpret an unsolved team problem as a personal leadership failure.
+
+Candidate summary: **Take responsibility for your contribution without taking ownership of every outcome.**
 
 ### Possible title alternatives
 
