@@ -37,6 +37,7 @@ The full explanation and training progression are in §7 of the [Coaching Game M
 
 - Know the four mantras by memory. Learn the bold principles in the [High-Level Player Sheet](docs/player-philosophy.md) over time, and use it as a quick reference.
 - Read [Team Culture, Courage, Leadership & Self-Coaching](docs/team-culture-and-leadership.md) for the ideas behind the sheet.
+- When it is hard to express those ideas on your team, read [Don't Disappear: Playing Your Game in a Different Environment](docs/dont-disappear.md).
 - Learn the team's shared words, body shape, and movement habits in [Communication & Movement Fundamentals](docs/communication-and-movement.md).
 - Before each match, review the [position card](docs/positions/) for your role and picture its moments.
 - Study your games with the [Film Review Guide](docs/film-review-guide.md), and choose short sessions from the [Home Development Menu](docs/home-development.md).
@@ -59,6 +60,7 @@ The full explanation and training progression are in §7 of the [Coaching Game M
 
 - [High-Level Player Sheet](docs/player-philosophy.md) — the four mantras to memorize and the principles to learn over time.
 - [Team Culture, Courage, Leadership & Self-Coaching](docs/team-culture-and-leadership.md) — wanting the moment, penalty kicks, mistake culture, leadership, self-coaching and how training shapes you, asking for opportunities, and peer support.
+- [Don't Disappear: Playing Your Game in a Different Environment](docs/dont-disappear.md) — staying involved in difficult team environments, confidence through mistakes, and helping teammates without needing to control outcomes.
 - [Injuries, Recovery, and Return to Play](docs/injuries-and-return-to-play.md) — what toughness really means, staying connected while injured, and returning progressively and confidently once cleared.
 - [Communication & Movement Fundamentals](docs/communication-and-movement.md) — shared vocabulary, changing the size of the game, body shape, movement timing, and defensive posture.
 - [Film Review Guide](docs/film-review-guide.md) — how players can study their own games and higher-level soccer, with a simple game tally and one question for each position.
@@ -83,6 +85,8 @@ The full explanation and training progression are in §7 of the [Coaching Game M
 - [Attacking Midfielder (#10)](docs/positions/attacking-midfield.md)
 
 ## Printing and website
+
+The September 23 chapter, **Don't Disappear: Playing Your Game in a Different Environment**, is integrated into the website and included in the print build order. The committed PDF, EPUB, and existing audio tracks cover the original handbook; they do not yet include this chapter.
 
 - [Print files](print/) — `print/build.sh` builds `soccer-development-handbook.pdf` in the repository root (pass a path to write it elsewhere). It requires pandoc, XeLaTeX with a full TeX Live installation, TeX Gyre Pagella, and the Lato .ttf files in `/usr/share/fonts/truetype/lato/` (for example, the fonts-lato package).
 - [Website files](.github/workflows/) — `mkdocs.yml` builds the site with MkDocs Material; `.github/workflows/pages.yml` publishes it to GitHub Pages on every push to `main`. Preview locally with `pip install -r requirements.txt && mkdocs serve`.

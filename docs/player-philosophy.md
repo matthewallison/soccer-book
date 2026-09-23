@@ -35,6 +35,8 @@ Nerves are normal. They are your body getting ready. Step forward anyway.
 
 At every moment, ask: **Where could I go right now that would make me useful?**
 
+When confidence drops or the game feels chaotic, choose one useful action and stay involved. See [Don't Disappear: Playing Your Game in a Different Environment](dont-disappear.md).
+
 ### Four moments and our shape
 
 - Think in four moments: **when we have it, when we lose it, when they have it, when we win it.** Your [position card](positions/index.md) uses the same frame.

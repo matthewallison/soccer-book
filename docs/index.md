@@ -6,6 +6,8 @@ The central goal is not to create players who memorize instructions. It is to de
 
 [Download the printable handbook (PDF)](soccer-development-handbook.pdf){ .md-button .md-button--primary }
 
+**New chapter:** [Don't Disappear: Playing Your Game in a Different Environment](dont-disappear.md) — stay involved, keep your confidence through mistakes, and help your team when the environment is difficult. This chapter is available on the website; the downloadable PDF and audio edition cover the original handbook.
+
 ## Core team mantras
 
 Players say the mantras out loud, together: the practice mantra is the first thing at every practice, and the game mantra is the first thing in every game warm-up.
@@ -24,6 +26,7 @@ Players say the mantras out loud, together: the practice mantra is the first thi
 - Prefer to listen? Play the [audio edition](audio/index.md) on your phone.
 - Know the four mantras by memory. Learn the bold principles in the [High-Level Player Sheet](player-philosophy.md) over time, and use it as a quick reference.
 - Read [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) for the ideas behind the sheet.
+- When it is hard to express those ideas on your team, read [Don't Disappear: Playing Your Game in a Different Environment](dont-disappear.md).
 - Before each match, review the [position card](positions/index.md) for your role and picture its moments.
 - Study your games with the [Film Review Guide](film-review-guide.md), and choose short sessions from the [Home Development Menu](home-development.md).
 - If something hurts, tell a parent and your coach, and read [Injuries, Recovery, and Return to Play](injuries-and-return-to-play.md).

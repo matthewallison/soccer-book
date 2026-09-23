@@ -35,6 +35,7 @@ latex() { printf '\n```{=latex}\n%s\n```\n\n' "$1"; }
   latex '\hbsetlabel{For players}'
   chapter docs/player-philosophy.md
   chapter docs/team-culture-and-leadership.md
+  chapter docs/dont-disappear.md
   chapter docs/injuries-and-return-to-play.md
   chapter docs/communication-and-movement.md
   chapter docs/film-review-guide.md

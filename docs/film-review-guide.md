@@ -137,6 +137,14 @@ Then add themes such as:
 
 If the same problem shows up game after game, make it your theme. A recurring problem is worth noticing, especially if practice is not addressing it yet. Work on your part of it at home, and bring it to the coach as a question ("What should I be looking for here?"), not a complaint.
 
+### Staying involved after a mistake
+
+If confidence is your theme, follow what happens after one mistake. Did you respond to the turnover, communicate, and become useful again? When possession returned, did you show at the next appropriate opportunity?
+
+Look at the role and the picture. Staying back to cover may be the right decision; running toward the ball is not always useful. Judge the available actions, and avoid guessing how a player felt from one clip.
+
+Choose one useful response to practice next time. Use this as a review theme when it helps, rather than adding another required tally. See [Don't Disappear](dont-disappear.md#hiding-feels-safe).
+
 ## Three-part self-review
 
 After a game, identify:

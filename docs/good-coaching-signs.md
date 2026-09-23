@@ -84,6 +84,8 @@ These patterns are meaningful. A team that repeats the same developmental proble
 
 **Your coach shapes your environment. You still own your development.**
 
+For staying involved when those gaps affect your confidence, read [Don't Disappear](dont-disappear.md). It explains how to contribute, help teammates, and shape the environment while recognizing which changes need the whole team or coach.
+
 ## Questions a player can ask herself
 
 - **"What soccer problem did today's practice teach me to solve?"** Escaping pressure, switching the field, defending a 2v2. If players cannot answer week after week, that is meaningful evidence that practice is not teaching clearly.
