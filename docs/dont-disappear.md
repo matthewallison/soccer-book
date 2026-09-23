@@ -69,6 +69,10 @@ During live play, respond first: recover, cover, communicate, or become an optio
 
 Secure confidence makes it easier to be coachable. You can say, "I made the wrong decision," without deciding, "I should stop making decisions."
 
+Confidence does not mean never doubting yourself. Doubt may show up after a mistake, a correction, or a difficult stretch. It does not have to make the next decision for you.
+
+Treat yourself the way you would treat a teammate you respect. If she made one poor pass, you would not decide she had become a poor player. You would help her see what happened and get ready for the next action. Give yourself the same combination of honesty and support.
+
 ## Hiding feels safe
 
 Fear of criticism can make you stop asking for the ball, stay behind an opponent instead of creating an angle, or leave every difficult decision to someone else. It can feel safer because fewer people notice your mistakes.
@@ -88,6 +92,8 @@ The pattern can feed itself: confidence falls, you hide, you influence the game 
 You do not have to demand every pass, force a risky turn, or leave your position to prove courage. Sometimes protecting space is your most useful action. **The question is whether your choice serves the game or mainly keeps you out of view.**
 
 A useful film question is: **After a mistake, did I re-enter the game at the next appropriate opportunity?** Look at the available options before judging. Staying back to provide cover may be exactly right.
+
+**Courage is not only making the difficult play. Courage is staying available after the difficult play fails.**
 
 ## Body intense. Brain calm.
 
@@ -133,6 +139,8 @@ Then compare the pictures:
 
 Sometimes the coach was right. Sometimes more than one choice was reasonable. Sometimes film changes both people's understanding. Use the conversation to learn the principle behind the instruction.
 
+Treat correction as information about an action, not a judgment about your identity. A useful correction should help answer **"What can I change?"** rather than **"What does this prove about me?"**
+
 **Be coachable. Think independently. Understand why.**
 
 For a pattern that keeps troubling you, use [Asking for opportunities](team-culture-and-leadership.md#asking-for-opportunities) and [What Good Coaching Looks Like](good-coaching-signs.md#if-something-seems-to-be-missing). A different style, a missing teaching point, and a culture that makes players afraid are different problems; respond to the one you actually face.
@@ -164,7 +172,9 @@ Your words should help someone play. Repeated correction, public blame, and tryi
 
 Ask: **Did I make somebody else's game easier today?** An outlet, recovery run, clear call, or encouraging response all count when they help. The patience you give teammates is also something you can practice giving yourself.
 
-When you consistently respond well to mistakes, communicate clearly, ask for the ball, and help teammates instead of grading them, other players may begin doing the same. **Culture is built through repeated small actions.** You may not control whether that happens, but your example is part of how it can begin.
+After a teammate makes a mistake, one powerful message is simply: **you are still with us.** You usually do not need to say those exact words. Show it by talking to her normally, giving her the next option, trusting her with the ball again, and continuing to include her in the game.
+
+When you consistently respond well to mistakes, communicate clearly, ask for the ball, and help teammates instead of grading them, other players may begin doing the same. **Culture is built through repeated small actions.** Blame can become normal. So can recovery, support, courage, and helping each other play. You may not control which habits spread, but your actions are part of what becomes normal.
 
 ### Help without needing control
 
@@ -194,13 +204,15 @@ This is an occasional reflection, not another compulsory postgame scorecard. If 
 
 ## Keep developing beyond your current role
 
-Your current team and position matter, but they do not have to supply every soccer experience you need. If you rarely receive under pressure or play through the middle, look for those pictures in small-sided games, pickup, or futsal. Study players in other positions: follow one player, pause before the next action, predict her movement, and compare.
+Your current team and position matter, but they do not have to supply every soccer experience you need. If you rarely receive under pressure or play through the middle, **find environments that repeatedly give you those soccer pictures**: small-sided games, pickup, futsal, or another appropriate training group. Study players in other positions: follow one player, pause before the next action, predict her movement, and compare.
 
 Different groups present different problems. One may give you time to practice taking responsibility; another may demand earlier scanning and quicker combinations. Notice what each teaches, then adapt what you learn to your team.
 
 Use the [Home Development Menu](home-development.md) selectively. Fit opportunities around team training, school, sleep, and recovery. Filling a gap does not mean adding work every day.
 
 **Some soccer should simply be yours.** Play without evaluating every action. Experiment, lose the ball, laugh, and try again. You do not need a film clip or a lesson from every game with friends.
+
+Not every useful soccer environment needs an adult directing it. In player-led games, you may have to organize teams, solve small disagreements, communicate, decide what to try, and adapt without waiting for instructions. Those are part of learning to become a self-directed player too.
 
 **Your coach shapes your environment. You still own your development.**
 
