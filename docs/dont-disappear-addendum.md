@@ -189,6 +189,124 @@ Make the next decision.
 
 You do not need to suddenly dominate the game. You only need to stop disappearing from it.
 
+## Make the players around you better
+
+Bringing what the game needs is not only about your own decisions.
+
+Sometimes what the game needs is a teammate who makes other players feel safer, clearer, and more willing to play.
+
+You do not need to be captain. You do not need to give speeches. You do not need to coach your teammates.
+
+You can lead with small actions.
+
+After a teammate makes a mistake:
+
+**"Next one."**
+
+When she tries the right idea and it does not come off:
+
+**"Good idea."**
+
+When she is under pressure:
+
+**"I'm here."**
+
+When you can give useful information:
+
+**"Time." "Turn." "Man on."**
+
+When someone makes a good run but never gets the ball:
+
+**"Saw your run."**
+
+Those messages do two things.
+
+They give teammates useful information, and they tell them that one mistake has not changed how you see them.
+
+On a team that is becoming afraid of mistakes, that matters.
+
+There is also a difference between **supporting** teammates and **grading** them.
+
+Try to give information, encouragement, cover, and options. Be careful about becoming the player who constantly tells everyone what they should have done.
+
+A useful leadership question is:
+
+> **Did I make somebody else's game easier today?**
+
+Maybe you gave a nervous defender an easy passing option.
+
+Maybe you covered for a teammate who stepped.
+
+Maybe you helped someone reset after a mistake.
+
+Maybe your communication let a teammate play faster because she knew what was behind her.
+
+That is influence too.
+
+And there is a hidden benefit: every time you tell a teammate **"Next one"**, you practice the same response you need to give yourself.
+
+## Build evidence, not just confidence
+
+Confidence becomes stronger when it is connected to things you have actually done.
+
+Once in a while, look back and find three pieces of evidence:
+
+**Courage:** When did I do something useful even though I might fail?
+
+**Intelligence:** When did I recognize or solve a soccer problem well?
+
+**Leadership:** When did I make the game easier for somebody else?
+
+Be specific.
+
+Not:
+
+*"I was confident."*
+
+Instead:
+
+*"After I lost the ball, I showed for it again the next time we had possession."*
+
+Not:
+
+*"I was a leader."*
+
+Instead:
+
+*"My teammate made a mistake, and I immediately gave her an option and told her 'next one.'"*
+
+Over time, those examples become evidence of the player you are becoming.
+
+Then **STILL ME** is not pretending everything is fine after a bad moment. You know from experience that one play is only one play.
+
+## Keep developing beyond your current environment
+
+Your team environment is important, but it does not have to provide every kind of soccer experience you need.
+
+If your current role gives you few chances to receive under pressure, find some of those repetitions elsewhere.
+
+Play small-sided games.
+
+Play pickup or futsal.
+
+Train in the middle of the field sometimes.
+
+Study players in positions you do not currently play.
+
+Watch a game, follow one player instead of the ball, pause before the next action, and predict where that player should move.
+
+If you sometimes play in a different environment and discover that you communicate more, ask for the ball more, or control the game more confidently, notice those behaviors. Practice carrying them with you.
+
+Some soccer should also be free.
+
+Play without somebody evaluating every action. Experiment. Try something, lose the ball, laugh, and try again.
+
+Development is bigger than your current position, your current team, and your current season.
+
+Your coach shapes an important part of your environment.
+
+**You still own your development.**
+
 ## Body intense. Brain calm.
 
 Playing calmly does not mean playing slowly or without effort.
@@ -464,6 +582,48 @@ A particularly useful observable behavior may be:
 **After making a mistake, does the player actively show for the ball again at the next appropriate opportunity?**
 
 That could become a film-review marker for confidence.
+
+### Leadership and teammate empowerment
+
+The new "Make the players around you better" section extends the chapter from self-protection into leadership. This is worth keeping because the chapter's main idea — bring what the game needs — should include psychological and informational support for teammates, not just tactical actions.
+
+The key boundary is **support rather than grading**. A young player should not become an assistant coach or take responsibility for fixing team culture. Useful behaviors are brief information ("time," "turn," "man on"), encouragement after mistakes, making oneself available, providing cover, and recognizing intelligent attempts even when they fail.
+
+The question **"Did I make somebody else's game easier today?"** is a strong candidate for a leadership reflection because it moves attention away from constant self-evaluation without making the player responsible for team outcomes.
+
+There may also be a useful reciprocal confidence effect: repeatedly telling teammates "next one" and treating their mistakes as temporary can help the player internalize the same response to her own mistakes.
+
+### Evidence-based confidence
+
+The "three pieces of evidence" exercise is intended to keep confidence from becoming generic positive self-talk.
+
+Possible periodic reflection categories:
+
+- courage — acted despite the possibility of failure;
+- intelligence — recognized or solved a soccer problem;
+- leadership — helped another player perform or recover.
+
+This should probably be occasional (for example, weekly) rather than another mandatory postgame checklist. The handbook should avoid turning every soccer experience into evaluation.
+
+A useful film-review marker remains: **after a mistake, did the player actively re-enter the game and show again at the next appropriate opportunity?**
+
+### Development outside the team
+
+The new outside-development section intentionally states that the current team does not have to provide every required developmental picture.
+
+Potential future expansion in `docs/home-development.md` rather than this addendum:
+
+- small-sided/pickup/futsal for frequent receive-solve-move-receive repetitions;
+- playing central roles outside the team when the club role is narrow;
+- occasional different-level environments to practice taking responsibility and controlling games;
+- opportunities with stronger possession players to experience higher-quality relationships;
+- active tactical video: follow one player, pause before the action, predict movement, then compare;
+- studying midfielders even when currently assigned elsewhere;
+- uncoached/free soccer where experimentation has little emotional cost.
+
+Important: do not imply that "playing down" is inherently better or that a harder team is inherently worse. Different environments can provide different developmental problems. The useful question is what behaviors and pictures each environment lets the player practice.
+
+Also preserve room for **unevaluated soccer**. A player surrounded by coaching, parent analysis, film, and self-review can become over-monitored. Some pickup or free play should simply belong to the player.
 
 ### Calm versus low effort
 
