@@ -85,7 +85,7 @@ The pattern can feed itself: confidence falls, you hide, you influence the game 
 - After losing the ball, respond to the turnover, then show again when your team regains it.
 - Commit to the next appropriate duel or decision.
 
-You do not have to demand every pass, force a risky turn, or leave your position to prove courage. Sometimes protecting space is your most useful action. The question is whether your choice serves the game or mainly keeps you out of view.
+You do not have to demand every pass, force a risky turn, or leave your position to prove courage. Sometimes protecting space is your most useful action. **The question is whether your choice serves the game or mainly keeps you out of view.**
 
 A useful film question is: **After a mistake, did I re-enter the game at the next appropriate opportunity?** Look at the available options before judging. Staying back to provide cover may be exactly right.
 
@@ -103,7 +103,7 @@ Good players change the pace of their actions as the picture changes:
 
 These are choices within the game, not fixed settings. A patient moment can prepare an explosive one. A fast approach may need a controlled finish.
 
-### Defending without needing to look heroic
+### Good defending is not always a tackle
 
 Imagine an attacker running at you during a counterattack. You are isolated and a teammate is recovering. A desperate tackle might win the ball, but getting beaten could leave a clear route to goal.
 
@@ -139,9 +139,13 @@ For a pattern that keeps troubling you, use [Asking for opportunities](team-cult
 
 ## You help create the environment
 
+**A team environment is not something that only coaches create. Every player helps create it.**
+
 Your effort affects practice. Your communication changes what teammates know. Your reaction to a mistake affects whether someone feels willing to try again. You are part of the environment, and you can help improve it.
 
-If you know something useful, share it. Good teammates teach each other. Offer an idea, demonstrate at an appropriate pause, ask what your teammate saw, or work through a problem together. Be equally willing to learn from her.
+If you know something useful, share it. Good teammates teach each other. Sometimes leadership is encouragement. Sometimes it is information. Sometimes it is respectfully saying, "Can I show you what I'm seeing?"
+
+Offer an idea, demonstrate at an appropriate pause, ask what your teammate saw, or work through a problem together. Be equally willing to learn from her.
 
 **Help each other learn. Don't grade each other.**
 
@@ -160,6 +164,8 @@ Your words should help someone play. Repeated correction, public blame, and tryi
 
 Ask: **Did I make somebody else's game easier today?** An outlet, recovery run, clear call, or encouraging response all count when they help. The patience you give teammates is also something you can practice giving yourself.
 
+When you consistently respond well to mistakes, communicate clearly, ask for the ball, and help teammates instead of grading them, other players may begin doing the same. **Culture is built through repeated small actions.** You may not control whether that happens, but your example is part of how it can begin.
+
 ### Help without needing control
 
 You can create a passing option; you cannot make the pass come. You can share an idea; you cannot make a teammate use it. You can organize, model a habit, and ask a good question; a whole-team change may still need the coach's teaching and agreement.
@@ -170,13 +176,11 @@ If practice needs intensity, raise yours. If teammates are becoming negative, gi
 
 **Take responsibility for your contribution without taking ownership of every outcome.**
 
-**HELP. DON'T CONTROL.**
-
 An unsolved team problem does not automatically mean you failed to lead. Keep contributing where you can, and use the [player and parent communication process](parent-partnership.md) when the problem needs more help.
 
 ## Build evidence of the player you are becoming
 
-Occasionally, perhaps once a week, remember a specific example in each of three areas:
+Every so often, remember a specific example in each of three areas:
 
 | Quality | Question | Example |
 |---|---|---|
