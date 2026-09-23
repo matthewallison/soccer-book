@@ -4,9 +4,9 @@ Sometimes you understand the soccer you want to play, but find it hard to expres
 
 This chapter builds on [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) and the player sheet's **No hiding. No watching. Influence the game.** It is about living those ideas when your environment makes them hard.
 
-**DON'T DISAPPEAR. BRING WHAT THE GAME NEEDS.**
+**DON'T DISAPPEAR. TRUST YOUR GAME. READ THE MOMENT.**
 
-Understand your role, stay coachable, and compete fully. Keep reading the game and looking for a useful contribution. That may mean bringing calm, but it may also mean urgency, a direct pass, a hard recovery run, or a decisive challenge.
+Understand your role, stay coachable, and compete fully. Start with the qualities you already bring to the field and use them confidently. Then read the picture and adapt your action. Trusting your game does not mean forcing your favorite solution; it means staying involved enough to use your strengths while the situation changes.
 
 ## When you feel like you do not fit
 
@@ -16,11 +16,16 @@ Those comparisons do not tell you whether your decision is good. You might have 
 
 **Do not confuse fitting in with contributing.**
 
-Sometimes what makes you feel different is exactly what the game needs from you. Calm has value when everyone is rushing. Connection has value when players are isolated. When teammates are afraid of the next mistake, a player who still wants the ball can help them play.
+Sometimes what makes you feel different may be one of your most valuable qualities. Calm has value when everyone is rushing. Connection has value when players are isolated. When teammates are afraid of the next mistake, a player who still wants the ball can help them play.
 
-A team playing directly still needs support under the ball, players ready for second balls, and cover against a counterattack. A team that keeps passing may need someone to carry into open space or run behind. Your job is to recognize what helps the team in this moment.
+A team playing directly still needs support under the ball, players ready for second balls, and cover against a counterattack. A team that keeps passing may need someone to carry into open space or run behind. Your job is to recognize what helps the team in this moment without abandoning the qualities that make you valuable.
 
-Ask: **What does the game need from me right now?**
+Start with two questions:
+
+1. **What do I do well, and how can I use it here?**
+2. **What does this moment require?**
+
+The order matters. Adapt your action to the game; do not reinvent yourself every time the team has a weakness.
 
 ## Feeling valuable is not the same as being valuable
 
@@ -37,7 +42,7 @@ These actions can change a game without producing a highlight. Lack of applause 
 
 **Feeling valuable is not the same as being valuable.** Learn to recognize a useful contribution even when nobody points it out. The [Film Review Guide](film-review-guide.md#without-the-ball) helps you see influence away from the ball.
 
-Leadership is not always being the loudest player or making the biggest play. Sometimes it is giving the game something that has been missing.
+Leadership is not always being the loudest player or making the biggest play. Sometimes it is bringing your best qualities consistently when the game around you becomes difficult.
 
 ## Do not wait to feel needed
 
@@ -47,7 +52,7 @@ You may play pickup, futsal, or with a different group and suddenly communicate 
 
 Identify the behaviors you can carry back: scanning, showing again, giving information, committing to a decision. Adjust them to your team's roles and the pressure you face. A turn that worked with more time may need to become a quick set and another movement against a faster opponent.
 
-**Do not wait to feel important before you influence the game. Influence the game because you see something the game needs.**
+**Do not wait to feel important before you influence the game. Bring your game into it.**
 
 ## Confidence that survives mistakes
 
@@ -212,16 +217,24 @@ Not every useful soccer environment needs an adult directing it. Coached session
 
 **Your coach shapes your environment. You still own your development.**
 
-## Bring what is missing
+## Bring your game
 
-When the game becomes chaotic, look at the game. What is missing? A passing option? Communication? Patience? Urgency? Width? Depth? Someone willing to receive, delay, or attack?
+When the game becomes chaotic, do not begin by asking how you should become more like everyone else or how you can personally fill every weakness on the team.
 
-Bring that.
+Start with what you do well.
 
-Choose one contribution to practice: showing again after a mistake, offering useful information, staying connected, or recognizing when to delay and when to step. Use it within your role and change your action when the picture changes.
+Can you give the team a clear passing option? See the next play earlier? Connect two players? Control the pace? Communicate useful information? Protect space? Make a teammate's decision easier?
+
+Use those strengths confidently. Then read the moment and adapt.
+
+Sometimes the team may be missing something that is not one of your biggest strengths. Help where you can. Compete. Do your job. Keep developing weaker parts of your game. But do not abandon the qualities that make you valuable just because the environment is missing something else.
+
+**Help with what is missing. Don't become what is missing.**
+
+A good player adapts her actions without abandoning her identity. The same technical, intelligent player may play quickly in one moment, slow the next one down, make a hard recovery run, or choose a direct pass. Adaptation changes the solution, not the player you are trying to become.
 
 You may not receive the pass or get credit. You may choose well and execute poorly. You may discover that your choice was wrong. Learn from it and stay involved.
 
 **STILL ME. LEARN. NEXT PLAY.**
 
-**DON'T DISAPPEAR. BRING WHAT THE GAME NEEDS.**
+**DON'T DISAPPEAR. TRUST YOUR GAME. READ THE MOMENT.**
