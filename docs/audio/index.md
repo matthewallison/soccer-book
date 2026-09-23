@@ -4,7 +4,7 @@ The player chapters and position cards, narrated for players. Tap play on any ch
 
 The tracks ask you to say the mantras out loud and pause to let you think, so listen somewhere you can talk. Position cards are made to play on the way to a match.
 
-Already listened to the handbook? Read the new chapter, [Don't Disappear: Playing Your Game in a Different Environment](../dont-disappear.md), about confidence, staying involved, and helping your team. It is available as text; an audio track has not been added yet.
+[Don't Disappear: Playing Your Game in a Different Environment](../dont-disappear.md), a chapter about confidence, staying involved, and helping your team, is currently available as text; its audio track has not yet been added.
 
 ## Introduction
 

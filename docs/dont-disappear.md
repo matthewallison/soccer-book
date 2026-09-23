@@ -2,7 +2,7 @@
 
 Sometimes you understand the soccer you want to play, but find it hard to express on your current team. The game feels rushed, mistakes make players tense, or your strengths seem less useful than they do in another environment.
 
-This chapter builds on [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) and the player sheet's **No hiding. No watching. Influence the game.** It is about living those ideas when your environment makes them hard. Read it alongside those chapters, or on its own if you already know the handbook.
+This chapter builds on [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) and the player sheet's **No hiding. No watching. Influence the game.** It is about living those ideas when your environment makes them hard.
 
 **DON'T DISAPPEAR. BRING WHAT THE GAME NEEDS.**
 
@@ -91,7 +91,7 @@ The pattern can feed itself: confidence falls, you hide, you influence the game 
 
 You do not have to demand every pass, force a risky turn, or leave your position to prove courage. Sometimes protecting space is your most useful action. **The question is whether your choice serves the game or mainly keeps you out of view.**
 
-A useful film question is: **After a mistake, did I re-enter the game at the next appropriate opportunity?** Look at the available options before judging. Staying back to provide cover may be exactly right.
+On film, ask: after a mistake, did I re-enter the game at the next appropriate opportunity? Look at the available options before judging; staying back to provide cover may be exactly right.
 
 **Courage is not only making the difficult play. Courage is staying available after the difficult play fails.**
 
@@ -125,9 +125,7 @@ Delay and aggression belong in the same defender. The skill is knowing when the 
 
 An instruction may make sense once you understand the team problem behind it. The coach may see a runner, pressing trigger, or danger you missed. You may also have seen something worth discussing.
 
-During the game, listen, carry out your role, and keep playing. At a suitable break or afterward, ask about a specific moment:
-
-> "I delayed because I was isolated and waiting for cover. What would you want me to recognize before stepping?"
+During the game, listen, carry out your role, and keep playing. At a suitable break or afterward, ask about a specific moment, for example: "I delayed because I was isolated and waiting for cover. What would you want me to recognize before stepping?"
 
 Then compare the pictures:
 
@@ -139,7 +137,7 @@ Then compare the pictures:
 
 Sometimes the coach was right. Sometimes more than one choice was reasonable. Sometimes film changes both people's understanding. Use the conversation to learn the principle behind the instruction.
 
-Treat correction as information about an action, not a judgment about your identity. A useful correction should help answer **"What can I change?"** rather than **"What does this prove about me?"**
+A correction should help you answer **"What can I change?"**, not **"What does this prove about me?"**
 
 **Be coachable. Think independently. Understand why.**
 
@@ -170,7 +168,7 @@ In games, keep help brief and useful. Organize when the moment needs organizatio
 
 Your words should help someone play. Repeated correction, public blame, and trying to prove you know more make that harder. Follow the handbook's [peer-support principles](team-culture-and-leadership.md#help-each-other-learn).
 
-Ask: **Did I make somebody else's game easier today?** An outlet, recovery run, clear call, or encouraging response all count when they help. The patience you give teammates is also something you can practice giving yourself.
+Ask: **Did I make somebody else's game easier today?** An outlet, recovery run, clear call, or encouraging response all count when they help.
 
 After a teammate makes a mistake, one powerful message is simply: **you are still with us.** You usually do not need to say those exact words. Show it by talking to her normally, giving her the next option, trusting her with the ball again, and continuing to include her in the game.
 
@@ -180,13 +178,11 @@ When you consistently respond well to mistakes, communicate clearly, ask for the
 
 You can create a passing option; you cannot make the pass come. You can share an idea; you cannot make a teammate use it. You can organize, model a habit, and ask a good question; a whole-team change may still need the coach's teaching and agreement.
 
-Some problems you can solve yourself. Some you can improve with teammates. Others require a team or coaching change. Recognize the difference and keep looking for your useful part.
-
 If practice needs intensity, raise yours. If teammates are becoming negative, give a different response. If a shared problem needs teaching, bring it to the coach with a specific example. If your first suggestion does not help, listen and adjust.
 
 **Take responsibility for your contribution without taking ownership of every outcome.**
 
-An unsolved team problem does not automatically mean you failed to lead. Keep contributing where you can, and use the [player and parent communication process](parent-partnership.md) when the problem needs more help.
+An unsolved team problem does not automatically mean you failed to lead. Keep contributing where you can, and use the [player and parent communication process](parent-partnership.md#communication-and-safeguarding) when the problem needs more help.
 
 ## Build evidence of the player you are becoming
 
@@ -212,7 +208,7 @@ Use the [Home Development Menu](home-development.md) selectively. Fit opportunit
 
 **Some soccer should simply be yours.** Play without evaluating every action. Experiment, lose the ball, laugh, and try again. You do not need a film clip or a lesson from every game with friends.
 
-Not every useful soccer environment needs an adult directing it. In player-led games, you may have to organize teams, solve small disagreements, communicate, decide what to try, and adapt without waiting for instructions. Those are part of learning to become a self-directed player too.
+Not every useful soccer environment needs an adult directing it. Coached sessions can provide structure, focused teaching, and deliberate practice. In player-led games, you may have to organize teams, solve small disagreements, communicate, decide what to try, and adapt without waiting for instructions. Both can help you become a self-directed player.
 
 **Your coach shapes your environment. You still own your development.**
 

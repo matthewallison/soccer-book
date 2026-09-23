@@ -148,7 +148,7 @@ So a pattern can look like a player problem and be partly a training problem:
 
 Reasonable coaches use different methods, and one session proves little. Something important missing for weeks is different. Notice it, because it will shape your habits.
 
-**Your coach shapes your environment. You still own your development.** Take responsibility for your development without taking responsibility for every failure in your environment.
+**Your coach shapes your environment. You still own your development.**
 
 Ask yourself:
 
@@ -163,7 +163,7 @@ Then act on it: study the pattern on [film](film-review-guide.md), fill the gap 
 
 **You help create the environment.** Your effort, communication, ideas, and response to mistakes can improve it. Share useful knowledge, help teammates, and stay willing to learn from them.
 
-**Some gaps you can fill yourself. Some you can improve with teammates. Some require the team or coach to change. Know the difference.** You can build your weak foot on your own. You can partly make up for a low-touch role with extra reps. Coordinated team pressing needs shared teaching and agreement, but you can still communicate, model your part, help a teammate understand it, and bring a specific question to the coach.
+**Some gaps you can fill yourself. Some you can improve with teammates. Some require the team or coach to change. Know the difference.** You can build your weak foot on your own. You can partly make up for a low-touch role with extra reps. Coordinated team pressing needs shared teaching and agreement, but you can still communicate, model your part, help a teammate understand it, and bring a specific question to the coach. When a gap needs a team or coaching change, keep contributing your part without carrying the unsolved problem as your fault.
 
 **Take responsibility for your contribution without taking ownership of every outcome.** For examples, see [Don't Disappear: You help create the environment](dont-disappear.md#you-help-create-the-environment).
 
