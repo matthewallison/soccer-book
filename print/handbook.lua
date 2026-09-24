@@ -326,8 +326,10 @@ local function drop_index_sections(doc)
   while i <= #blocks do
     local b = blocks[i]
     if b.t == 'Header' and b.level == 2 then
-      -- The README's website/license note is printed on the cover instead.
-      local always = stringify(b.content) == 'Website and license'
+      -- The website/license note is on the cover; publishing instructions
+      -- belong in the repository rather than the player-facing handbook.
+      local title = stringify(b.content)
+      local always = title == 'Website and license' or title == 'Printing and website'
       local j, only_links = i + 1, true
       while j <= #blocks and not (blocks[j].t == 'Header' and blocks[j].level <= 2)
           and not (blocks[j].t == 'RawBlock' and blocks[j].text:match('\\hb%a')) do

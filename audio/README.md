@@ -22,6 +22,15 @@ Finished MP3s go in `docs/audio/`, named like their transcripts (`09-goalkeeper.
 
 When a `docs/` chapter changes, update its track.
 
+## Publishing a new or revised track
+
+1. Prepare the listening transcript and generate the track. For Don't Disappear, append a standalone track without renumbering the existing edition.
+2. Listen to the finished track before publishing, then put the MP3 in `docs/audio/` and add its player to `docs/audio/index.md`.
+3. In the same commit, replace any text-only or "not yet included" note for that chapter on the audio page and update audio availability in the root README. Keep PDF and EPUB notes until those formats have also been updated.
+4. If publishing an updated EPUB too, rebuild it from the transcripts, inspect it, and update its availability separately. Run `mkdocs build --strict` to check the website links before publishing.
+
+See [Publishing updated editions](../README.md#publishing-updated-editions) for the PDF, EPUB, and audio release steps.
+
 ## Narration: ElevenLabs
 
 - **Model:** Eleven v3. ElevenLabs recommends it for audiobooks, and it supports the audio tags below. It does **not** support SSML `<break>` tags.

@@ -86,10 +86,24 @@ The full explanation and training progression are in §7 of the [Coaching Game M
 
 ## Printing and website
 
-**Don't Disappear: Playing Your Game in a Different Environment** is integrated into the website and included in the print build order. The committed PDF, EPUB, and current audio tracks do not yet include the chapter.
+**Don't Disappear: Playing Your Game in a Different Environment** is integrated into the website and included in the print build order. Current availability:
+
+- **PDF:** the committed download does not yet include this chapter.
+- **EPUB:** the transcript edition does not yet include this chapter.
+- **Audio:** a narrated track has not yet been published.
 
 - [Print files](print/) — `print/build.sh` builds `soccer-development-handbook.pdf` in the repository root (pass a path to write it elsewhere). It requires pandoc, XeLaTeX with a full TeX Live installation, TeX Gyre Pagella, and the Lato .ttf files in `/usr/share/fonts/truetype/lato/` (for example, the fonts-lato package).
 - [Website files](.github/workflows/) — `mkdocs.yml` builds the site with MkDocs Material; `.github/workflows/pages.yml` publishes it to GitHub Pages on every push to `main`. Preview locally with `pip install -r requirements.txt && mkdocs serve`.
+
+### Publishing updated editions
+
+GitHub Actions builds the website and copies the committed PDF; it does not regenerate the PDF, EPUB, or audio. Update availability notes in the same commit as the corresponding published artifact:
+
+- **PDF:** run `bash print/build.sh`, inspect the generated PDF, and confirm the chapter and links are included. Commit the root `soccer-development-handbook.pdf`, remove the PDF note below the download button in `docs/index.md`, and update the PDF availability line above. If building to another path, replace the root PDF before publishing.
+- **EPUB:** add or revise the relevant transcript, run `bash audio/build-epub.sh`, inspect the EPUB, and commit it with an updated EPUB availability line above. Rebuilding unchanged transcripts does not add the chapter.
+- **Audio:** follow [Publishing a new or revised track](audio/README.md#publishing-a-new-or-revised-track). Publish the reviewed track and its player together, replace the text-only note in `docs/audio/index.md`, and update the audio availability line above.
+
+Update only the formats actually published. A PDF rebuild does not change audio or EPUB availability. Remove obsolete notes and their maintenance comments once the corresponding edition includes the chapter, then run `mkdocs build --strict` before publishing.
 
 ## Roles and privacy
 

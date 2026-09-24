@@ -4,8 +4,6 @@ This document describes the developmental culture we want around the team. The [
 
 Tactics and technique matter. But players also need courage, responsibility, self-awareness, leadership, and the ability to keep learning without waiting for a coach to provide every answer.
 
-For applying these principles when your team environment makes them harder to express, read [Don't Disappear: Playing Your Game in a Different Environment](dont-disappear.md).
-
 ## Want the moment
 
 Youth soccer gives us chances to practice courage before the stakes are truly high. Pressure is not something to avoid. It is something to learn from.
@@ -134,7 +132,7 @@ The coach provides guidance, structure, feedback, and perspective. You own your 
 
 ### How training shapes you
 
-Coaching yourself also means understanding how your environment teaches you. **What practice repeatedly shows you becomes what you learn to see and solve.** If you get almost no reps at something, it is hard to become good at it, however hard you work. **Your environment will shape you. Learn from it, but do not let its limitations become your limitations.**
+Coaching yourself also means understanding how your environment teaches you. **What practice repeatedly shows you becomes what you learn to see and solve.** If you get almost no reps at something, it is hard to become good at it, however hard you work. Your environment will shape you. Learn from it, but do not let its limitations become your limitations.
 
 So a pattern can look like a player problem and be partly a training problem:
 
@@ -148,7 +146,7 @@ So a pattern can look like a player problem and be partly a training problem:
 
 Reasonable coaches use different methods, and one session proves little. Something important missing for weeks is different. Notice it, because it will shape your habits.
 
-**Your coach shapes your environment. You still own your development.**
+Your coach shapes your environment. You still own your development.
 
 Ask yourself:
 
@@ -161,15 +159,17 @@ Ask yourself:
 
 Then act on it: study the pattern on [film](film-review-guide.md), fill the gap with the [Home Development Menu](home-development.md) and pickup games, look for the reps you are missing, and ask the coach a good question (for example, "When we break pressure, what should I be looking for?"). For what an environment may be teaching well or leaving out, see [What Good Coaching Looks Like](good-coaching-signs.md#if-something-seems-to-be-missing).
 
-**You help create the environment.** Your effort, communication, ideas, and response to mistakes can improve it. Share useful knowledge, help teammates, and stay willing to learn from them.
+You help create the environment. Your effort, communication, ideas, and response to mistakes can improve it. Share useful knowledge, help teammates, and stay willing to learn from them.
 
-**Some gaps you can fill yourself. Some you can improve with teammates. Some require the team or coach to change. Know the difference.** You can build your weak foot on your own. You can partly make up for a low-touch role with extra reps. Coordinated team pressing needs shared teaching and agreement, but you can still communicate, model your part, help a teammate understand it, and bring a specific question to the coach. When a gap needs a team or coaching change, keep contributing your part without carrying the unsolved problem as your fault.
+Some gaps you can fill yourself. Some you can improve with teammates. Some require the team or coach to change. Know the difference. You can build your weak foot on your own. You can partly make up for a low-touch role with extra reps. Coordinated team pressing needs shared teaching and agreement, but you can still communicate, model your part, help a teammate understand it, and bring a specific question to the coach. When a gap needs a team or coaching change, keep contributing your part without carrying the unsolved problem as your fault.
 
-**Take responsibility for your contribution without taking ownership of every outcome.** For examples, see [Don't Disappear: You help create the environment](dont-disappear.md#you-help-create-the-environment).
+**Take responsibility for your contribution without taking ownership of every outcome.**
+
+For examples, see [Don't Disappear: You help create the environment](dont-disappear.md#you-help-create-the-environment).
 
 Avoid both extremes: "The coach is always right, so just be more coachable" and "The coach is wrong, so ignore the coach."
 
-**Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.**
+Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.
 
 ### Team role and development role
 

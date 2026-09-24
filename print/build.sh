@@ -89,3 +89,5 @@ pandoc "$BUILD/handbook.md" \
   --output "$OUT"
 
 echo "Wrote $OUT"
+echo "Before publishing: follow README.md > Publishing updated editions."
+echo "Publish the reviewed root PDF and update its availability notes in README.md and docs/index.md in the same commit; leave audio and EPUB status unchanged unless those editions were also updated."

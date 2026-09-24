@@ -6,7 +6,9 @@ The central goal is not to create players who memorize instructions. It is to de
 
 [Download the printable handbook (PDF)](soccer-development-handbook.pdf){ .md-button .md-button--primary }
 
-[Don't Disappear: Playing Your Game in a Different Environment](dont-disappear.md) is available on the website. The downloadable PDF and audio edition have not yet been rebuilt to include it.
+The downloadable PDF covers the original handbook and does not yet include Don't Disappear.
+
+<!-- Remove the PDF availability note when the rebuilt PDF including Don't Disappear is published. See README.md: Publishing updated editions. -->
 
 ## Core team mantras
 
