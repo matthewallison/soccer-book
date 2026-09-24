@@ -44,9 +44,7 @@ Feeling valuable is not the same as being valuable. Learn to recognize a useful 
 
 And leadership isn't always being the loudest player, or making the biggest play. Sometimes it's bringing your best qualities, consistently, when the game around you gets difficult.
 
-Here's something a lot of players notice.
-
-You play pickup, or futsal, or a scrimmage with a different group. And suddenly you're a different player. You talk more. You ask for the ball. You control the pace. Teammates look for you. You feel useful.
+Here's something a lot of players notice. You play pickup, or futsal, or a scrimmage with a different group. And suddenly you're a different player. You talk more. You ask for the ball. You control the pace. Teammates look for you. You feel useful.
 
 That player didn't suddenly appear. She was there all along. That environment just made it easier to use qualities you already had.
 
@@ -78,13 +76,13 @@ Doubt will still show up sometimes: after a mistake, after a correction, or duri
 
 Try this. Think of a teammate you respect. [pause] Picture her making one bad pass. [pause] You wouldn't decide she'd suddenly become a bad player. You'd help her see what happened, and you'd help her get ready for the next action. [long pause] Now give yourself the same thing: honesty and support, together.
 
-That isn't just being nice to yourself. In one study, self-critical women athletes who practiced treating their own mistakes this way became less self-critical, and worried less about making mistakes.
+That isn't just being nice to yourself. In one study, self-critical women athletes who practiced responding to themselves with more self-compassion became less self-critical, and worried less about making mistakes.
 
 Now the harder part. When you're afraid of criticism, hiding starts to feel safe.
 
 From the outside, it rarely looks like hiding. You stop asking for the ball. You stay behind an opponent instead of moving into an angle. You go quiet instead of talking. You stop making your own reads and start waiting to be told what to do. You leave every hard decision to someone else. And for a while, it works, because fewer people notice your mistakes.
 
-If you've felt that pull, you're not unusual. A lot of players have.
+If you've felt that pull, you're not unusual.
 
 But here's the cost. The game loses what you could have given it. And you get fewer chances to practice the exact actions that would help you trust yourself again.
 
@@ -150,7 +148,7 @@ Your words should help someone play. Repeated correction, public blame, and tryi
 
 When you think back on a game, one useful question is: Did I make somebody else's game easier? [long pause]
 
-And after a teammate's mistake, one message matters more than any advice: you're still with us. You usually don't need to say those words. You show them. You talk to her normally, give her the next option, trust her with the ball again, and keep including her.
+And after a teammate's mistake, one message often matters before advice: you're still with us. You usually don't need to say those words. You show them. You talk to her normally, give her the next option, trust her with the ball again, and keep including her.
 
 Here's why that matters so much. When you keep responding well to mistakes, talking clearly, asking for the ball, and helping instead of grading, other players may start doing the same. Culture is built through repeated small actions. Blame can become normal. But so can recovery, support, and courage. You can't control which habits spread. But your actions are part of what becomes normal.
 

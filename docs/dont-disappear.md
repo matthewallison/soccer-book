@@ -78,7 +78,7 @@ Secure confidence makes it easier to be coachable. You can say, "I made the wron
 
 Confidence does not mean never doubting yourself. Doubt may show up after a mistake, a correction, or a difficult stretch. It does not have to make the next decision for you.
 
-Treat yourself the way you would treat a teammate you respect. If she made one poor pass, you would not decide she had become a poor player. You would help her see what happened and get ready for the next action. Give yourself the same combination of honesty and support. In one study, self-critical women athletes who practiced responding to their own mistakes this way became less self-critical and worried less about making mistakes.
+Treat yourself the way you would treat a teammate you respect. If she made one poor pass, you would not decide she had become a poor player. You would help her see what happened and get ready for the next action. Give yourself the same combination of honesty and support. In one study, self-critical women athletes who practiced responding to themselves with more self-compassion became less self-critical and worried less about making mistakes.
 
 ## Hiding feels safe
 
