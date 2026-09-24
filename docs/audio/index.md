@@ -4,10 +4,6 @@ The player chapters and position cards, narrated for players. Tap play on any ch
 
 The tracks ask you to say the mantras out loud and pause to let you think, so listen somewhere you can talk. Position cards are made to play on the way to a match.
 
-[Don't Disappear: Playing Your Game in a Different Environment](../dont-disappear.md) is available to read. It is not yet included in the audio edition.
-
-<!-- Replace this availability note with the chapter's audio player when the finished track is published. See audio/README.md: Publishing a new or revised track. -->
-
 ## Introduction
 
 <audio controls preload="none" src="00-introduction.mp3"></audio>
@@ -19,6 +15,10 @@ The tracks ask you to say the mantras out loud and pause to let you think, so li
 ## Team Culture, Courage, Leadership, and Self-Coaching
 
 <audio controls preload="none" src="02-team-culture.mp3"></audio>
+
+## Don't Disappear: Playing Your Game in a Different Environment
+
+<audio controls preload="none" src="02b-dont-disappear.mp3"></audio>
 
 ## Injuries, Recovery, and Return to Play
 
