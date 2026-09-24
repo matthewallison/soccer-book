@@ -82,7 +82,7 @@ Treat yourself the way you would treat a teammate you respect. If she made one p
 
 ## Hiding feels safe
 
-Fear of criticism can make you stop asking for the ball, stay behind an opponent instead of creating an angle, go quiet instead of communicating, just do what you are told without thinking, or leave every difficult decision to someone else. It can feel safer because fewer people notice your mistakes. If you feel that pull, you are not unusual: in interviews with young elite athletes, avoidance was the most common way they coped with fear of failure.
+Fear of criticism can make you stop asking for the ball, stay behind an opponent instead of creating an angle, go quiet instead of communicating, stop making your own reads and wait to be told what to do, or leave every difficult decision to someone else. It can feel safer because fewer people notice your mistakes. If you feel that pull, you are not unusual.
 
 But the game also loses what you could contribute. You get fewer chances to practice the very actions that would help you trust yourself again.
 
@@ -156,7 +156,7 @@ For a pattern that keeps troubling you, use [Asking for opportunities](team-cult
 
 Your effort affects practice. Your communication changes what teammates know. Your reaction to a mistake affects whether someone feels willing to try again. You are part of the environment, and you can help improve it.
 
-Confidence spreads through a team. In an experiment with newly formed soccer teams, when the team leader expressed high confidence in the team, teammates became more confident and the team performed better than teams whose leader expressed less confidence. You do not need an armband for your belief, or your doubt, to reach the players around you.
+Confidence can spread through a team. In an experiment with newly formed soccer teams, when the team leader expressed high confidence in the team, teammates became more confident and the team performed better than teams whose leader expressed less confidence. Whether or not you wear the armband, your reactions, communication, and support still help shape the environment around you.
 
 If you know something useful, share it. Good teammates teach each other. Sometimes leadership is encouragement. Sometimes it is information. Sometimes it is respectfully saying, "Can I show you what I'm seeing?"
 
@@ -203,7 +203,7 @@ Every so often, remember a specific example in each of three areas:
 | Intelligence | When did I recognize or solve a soccer problem? | "I delayed the counterattack until our cover arrived." |
 | Leadership | When did I help someone else play or recover? | "I gave a nervous teammate a clear outlet and useful information." |
 
-Be honest about what happened and what still needs work. Research on confidence consistently finds that your own successful experiences are its strongest source, so specific examples do more than general reassurance. They help you see more than your last mistake, without pretending every action was good.
+Be honest about what happened and what still needs work. Specific examples give your confidence something real to stand on. They help you see more than your last mistake, without pretending every action was good.
 
 This is an occasional reflection, not another compulsory postgame scorecard. If you use film, choose it as your one theme for that session; see [Film Review: Staying involved after a mistake](film-review-guide.md#staying-involved-after-a-mistake).
 

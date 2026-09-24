@@ -15,6 +15,9 @@ Research entries say who was studied. Almost none studied players as young as U1
 **Football youth academy models: La Masia vs Ajax** — Barça Innovation Hub, 2026\
 <https://barcainnovationhub.fcbarcelona.com/blog/the-models-of-youth-teams-in-football/>
 
+**Deliberate practice and play in career progression: the early engagement hypothesis** — Ford, Ward, Hodges & Williams, High Ability Studies, 2009 (elite youth players in England, ages 6–12)\
+<https://doi.org/10.1080/13598130902860721>
+
 **Practice activities and instruction used by youth soccer coaches** — Ford, Yates & Williams, Journal of Sports Sciences, 2010 (25 coaches of boys' U9–U16 teams in England)\
 <https://pubmed.ncbi.nlm.nih.gov/20419591/>
 
@@ -70,6 +73,12 @@ Research entries say who was studied. Almost none studied players as young as U1
 
 **Applying self-compassion in sport** — Mosewich et al., Journal of Sport & Exercise Psychology, 2013 (self-critical women university athletes)\
 <https://pubmed.ncbi.nlm.nih.gov/24197719/>
+
+**Self-talk and sports performance: a meta-analysis** — Hatzigeorgiadis et al., Perspectives on Psychological Science, 2011 (32 studies)\
+<https://pubmed.ncbi.nlm.nih.gov/26167788/>
+
+**Leaders' confidence in "us" inspires team confidence and performance** — Fransen et al., Scandinavian Journal of Medicine & Science in Sports, 2016 (experiment with newly formed soccer teams)\
+<https://pubmed.ncbi.nlm.nih.gov/26687878/>
 
 **Expert statement on psychological preparation for football penalty shootouts** — Wilson, Wood & Jordet, BASES (professional shootout research)\
 <https://www.cases.org.uk/imgs/545_expert_statement_on_psychological_preparation_for_football_penalty_shootouts557.pdf>

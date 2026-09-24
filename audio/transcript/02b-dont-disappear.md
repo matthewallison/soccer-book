@@ -82,9 +82,9 @@ That isn't just being nice to yourself. In one study, self-critical women athlet
 
 Now the harder part. When you're afraid of criticism, hiding starts to feel safe.
 
-From the outside, it rarely looks like hiding. You stop asking for the ball. You stay behind an opponent instead of moving into an angle. You go quiet instead of talking. You just do what you're told without thinking. You leave every hard decision to someone else. And for a while, it works, because fewer people notice your mistakes.
+From the outside, it rarely looks like hiding. You stop asking for the ball. You stay behind an opponent instead of moving into an angle. You go quiet instead of talking. You stop making your own reads and start waiting to be told what to do. You leave every hard decision to someone else. And for a while, it works, because fewer people notice your mistakes.
 
-If you've felt that pull, you're not unusual. In interviews with young elite athletes, avoidance was the most common way they coped with fear of failure.
+If you've felt that pull, you're not unusual. A lot of players have.
 
 But here's the cost. The game loses what you could have given it. And you get fewer chances to practice the exact actions that would help you trust yourself again.
 
@@ -138,7 +138,7 @@ Here's an idea that changes how all of this feels. The environment isn't somethi
 
 Your effort shapes practice. Your communication changes what your teammates know. And the way you react to a teammate's mistake affects whether she's willing to try again.
 
-Confidence spreads, too. In an experiment with newly formed soccer teams, when the team's leader expressed high confidence in the team, teammates became more confident, and the team played better than teams whose leader showed less confidence. You don't need an armband for your belief, or your doubt, to reach the players around you.
+Confidence can spread, too. In an experiment with newly formed soccer teams, when the team's leader expressed high confidence in the team, teammates became more confident, and the team played better than teams whose leader showed less confidence. And whether or not you wear the armband, your reactions, your communication, and your support all help shape the environment around you.
 
 So if you know something useful, share it. Good teammates teach each other. Sometimes that's encouragement. Sometimes it's information. And sometimes it's asking, respectfully, "Can I show you what I'm seeing?" Then be just as willing to learn from her.
 
@@ -148,7 +148,7 @@ In games, keep it short and useful. If a teammate makes a mistake, say "Next pla
 
 Your words should help someone play. Repeated correction, public blame, and trying to prove you know more all make that harder.
 
-After every game, ask yourself: Did I make somebody else's game easier today? [long pause]
+When you think back on a game, one useful question is: Did I make somebody else's game easier? [long pause]
 
 And after a teammate's mistake, one message matters more than any advice: you're still with us. You usually don't need to say those words. You show them. You talk to her normally, give her the next option, trust her with the ball again, and keep including her.
 
@@ -166,7 +166,7 @@ Think of one specific example in three areas. [pause] Courage: when did you do s
 
 Maybe it was showing for the ball right after losing it. Maybe it was delaying a counterattack until cover arrived. Maybe it was giving a nervous teammate a clear outlet.
 
-Be honest about what happened, and about what still needs work. But keep the examples. Research on confidence keeps finding that your own successful experiences are its strongest source. So specific examples do more for you than general reassurance ever will. They help you see more than your last mistake.
+Be honest about what happened, and about what still needs work. But keep the examples. Specific examples give your confidence something real to stand on, in a way general reassurance never does. They help you see more than your last mistake.
 
 This isn't another scorecard to fill in after every game. Do it every so often. And if you use film, make staying involved after mistakes your theme for one session.
 
