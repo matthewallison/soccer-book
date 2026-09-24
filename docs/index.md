@@ -6,10 +6,6 @@ The central goal is not to create players who memorize instructions. It is to de
 
 [Download the printable handbook (PDF)](soccer-development-handbook.pdf){ .md-button .md-button--primary }
 
-The downloadable PDF covers the original handbook and does not yet include Don't Disappear.
-
-<!-- Remove the PDF availability note when the rebuilt PDF including Don't Disappear is published. See README.md: Publishing updated editions. -->
-
 ## Core team mantras
 
 Players say the mantras out loud, together: the practice mantra is the first thing at every practice, and the game mantra is the first thing in every game warm-up.

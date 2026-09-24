@@ -1,10 +1,10 @@
 # Don't Disappear: Playing Your Game in a Different Environment
 
-Sometimes you understand the soccer you want to play, but find it hard to express on your current team. The game feels rushed, mistakes make players tense, or your strengths seem less useful than they do in another environment.
+Most of this handbook describes how we want to play and how good coaching teaches it. This chapter is for a different situation: you understand the soccer you want to play, but your current environment makes it hard to express. The game feels rushed, mistakes make players tense, or your strengths seem less useful than they do in another environment.
 
-This chapter builds on [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) and the player sheet's **No hiding. No watching. Influence the game.** It is about living those ideas when your environment makes them hard.
+This chapter builds on [Team Culture, Courage, Leadership & Self-Coaching](team-culture-and-leadership.md) and the player sheet's **No hiding. No watching. Influence the game.** It is about living those ideas when your environment makes them hard. [What Good Coaching Looks Like](good-coaching-signs.md#if-something-seems-to-be-missing) helps you recognize what an environment may be missing; this chapter is about what you do while you are still in it: on the field, with your teammates, and in your own head.
 
-**DON'T DISAPPEAR. TRUST YOUR GAME. READ THE MOMENT.**
+**Don't disappear. Trust your game. Read the moment.**
 
 Understand your role, stay coachable, and compete fully. Start with the qualities you already bring to the field and use them confidently. Then read the picture and adapt your action. Trusting your game does not mean forcing your favorite solution; it means staying involved enough to use your strengths while the situation changes.
 
@@ -62,13 +62,15 @@ Confidence does not require believing that every decision you make is right. It 
 
 You can play a poor pass and still ask for the next one. You can get beaten and still want the next duel. You can listen to a correction, admit that you missed something, and keep trusting your ability to learn.
 
-A personal reminder can help:
+A short personal reminder can help:
 
-**STILL ME. LEARN. NEXT PLAY.**
+**Still me. Learn. Next play.**
 
 - **Still me:** one action does not erase your strengths, work, or progress.
 - **Learn:** take useful information from the mistake. Was the choice wrong, the execution poor, or both?
 - **Next play:** get back into the game and make yourself useful again.
+
+Short self-talk cues like this can improve performance, and research finds that words athletes choose for themselves work about as well as assigned ones. If other words fit you better, use them.
 
 During live play, respond first: recover, cover, communicate, or become an option. Save detailed reflection for a break or film. This reminder supports the established team mantra, **RESPOND. REFLECT. LEARN. NEXT PLAY.** Use the same [team reset](team-culture-and-leadership.md#team-reset); you do not need another routine to memorize.
 
@@ -76,11 +78,11 @@ Secure confidence makes it easier to be coachable. You can say, "I made the wron
 
 Confidence does not mean never doubting yourself. Doubt may show up after a mistake, a correction, or a difficult stretch. It does not have to make the next decision for you.
 
-Treat yourself the way you would treat a teammate you respect. If she made one poor pass, you would not decide she had become a poor player. You would help her see what happened and get ready for the next action. Give yourself the same combination of honesty and support.
+Treat yourself the way you would treat a teammate you respect. If she made one poor pass, you would not decide she had become a poor player. You would help her see what happened and get ready for the next action. Give yourself the same combination of honesty and support. In one study, self-critical women athletes who practiced responding to their own mistakes this way became less self-critical and worried less about making mistakes.
 
 ## Hiding feels safe
 
-Fear of criticism can make you stop asking for the ball, stay behind an opponent instead of creating an angle, or leave every difficult decision to someone else. It can feel safer because fewer people notice your mistakes.
+Fear of criticism can make you stop asking for the ball, stay behind an opponent instead of creating an angle, go quiet instead of communicating, just do what you are told without thinking, or leave every difficult decision to someone else. It can feel safer because fewer people notice your mistakes. If you feel that pull, you are not unusual: in interviews with young elite athletes, avoidance was the most common way they coped with fear of failure.
 
 But the game also loses what you could contribute. You get fewer chances to practice the very actions that would help you trust yourself again.
 
@@ -118,13 +120,13 @@ These are choices within the game, not fixed settings. A patient moment can prep
 
 Imagine an attacker running at you during a counterattack. You are isolated and a teammate is recovering. A desperate tackle might win the ball, but getting beaten could leave a clear route to goal.
 
-Arrive quickly, slow your final steps, get balanced, and protect the dangerous route. Your delay may let the recovering teammate provide cover. You have improved the defensive situation without touching the ball.
+Approach quickly, slow your final steps, get balanced, and protect the dangerous route. Your delay may let the recovering teammate provide cover. You have improved the defensive situation without touching the ball.
 
 Keep looking for a chance to win it. A heavy touch, exposed ball, or helpful covering position may let you step decisively. If the attacker can shoot or make a dangerous pass, simply backing off may give her what she wants.
 
-**Arrive fast. Defend patiently. Attack the opportunity.**
+**Approach fast. Defend patiently. Attack the opportunity.**
 
-Delay and aggression belong in the same defender. The skill is knowing when the picture calls for each. Use the shared cues in [Communication & Movement](communication-and-movement.md) and your [position card](positions/index.md).
+Delay and aggression belong in the same defender. The skill is knowing when the picture calls for each. See [Communication & Movement: Delay when she has the advantage](communication-and-movement.md#delay-when-she-has-the-advantage) and your [position card](positions/index.md).
 
 ## Be coachable and keep thinking
 
@@ -144,7 +146,7 @@ Sometimes the coach was right. Sometimes more than one choice was reasonable. So
 
 A correction should help you answer **"What can I change?"**, not **"What does this prove about me?"**
 
-**Be coachable. Think independently. Understand why.**
+**Be coachable. Think independently. Understand why. Notice what is missing. Keep developing anyway.**
 
 For a pattern that keeps troubling you, use [Asking for opportunities](team-culture-and-leadership.md#asking-for-opportunities) and [What Good Coaching Looks Like](good-coaching-signs.md#if-something-seems-to-be-missing). A different style, a missing teaching point, and a culture that makes players afraid are different problems; respond to the one you actually face.
 
@@ -153,6 +155,8 @@ For a pattern that keeps troubling you, use [Asking for opportunities](team-cult
 **A team environment is not something that only coaches create. Every player helps create it.**
 
 Your effort affects practice. Your communication changes what teammates know. Your reaction to a mistake affects whether someone feels willing to try again. You are part of the environment, and you can help improve it.
+
+Confidence spreads through a team. In an experiment with newly formed soccer teams, when the team leader expressed high confidence in the team, teammates became more confident and the team performed better than teams whose leader expressed less confidence. You do not need an armband for your belief, or your doubt, to reach the players around you.
 
 If you know something useful, share it. Good teammates teach each other. Sometimes leadership is encouragement. Sometimes it is information. Sometimes it is respectfully saying, "Can I show you what I'm seeing?"
 
@@ -164,7 +168,7 @@ In games, keep help brief and useful. Organize when the moment needs organizatio
 
 | Moment | Useful contribution |
 |---|---|
-| A teammate makes a mistake | Say "Next one," then give her cover or an option |
+| A teammate makes a mistake | Say "Next play," then give her cover or an option |
 | A good idea fails in execution | Recognize the idea, then respond to the new situation |
 | A teammate cannot see pressure | Give an accurate "Time," "Turn," or "Man on" |
 | The defense needs help | Use a clear shared cue: "Step," "Drop," or "Delay" |
@@ -199,7 +203,7 @@ Every so often, remember a specific example in each of three areas:
 | Intelligence | When did I recognize or solve a soccer problem? | "I delayed the counterattack until our cover arrived." |
 | Leadership | When did I help someone else play or recover? | "I gave a nervous teammate a clear outlet and useful information." |
 
-Be honest about what happened and what still needs work. These examples help you see more than your last mistake, without pretending every action was good.
+Be honest about what happened and what still needs work. Research on confidence consistently finds that your own successful experiences are its strongest source, so specific examples do more than general reassurance. They help you see more than your last mistake, without pretending every action was good.
 
 This is an occasional reflection, not another compulsory postgame scorecard. If you use film, choose it as your one theme for that session; see [Film Review: Staying involved after a mistake](film-review-guide.md#staying-involved-after-a-mistake).
 
@@ -213,7 +217,7 @@ Use the [Home Development Menu](home-development.md) selectively. Fit opportunit
 
 **Some soccer should simply be yours.** Play without evaluating every action. Experiment, lose the ball, laugh, and try again. You do not need a film clip or a lesson from every game with friends.
 
-Not every useful soccer environment needs an adult directing it. Coached sessions can provide structure, focused teaching, and deliberate practice. In player-led games, you may have to organize teams, solve small disagreements, communicate, decide what to try, and adapt without waiting for instructions. Both can help you become a self-directed player.
+Not every useful soccer environment needs an adult directing it. Coached sessions can provide structure, focused teaching, and deliberate practice. In player-led games, you may have to organize teams, solve small disagreements, communicate, decide what to try, and adapt without waiting for instructions. Both can help you become a self-directed player. In one study, elite English academy players who went on to professional contracts had spent more time in informal soccer play between ages 6 and 12 than those who did not, but not more time in organized practice.
 
 **Your coach shapes your environment. You still own your development.**
 
@@ -235,6 +239,6 @@ A good player adapts her actions without abandoning her identity. The same techn
 
 You may not receive the pass or get credit. You may choose well and execute poorly. You may discover that your choice was wrong. Learn from it and stay involved.
 
-**STILL ME. LEARN. NEXT PLAY.**
+**Still me. Learn. Next play.**
 
-**DON'T DISAPPEAR. TRUST YOUR GAME. READ THE MOMENT.**
+**Don't disappear. Trust your game. Read the moment.**

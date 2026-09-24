@@ -88,8 +88,8 @@ The full explanation and training progression are in §7 of the [Coaching Game M
 
 **Don't Disappear: Playing Your Game in a Different Environment** is integrated into the website and included in the print build order. Current availability:
 
-- **PDF:** the committed download does not yet include this chapter.
-- **EPUB:** the transcript edition does not yet include this chapter.
+- **PDF:** the committed download includes this chapter.
+- **EPUB:** the transcript edition includes this chapter (`audio/transcript/02b-dont-disappear.md`).
 - **Audio:** a narrated track has not yet been published.
 
 - [Print files](print/) — `print/build.sh` builds `soccer-development-handbook.pdf` in the repository root (pass a path to write it elsewhere). It requires pandoc, XeLaTeX with a full TeX Live installation, TeX Gyre Pagella, and the Lato .ttf files in `/usr/share/fonts/truetype/lato/` (for example, the fonts-lato package).

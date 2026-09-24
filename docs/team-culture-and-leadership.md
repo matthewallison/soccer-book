@@ -161,7 +161,7 @@ Then act on it: study the pattern on [film](film-review-guide.md), fill the gap 
 
 You help create the environment. Your effort, communication, ideas, and response to mistakes can improve it. Share useful knowledge, help teammates, and stay willing to learn from them.
 
-Some gaps you can fill yourself. Some you can improve with teammates. Some require the team or coach to change. Know the difference. You can build your weak foot on your own. You can partly make up for a low-touch role with extra reps. Coordinated team pressing needs shared teaching and agreement, but you can still communicate, model your part, help a teammate understand it, and bring a specific question to the coach. When a gap needs a team or coaching change, keep contributing your part without carrying the unsolved problem as your fault.
+Some gaps you can fill yourself. Some you can improve with teammates. Some require the team or coach to change. Know the difference. You can build your weak foot on your own. You and a teammate can work out your overlap timing or pressing distances together. Coordinated team pressing needs shared teaching and agreement, but you can still communicate, model your part, help a teammate understand it, and bring a specific question to the coach. When a gap needs a team or coaching change, keep contributing your part without carrying the unsolved problem as your fault.
 
 **Take responsibility for your contribution without taking ownership of every outcome.**
 

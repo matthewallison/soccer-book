@@ -376,7 +376,8 @@ def transcript_files(requested: list[str], generate_all: bool, dry_run: bool) ->
     With no track names, only --all or --dry-run selects every track. A bare run
     must never quietly spend the whole book's worth of credits.
     """
-    available = sorted(TRANSCRIPT_DIR.glob("[0-9][0-9]-*.md"))
+    # "[0-9][0-9]*-" also matches inserted tracks like "02b-dont-disappear".
+    available = sorted(TRANSCRIPT_DIR.glob("[0-9][0-9]*-*.md"))
     if generate_all or (dry_run and not requested):
         return available
     if not requested:

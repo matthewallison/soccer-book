@@ -68,6 +68,9 @@ Research entries say who was studied. Almost none studied players as young as U1
 **Developing a ritual for overcoming mistakes** — Positive Coaching Alliance\
 <https://positivecoach.org/resource-zone/developing-a-mistake-ritual/>
 
+**Applying self-compassion in sport** — Mosewich et al., Journal of Sport & Exercise Psychology, 2013 (self-critical women university athletes)\
+<https://pubmed.ncbi.nlm.nih.gov/24197719/>
+
 **Expert statement on psychological preparation for football penalty shootouts** — Wilson, Wood & Jordet, BASES (professional shootout research)\
 <https://www.cases.org.uk/imgs/545_expert_statement_on_psychological_preparation_for_football_penalty_shootouts557.pdf>
 

@@ -11,6 +11,7 @@ Finished MP3s go in `docs/audio/`, named like their transcripts (`09-goalkeeper.
 | 00 | `00-introduction.md` | `docs/index.md` (player parts) |
 | 01 | `01-player-sheet.md` | `docs/player-philosophy.md` |
 | 02 | `02-team-culture.md` | `docs/team-culture-and-leadership.md` |
+| 02b | `02b-dont-disappear.md` | `docs/dont-disappear.md` |
 | 03 | `03-injuries-and-return-to-play.md` | `docs/injuries-and-return-to-play.md` |
 | 04 | `04-communication-and-movement.md` | `docs/communication-and-movement.md` |
 | 05 | `05-how-we-play.md` | New: game model and coaching literacy from `docs/coaching-game-model.md` and `docs/good-coaching-signs.md` |
@@ -20,11 +21,11 @@ Finished MP3s go in `docs/audio/`, named like their transcripts (`09-goalkeeper.
 | 09–15 | `09-goalkeeper.md` … `15-attacking-midfielder.md` | `docs/positions/*.md` |
 | 16 | `16-closing.md` | `docs/coaching-game-model.md` §45 |
 
-When a `docs/` chapter changes, update its track.
+When a `docs/` chapter changes, update its track. An inserted track takes a letter suffix (`02b`) so existing MP3 filenames and web addresses don't change.
 
 ## Publishing a new or revised track
 
-1. Prepare the listening transcript and generate the track. For Don't Disappear, append a standalone track without renumbering the existing edition.
+1. Prepare the listening transcript and generate the track. For Don't Disappear, the transcript is `02b-dont-disappear.md`, which sorts after Team Culture without renumbering the existing edition.
 2. Listen to the finished track before publishing, then put the MP3 in `docs/audio/` and add its player to `docs/audio/index.md`.
 3. In the same commit, replace any text-only or "not yet included" note for that chapter on the audio page and update audio availability in the root README. Keep PDF and EPUB notes until those formats have also been updated.
 4. If publishing an updated EPUB too, rebuild it from the transcripts, inspect it, and update its availability separately. Run `mkdocs build --strict` to check the website links before publishing.
@@ -37,7 +38,7 @@ See [Publishing updated editions](../README.md#publishing-updated-editions) for 
 - **Voice:** Amelia, a young Australian female voice described as "enthusiastic and expressive". Third-party listings give its ID as `ZF6FPAbjXT4488VcRRnw`; confirm it in the Voice Library.
 - **Stability:** start with Natural. If tags are ignored, try Creative, which follows tags more closely but can hallucinate. Avoid Robust, which largely ignores tags.
 - **Speed:** start at 1.0. The allowed range is 0.7–1.2.
-- **Length:** v3 takes up to 5,000 characters per request, and Studio allows 5,000 per paragraph. Position cards (about 3,500 characters) fit in one request. Chapters run 11,000–20,000 characters and need three to five chunks, split at blank lines. The whole edition is about 132,000 characters, more than one month of Creator-plan credits (121,000).
+- **Length:** v3 takes up to 5,000 characters per request, and Studio allows 5,000 per paragraph. Position cards (about 3,500 characters) fit in one request. Chapters run 11,000–20,000 characters and need three to five chunks, split at blank lines. The whole edition is about 153,000 characters, more than one month of Creator-plan credits (121,000).
 - **Title line:** strip the leading `# ` before pasting a single track into Text to Speech.
 - **Studio import:** run `./build-epub.sh` (needs pandoc). It builds `soccer-handbook-player-audio.epub`, with one Heading 1 per track, so Studio makes one chapter per track. Rebuild it after editing any transcript.
 
